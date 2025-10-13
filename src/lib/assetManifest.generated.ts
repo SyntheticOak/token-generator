@@ -17,7 +17,7 @@ export const assets: AssetRecord = {
       512,
       256
     ],
-    "basePath": "/assets/frames/classes/fighter/eldritchknight",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter/eldritchknight",
     "tags": [
       "eldritchknight",
       "class",
@@ -36,7 +36,7 @@ export const assets: AssetRecord = {
       512,
       256
     ],
-    "basePath": "/assets/frames/classes/warlock/hexblade",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock/hexblade",
     "tags": [
       "hexblade",
       "class",
@@ -55,7 +55,7 @@ export const assets: AssetRecord = {
       512,
       256
     ],
-    "basePath": "/assets/frames/classes/warlock/oldone",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock/oldone",
     "tags": [
       "oldone",
       "class",
@@ -74,7 +74,7 @@ export const assets: AssetRecord = {
       512,
       256
     ],
-    "basePath": "/assets/frames/classes/warlock/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock/warlock",
     "tags": [
       "warlock",
       "class",
@@ -93,7 +93,7 @@ export const assets: AssetRecord = {
       512,
       256
     ],
-    "basePath": "/assets/frames/races/dragonkin/kobold",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/dragonkin/kobold",
     "tags": [
       "kobold",
       "race",

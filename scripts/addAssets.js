@@ -44,3 +44,4 @@ function runCommand(command, args) {
 }
 
 addAssets();
+
