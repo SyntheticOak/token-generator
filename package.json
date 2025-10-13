@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/generateManifest.js && vite",
-    "build": "node scripts/generateManifest.js && tsc && vite build",
-    "preview": "vite preview"
+    "build": "node scripts/buildProduction.js",
+    "preview": "vite preview",
+    "upload-assets": "node scripts/uploadToR2.js",
+    "generate-manifest": "node scripts/generateManifest.js",
+    "add-assets": "node scripts/addAssets.js"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -25,7 +28,9 @@
     "vite": "^5.0.8",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
-    "tailwindcss": "^3.4.0"
+    "tailwindcss": "^3.4.0",
+    "@aws-sdk/client-s3": "^3.470.0",
+    "dotenv": "^16.3.1"
   }
 }
 

@@ -7,6 +7,25 @@ import { AssetRecord } from "../types";
 export const assets: AssetRecord = {
   frames: [
   {
+    "id": "eldritchknight",
+    "name": "Eldritchknight",
+    "mainCategory": "classes",
+    "subCategory": "fighter",
+    "subSubCategory": "eldritchknight",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "/assets/frames/classes/fighter/eldritchknight",
+    "tags": [
+      "eldritchknight",
+      "class",
+      "fighter",
+      "eldritchknight"
+    ]
+  },
+  {
     "id": "hexblade",
     "name": "Hexblade",
     "mainCategory": "classes",
