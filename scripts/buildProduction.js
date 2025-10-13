@@ -47,3 +47,4 @@ function runCommand(command, args) {
 }
 
 runBuild();
+
