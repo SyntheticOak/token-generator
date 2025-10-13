@@ -93,32 +93,51 @@ The build will be under 100MB since assets are served from R2.
 
 ## Asset Addition Workflows
 
-### Option 1: One-Command Workflow (Recommended)
-After adding new assets to `public/assets/`:
+### Production Deployment (After Adding New Assets)
+
+**Step 1: Add assets to your local folder structure**
+```
+public/assets/
+├── frames/
+│   ├── classes/
+│   │   └── fighter/
+│   │       └── eldritchknight/
+│   │           ├── eldritchknight_1024.png
+│   │           ├── eldritchknight_512.png
+│   │           ├── eldritchknight_256.png
+│   │           └── eldritchknight_mask.png
+│   └── races/
+├── backgrounds/
+└── overlays/
+```
+
+**Step 2: Run the complete workflow**
 ```bash
 npm run add-assets
 ```
 This single command:
-1. Uploads assets to R2
+1. Uploads new assets to R2 (skips existing ones)
 2. Regenerates manifest with R2 URLs
 3. Builds the app for production
 
-### Option 2: Manual Steps
-If you prefer manual control:
-1. **Add new assets** to `public/assets/` directory
-2. **Upload to R2**:
-   ```bash
-   npm run upload-assets
-   ```
-3. **Build for production**:
-   ```bash
-   npm run build
-   ```
+**Step 3: Deploy to production**
+```bash
+git add .
+git commit -m "Add new [asset-name] frame"
+git push
+```
+GitHub Actions will automatically deploy with the new assets.
 
 ### Development Testing
-To test with local assets:
+To test with local assets (no upload needed):
 ```bash
 npm run dev
+```
+
+### Manual Steps (If Needed)
+```bash
+npm run upload-assets    # Upload to R2 only
+npm run build            # Build for production only
 ```
 
 ## Benefits
