@@ -46,3 +46,5 @@ jobs:
           working-directory: ./token-generator
           vercel-args: '--prod'
 
+
+

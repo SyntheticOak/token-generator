@@ -1,12 +1,22 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import dotenv from 'dotenv';
+
+// Load environment variables
+dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const FRAMES_DIR = path.join(__dirname, '../public/assets/frames');
 const OUTPUT_FILE = path.join(__dirname, '../src/lib/assetManifest.generated.ts');
+
+// Get R2 public URL from environment
+const R2_PUBLIC_URL = process.env.R2_PUBLIC_URL || 'https://pub-xxxxx.r2.dev';
+
+// Detect environment
+const isProduction = process.env.NODE_ENV === 'production';
 
 // Scan directory structure and generate manifest
 function scanFrames(baseDir, category) {
@@ -70,7 +80,11 @@ function scanFrames(baseDir, category) {
           subCategory = pathParts.length > 0 ? pathParts[pathParts.length - 1] : frameId;
         }
         
-        const basePath = `/assets/frames/${category}/${path.relative(categoryPath, fullPath).replace(/\\/g, '/')}`;
+        // Generate paths based on environment
+        const r2Path = `/assets/frames/${category}/${path.relative(categoryPath, fullPath).replace(/\\/g, '/')}`;
+        const basePath = isProduction && R2_PUBLIC_URL
+          ? `${R2_PUBLIC_URL}${r2Path}`
+          : r2Path;  // Use local path for dev
         
         const frame = {
           id: frameId,
@@ -118,6 +132,8 @@ function generateTags(id, mainCategory, subCategory, subSubCategory, family) {
 
 function generateManifest() {
   console.log('Generating asset manifest...');
+  console.log(`Environment: ${isProduction ? 'production' : 'development'}`);
+  console.log(`Using ${isProduction ? 'R2 CDN' : 'local'} paths`);
   
   const allFrames = [];
   const categories = ['classes', 'races', 'world', 'thematic', 'seasonal'];
@@ -147,5 +163,3 @@ export const assets: AssetRecord = {
 }
 
 generateManifest();
-
-
