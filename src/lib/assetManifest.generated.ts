@@ -10,54 +10,45 @@ export const assets: AssetRecord = {
     "id": "eldritchknight",
     "name": "Eldritchknight",
     "mainCategory": "classes",
-    "subCategory": "eldritchknight",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
-    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter/eldritchknight",
+    "subCategory": "fighter",
+    "thumbnailPath": "eldritchknight_256.png",
+    "masterPath": "eldritchknight_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
     "maskPath": "eldritchknight_mask.png",
     "tags": [
       "eldritchknight",
       "class",
-      "eldritchknight"
+      "fighter"
     ]
   },
   {
     "id": "hexblade",
     "name": "Hexblade",
     "mainCategory": "classes",
-    "subCategory": "hexblade",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
-    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock/hexblade",
+    "subCategory": "warlock",
+    "thumbnailPath": "hexblade_256.png",
+    "masterPath": "hexblade_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "hexblade_mask.png",
     "tags": [
       "hexblade",
       "class",
-      "hexblade"
+      "warlock"
     ]
   },
   {
     "id": "oldone",
     "name": "Oldone",
     "mainCategory": "classes",
-    "subCategory": "oldone",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
-    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock/oldone",
+    "subCategory": "warlock",
+    "thumbnailPath": "oldone_256.png",
+    "masterPath": "oldone_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "oldone_mask.png",
     "tags": [
       "oldone",
       "class",
-      "oldone"
+      "warlock"
     ]
   },
   {
@@ -65,12 +56,9 @@ export const assets: AssetRecord = {
     "name": "Warlock",
     "mainCategory": "classes",
     "subCategory": "warlock",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
-    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock/warlock",
+    "thumbnailPath": "warlock_256.png",
+    "masterPath": "warlock_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "warlock_mask.png",
     "tags": [
       "warlock",
@@ -83,11 +71,8 @@ export const assets: AssetRecord = {
     "name": "Astralwarrior",
     "mainCategory": "races",
     "subCategory": "astralwarrior",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "astralwarrior_256.png",
+    "masterPath": "astralwarrior_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/astralwarrior",
     "maskPath": "astralwarrior_mask.png",
     "tags": [
@@ -101,11 +86,8 @@ export const assets: AssetRecord = {
     "name": "Kobold",
     "mainCategory": "races",
     "subCategory": "kobold",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "kobold_256.png",
+    "masterPath": "kobold_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/kobold",
     "maskPath": "kobold_mask.png",
     "tags": [
@@ -119,11 +101,8 @@ export const assets: AssetRecord = {
     "name": "Starelf",
     "mainCategory": "races",
     "subCategory": "starelf",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "starelf_256.png",
+    "masterPath": "starelf_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/starelf",
     "maskPath": "starelf_mask.png",
     "tags": [
@@ -137,11 +116,8 @@ export const assets: AssetRecord = {
     "name": "Nature_acorn",
     "mainCategory": "thematic",
     "subCategory": "nature",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "nature_acorn_256.png",
+    "masterPath": "nature_acorn_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_acorn_mask.png",
     "tags": [
@@ -155,11 +131,8 @@ export const assets: AssetRecord = {
     "name": "Nature_fey",
     "mainCategory": "thematic",
     "subCategory": "nature",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "nature_fey_256.png",
+    "masterPath": "nature_fey_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_fey_mask.png",
     "tags": [
@@ -173,11 +146,8 @@ export const assets: AssetRecord = {
     "name": "Nature_lily",
     "mainCategory": "thematic",
     "subCategory": "nature",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "nature_lily_256.png",
+    "masterPath": "nature_lily_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_lily_mask.png",
     "tags": [
@@ -191,11 +161,8 @@ export const assets: AssetRecord = {
     "name": "Nature_moonstone",
     "mainCategory": "thematic",
     "subCategory": "nature",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "nature_moonstone_256.png",
+    "masterPath": "nature_moonstone_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_moonstone_mask.png",
     "tags": [
@@ -209,11 +176,8 @@ export const assets: AssetRecord = {
     "name": "Nature_pink",
     "mainCategory": "thematic",
     "subCategory": "nature",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "nature_pink_256.png",
+    "masterPath": "nature_pink_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_pink_mask.png",
     "tags": [
@@ -227,11 +191,8 @@ export const assets: AssetRecord = {
     "name": "Nature_sunflower",
     "mainCategory": "thematic",
     "subCategory": "nature",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "nature_sunflower_256.png",
+    "masterPath": "nature_sunflower_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_sunflower_mask.png",
     "tags": [
@@ -245,11 +206,8 @@ export const assets: AssetRecord = {
     "name": "Nature_thorns",
     "mainCategory": "thematic",
     "subCategory": "nature",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "nature_thorns_256.png",
+    "masterPath": "nature_thorns_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_thorns_mask.png",
     "tags": [
@@ -263,11 +221,8 @@ export const assets: AssetRecord = {
     "name": "Nature_underdark",
     "mainCategory": "thematic",
     "subCategory": "nature",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "nature_underdark_256.png",
+    "masterPath": "nature_underdark_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_underdark_mask.png",
     "tags": [
@@ -281,11 +236,8 @@ export const assets: AssetRecord = {
     "name": "Elite_bronze",
     "mainCategory": "utility",
     "subCategory": "elite",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "elite_bronze_256.png",
+    "masterPath": "elite_bronze_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [
@@ -299,11 +251,8 @@ export const assets: AssetRecord = {
     "name": "Elite_gold",
     "mainCategory": "utility",
     "subCategory": "elite",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "elite_gold_256.png",
+    "masterPath": "elite_gold_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [
@@ -317,11 +266,8 @@ export const assets: AssetRecord = {
     "name": "Elite_green",
     "mainCategory": "utility",
     "subCategory": "elite",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "elite_green_256.png",
+    "masterPath": "elite_green_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [
@@ -335,11 +281,8 @@ export const assets: AssetRecord = {
     "name": "Elite_purple",
     "mainCategory": "utility",
     "subCategory": "elite",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "elite_purple_256.png",
+    "masterPath": "elite_purple_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [
@@ -353,11 +296,8 @@ export const assets: AssetRecord = {
     "name": "Elite_red",
     "mainCategory": "utility",
     "subCategory": "elite",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "elite_red_256.png",
+    "masterPath": "elite_red_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [
@@ -371,11 +311,8 @@ export const assets: AssetRecord = {
     "name": "Elite_stone",
     "mainCategory": "utility",
     "subCategory": "elite",
-    "sizes": [
-      1024,
-      512,
-      256
-    ],
+    "thumbnailPath": "elite_stone_256.png",
+    "masterPath": "elite_stone_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [

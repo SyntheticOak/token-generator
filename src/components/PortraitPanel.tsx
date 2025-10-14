@@ -33,10 +33,20 @@ export default function PortraitPanel() {
   };
 
   const handlePortraitSelect = async (portrait: { id: string; src: string }) => {
-    const img = await loadImage(portrait.src);
-    const resizedImg = await resizeImageIfNeeded(img, 1024);
-    setUserImage(resizedImg);
-    selectLayer('character');
+    try {
+      // Use local path for development, like BackgroundPanel does
+      const localSrc = `/assets/portraits/${portrait.id}.jpg`;
+      console.log('Loading portrait:', portrait.id, localSrc);
+      const img = await loadImage(localSrc);
+      console.log('Portrait loaded:', img.width, img.height);
+      const resizedImg = await resizeImageIfNeeded(img, 1024);
+      console.log('Portrait resized:', resizedImg.width, resizedImg.height);
+      setUserImage(resizedImg);
+      selectLayer('character');
+      console.log('Portrait set in canvas');
+    } catch (error) {
+      console.error('Error loading portrait:', error);
+    }
   };
 
   return (
@@ -85,7 +95,7 @@ export default function PortraitPanel() {
                     className="aspect-square rounded border-2 border-gray-200 hover:border-blue-500 overflow-hidden"
                   >
                     <img
-                      src={portrait.src}
+                      src={`/assets/portraits/${portrait.id}.jpg`}
                       alt={portrait.id}
                       className="w-full h-full object-cover"
                     />

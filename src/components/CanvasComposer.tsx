@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState, useImperativeHandle, forwardRef } from "react";
 import { useEditorStore } from "../store/useEditorStore";
 import { frameSrc } from "../lib/assetManifest";
-import { composeToken, exportCanvas, loadImage } from "../lib/canvas";
-import { Size } from "../types";
+import { composeToken, exportCanvas, exportAtSize, loadImage } from "../lib/canvas";
 
 export interface CanvasComposerHandle {
-  exportImage: (fmt: "png" | "webp") => Promise<void>;
+  exportImage: (fmt: "png" | "webp", size: number) => Promise<void>;
   clearAll: () => void;
 }
 
@@ -29,8 +28,8 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
         return; 
       }
       
-      const framePath = frameSrc(selectedFrameMeta, canvasSize as Size, "frame");
-      const maskPath = frameSrc(selectedFrameMeta, canvasSize as Size, "mask");
+      const framePath = frameSrc(selectedFrameMeta, "master");
+      const maskPath = frameSrc(selectedFrameMeta, "mask");
       
       try {
         const [f, m] = await Promise.all([
@@ -46,7 +45,7 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
       }
     })();
     return () => { mounted = false; };
-  }, [selectedFrameMeta, canvasSize]);
+  }, [selectedFrameMeta]);
 
   // Load and cache layer images
   useEffect(() => {
@@ -123,9 +122,9 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
         console.error("Composition error:", err);
       }
     })();
-  }, [canvasDoc, imageCache, frameImg, maskImg, canvasSize]);
+  }, [canvasDoc, imageCache, frameImg, maskImg]);
 
-  const handleExport = async (fmt: "png" | "webp") => {
+  const handleExport = async (fmt: "png" | "webp", size: number) => {
     try {
       const composed = await composeToken({
         doc: canvasDoc,
@@ -135,8 +134,10 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
         includeBackground: true,
       });
       
-      const blob = await exportCanvas(composed, fmt);
-      const name = `${selectedFrameMeta?.id ?? "token"}_${canvasSize}.${fmt}`;
+      // Scale to requested size if different from 1024
+      const scaledCanvas = await exportAtSize(composed, size);
+      const blob = await exportCanvas(scaledCanvas, fmt);
+      const name = `${selectedFrameMeta?.id ?? "token"}_${size}.${fmt}`;
       const url = URL.createObjectURL(blob);
       
       const a = document.createElement("a");
