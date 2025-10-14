@@ -83,22 +83,54 @@ export const assets: AssetRecord = {
     ]
   },
   {
-    "id": "kobold",
-    "name": "Kobold",
+    "id": "astralwarrior",
+    "name": "Astralwarrior",
     "mainCategory": "races",
-    "subCategory": "kobold",
-    "family": "Dragonkin",
+    "subCategory": "astralwarrior",
     "sizes": [
       1024,
       512,
       256
     ],
-    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/dragonkin/kobold",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/astralwarrior",
+    "tags": [
+      "astralwarrior",
+      "race",
+      "astralwarrior"
+    ]
+  },
+  {
+    "id": "kobold",
+    "name": "Kobold",
+    "mainCategory": "races",
+    "subCategory": "kobold",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/kobold",
     "tags": [
       "kobold",
       "race",
-      "kobold",
-      "dragonkin"
+      "kobold"
+    ]
+  },
+  {
+    "id": "starelf",
+    "name": "Starelf",
+    "mainCategory": "races",
+    "subCategory": "starelf",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/starelf",
+    "tags": [
+      "starelf",
+      "race",
+      "starelf"
     ]
   }
 ],
