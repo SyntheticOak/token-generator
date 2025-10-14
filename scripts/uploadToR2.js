@@ -108,7 +108,7 @@ async function uploadAssets() {
   }
   
   try {
-    await uploadDirectory(ASSETS_DIR, R2_BUCKET_NAME);
+    await uploadDirectory(ASSETS_DIR, R2_BUCKET_NAME, 'assets');
     console.log('\nUpload completed successfully!');
     console.log(`Assets are now available at: ${R2_PUBLIC_URL}`);
   } catch (error) {

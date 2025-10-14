@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "upload-assets": "node scripts/uploadToR2.js",
     "generate-manifest": "node scripts/generateManifest.js",
-    "add-assets": "node scripts/addAssets.js"
+    "add-assets": "node scripts/addAssets.js",
+    "setup-cors": "node scripts/setupCORS.js",
+    "setup-cors-api": "node scripts/setupCORS-v2.js"
   },
   "dependencies": {
     "react": "^18.2.0",
