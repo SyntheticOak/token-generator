@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>R2 Access Test</title>
+</head>
+<body>
+    <h1>Testing R2 Asset Access</h1>
+    
+    <h2>Eldritchknight Frame (256px)</h2>
+    <img src="https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter/eldritchknight/eldritchknight_256.png" 
+         alt="Eldritchknight 256" 
+         style="border: 2px solid red; width: 128px; height: 128px;">
+    
+    <h2>Hexblade Frame (256px)</h2>
+    <img src="https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock/hexblade/hexblade_256.png" 
+         alt="Hexblade 256" 
+         style="border: 2px solid red; width: 128px; height: 128px;">
+    
+    <h2>Background Test</h2>
+    <img src="https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_01.jpg" 
+         alt="Background 1" 
+         style="border: 2px solid red; width: 200px; height: 150px;">
+    
+    <script>
+        // Log any failed image loads
+        document.querySelectorAll('img').forEach(img => {
+            img.onerror = function() {
+                console.error('Failed to load:', this.src);
+            };
+            img.onload = function() {
+                console.log('Successfully loaded:', this.src);
+            };
+        });
+    </script>
+</body>
+</html>
