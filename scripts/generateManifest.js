@@ -51,12 +51,12 @@ function scanFrames(baseDir, category) {
         // Check if this directory contains frame files (has _1024.png or _mask.png)
         const hasMask = fs.existsSync(path.join(fullPath, `${frameId}_mask.png`));
         const has1024 = fs.existsSync(path.join(fullPath, `${frameId}_1024.png`));
-        const has512 = fs.existsSync(path.join(fullPath, `${frameId}_512.png`));
-        const has256 = fs.existsSync(path.join(fullPath, `${frameId}_256.png`));
+        const has256WebP = fs.existsSync(path.join(fullPath, `${frameId}_256.webp`));
+        const has256PNG = fs.existsSync(path.join(fullPath, `${frameId}_256.png`));
         
         // Check if this directory contains flat files with shared masks (like elite/)
         const files = fs.readdirSync(fullPath);
-        const frameFiles = files.filter(f => f.match(/^(.+)_(1024|512|256)\.png$/));
+        const frameFiles = files.filter(f => f.match(/^(.+)_(1024|256)\.(png|webp)$/));
         
         if (frameFiles.length > 0) {
           // This is a directory with flat files (like elite/)
@@ -64,20 +64,28 @@ function scanFrames(baseDir, category) {
           // Group files by base name (e.g., elite_bronze, elite_gold)
           const frameGroups = new Map();
           for (const file of frameFiles) {
-            const match = file.match(/^(.+)_(1024|512|256)\.png$/);
+            const match = file.match(/^(.+)_(1024|256)\.(png|webp)$/);
             if (match) {
               const baseName = match[1];
               const size = parseInt(match[2]);
+              const ext = match[3];
               
               if (!frameGroups.has(baseName)) {
-                frameGroups.set(baseName, []);
+                frameGroups.set(baseName, { sizes: [], thumbnailPath: null, masterPath: null });
               }
-              frameGroups.get(baseName).push(size);
+              frameGroups.get(baseName).sizes.push(size);
+              
+              // Set paths
+              if (size === 256) {
+                frameGroups.get(baseName).thumbnailPath = `${baseName}_256.${ext}`;
+              } else if (size === 1024) {
+                frameGroups.get(baseName).masterPath = `${baseName}_1024.png`;
+              }
             }
           }
           
           // Create frames for each group
-          for (const [baseName, sizes] of frameGroups) {
+          for (const [baseName, frameData] of frameGroups) {
             // Check for shared mask
             let maskPath = null;
             if (fs.existsSync(path.join(fullPath, `${baseName}_mask.png`))) {
@@ -104,7 +112,8 @@ function scanFrames(baseDir, category) {
               name: capitalize(baseName),
               mainCategory: category,
               subCategory,
-              sizes: sizes.sort((a, b) => b - a), // Sort sizes descending
+              thumbnailPath: frameData.thumbnailPath,
+              masterPath: frameData.masterPath,
               basePath,
               ...(maskPath && { maskPath }),
               tags: generateTags(baseName, category, subCategory),
@@ -114,10 +123,8 @@ function scanFrames(baseDir, category) {
           }
         } else if (hasMask || has1024) {
           // This is a frame directory
-          const sizes = [];
-          if (has1024) sizes.push(1024);
-          if (has512) sizes.push(512);
-          if (has256) sizes.push(256);
+          const thumbnailPath = has256WebP ? `${frameId}_256.webp` : (has256PNG ? `${frameId}_256.png` : null);
+          const masterPath = has1024 ? `${frameId}_1024.png` : null;
           
           // Determine categories based on depth and path
           const relativePath = path.relative(categoryPath, dir);
@@ -163,7 +170,8 @@ function scanFrames(baseDir, category) {
             subCategory,
             ...(subSubCategory && { subSubCategory }),
             ...(family && { family }),
-            sizes,
+            thumbnailPath,
+            masterPath,
             basePath,
             tags: generateTags(frameId, category, subCategory, subSubCategory, family),
           };
@@ -176,28 +184,37 @@ function scanFrames(baseDir, category) {
       } else if (entry.isFile()) {
         // Handle flat files (like nature_acorn_1024.png or elite_bronze_1024.png)
         const fileName = entry.name;
-        const sizeMatch = fileName.match(/^(.+)_(1024|512|256)\.png$/);
+        const sizeMatch = fileName.match(/^(.+)_(1024|256)\.(png|webp)$/);
         
         if (sizeMatch) {
           const frameId = sizeMatch[1];
           const size = parseInt(sizeMatch[2]);
+          const ext = sizeMatch[3];
           
           // Check if we already processed this frame
           if (frames.some(f => f.id === frameId)) continue;
           
-          
-          // Find all sizes for this frame
-          const sizes = [];
+          // Find thumbnail and master paths
+          let thumbnailPath = null;
+          let masterPath = null;
           const files = fs.readdirSync(dir);
+          
           for (const file of files) {
-            const match = file.match(new RegExp(`^${frameId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}_(1024|512|256)\\.png$`));
+            const match = file.match(new RegExp(`^${frameId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}_(1024|256)\\.(png|webp)$`));
             if (match) {
-              sizes.push(parseInt(match[1]));
+              const fileSize = parseInt(match[1]);
+              const fileExt = match[2];
+              
+              if (fileSize === 256) {
+                thumbnailPath = `${frameId}_256.${fileExt}`;
+              } else if (fileSize === 1024) {
+                masterPath = `${frameId}_1024.png`;
+              }
             }
           }
           
-          // Skip if no sizes found (this shouldn't happen but safety check)
-          if (sizes.length === 0) continue;
+          // Skip if no valid paths found
+          if (!thumbnailPath && !masterPath) continue;
           
           // Check for mask (either specific or shared)
           let maskPath = null;
@@ -229,7 +246,8 @@ function scanFrames(baseDir, category) {
             name: capitalize(frameId),
             mainCategory: category,
             subCategory,
-            sizes,
+            thumbnailPath,
+            masterPath,
             basePath,
             ...(maskPath && { maskPath }),
             tags: generateTags(frameId, category, subCategory),

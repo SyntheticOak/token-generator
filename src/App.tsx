@@ -7,8 +7,8 @@ import LayerSidebar from "./components/LayerSidebar";
 export default function App() {
   const composerRef = useRef<CanvasComposerHandle>(null);
 
-  const handleExport = async (fmt: "png" | "webp") => {
-    await composerRef.current?.exportImage(fmt);
+  const handleExport = async (fmt: "png" | "webp", size: number) => {
+    await composerRef.current?.exportImage(fmt, size);
   };
 
   return (

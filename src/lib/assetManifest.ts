@@ -1,11 +1,11 @@
-import { Size, MainCategory, RaceFamily, FrameMeta } from "../types";
+import { MainCategory, RaceFamily, FrameMeta } from "../types";
 
 // Import auto-generated assets
 // If this file doesn't exist, run: npm run build
 import { assets as generatedAssets } from "./assetManifest.generated";
 export const assets = generatedAssets;
 
-export function frameSrc(meta: { basePath: string; id: string; maskPath?: string }, size: Size, kind: "frame" | "mask") {
+export function frameSrc(meta: { basePath: string; id: string; maskPath?: string; thumbnailPath?: string; masterPath?: string }, kind: "thumbnail" | "master" | "mask") {
   if (kind === "mask") {
     // Use shared mask if available, otherwise fallback to specific mask
     if (meta.maskPath) {
@@ -13,7 +13,13 @@ export function frameSrc(meta: { basePath: string; id: string; maskPath?: string
     }
     return `${meta.basePath}/${meta.id}_mask.png`;
   }
-  return `${meta.basePath}/${meta.id}_${size}.png`;
+  
+  if (kind === "thumbnail") {
+    return meta.thumbnailPath ? `${meta.basePath}/${meta.thumbnailPath}` : `${meta.basePath}/${meta.id}_256.png`;
+  }
+  
+  // kind === "master"
+  return meta.masterPath ? `${meta.basePath}/${meta.masterPath}` : `${meta.basePath}/${meta.id}_1024.png`;
 }
 
 // Helper: Filter frames by category hierarchy

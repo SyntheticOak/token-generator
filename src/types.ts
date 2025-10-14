@@ -25,7 +25,8 @@ export interface FrameMeta {
   subCategory: string;           // e.g. "warlock", "underdark", "elemental"
   subSubCategory?: string;       // e.g. "hexblade" for warlock subclass
   family?: RaceFamily;           // only for races
-  sizes: Size[];
+  thumbnailPath?: string;        // path to 256px thumbnail (WebP preferred)
+  masterPath?: string;           // path to 1024px master (PNG)
   basePath: string;
   maskPath?: string;             // for shared masks (e.g. "elite_mask.png")
   tags: string[];                // for cross-category search

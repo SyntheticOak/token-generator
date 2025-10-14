@@ -29,7 +29,7 @@ export default function FrameGrid() {
             title={meta.name}
           >
             <LazyImage
-              src={frameSrc(meta, 256, "frame")}
+              src={frameSrc(meta, "thumbnail")}
               alt={meta.name}
               width={128}
               height={128}

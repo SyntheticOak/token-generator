@@ -154,7 +154,7 @@ function renderTextLayer(
   ctx.restore();
 }
 
-// Main composition function
+// Main composition function - always renders at 1024px internally
 export async function composeToken(opts: {
   doc: CanvasDoc;
   images: Map<string, HTMLImageElement>;
@@ -163,7 +163,7 @@ export async function composeToken(opts: {
   includeBackground?: boolean;
 }): Promise<HTMLCanvasElement> {
   const { doc, images, frameImg, maskImg, includeBackground = true } = opts;
-  const size = doc.width;
+  const size = 1024; // Always render at 1024px internally
   const c = document.createElement("canvas");
   c.width = c.height = size;
   const ctx = c.getContext("2d")!;
@@ -264,6 +264,25 @@ export function composeTokenLegacy(opts: {
   ctx.drawImage(frameImg, 0, 0, size, size);
 
   return c;
+}
+
+// Export canvas at specific size with high-quality scaling
+export async function exportAtSize(canvas: HTMLCanvasElement, size: number): Promise<HTMLCanvasElement> {
+  if (canvas.width === size) {
+    return canvas;
+  }
+  
+  const exportCanvas = document.createElement('canvas');
+  exportCanvas.width = size;
+  exportCanvas.height = size;
+  
+  const ctx = exportCanvas.getContext('2d')!;
+  ctx.imageSmoothingEnabled = true;
+  (ctx as any).imageSmoothingQuality = 'high';
+  
+  ctx.drawImage(canvas, 0, 0, size, size);
+  
+  return exportCanvas;
 }
 
 export function exportCanvas(c: HTMLCanvasElement, format: "png" | "webp" = "png"): Promise<Blob> {
