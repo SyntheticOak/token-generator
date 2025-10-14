@@ -8,6 +8,7 @@ const tabs: Array<{ id: MainCategory | 'all'; label: string }> = [
   { id: 'world', label: 'World' },
   { id: 'thematic', label: 'Thematic' },
   { id: 'seasonal', label: 'Seasonal' },
+  { id: 'utility', label: 'Utility' },
 ];
 
 export default function CategoryTabs() {

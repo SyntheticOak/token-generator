@@ -5,8 +5,12 @@ import { Size, MainCategory, RaceFamily, FrameMeta } from "../types";
 import { assets as generatedAssets } from "./assetManifest.generated";
 export const assets = generatedAssets;
 
-export function frameSrc(meta: { basePath: string; id: string }, size: Size, kind: "frame" | "mask") {
+export function frameSrc(meta: { basePath: string; id: string; maskPath?: string }, size: Size, kind: "frame" | "mask") {
   if (kind === "mask") {
+    // Use shared mask if available, otherwise fallback to specific mask
+    if (meta.maskPath) {
+      return `${meta.basePath}/${meta.maskPath}`;
+    }
     return `${meta.basePath}/${meta.id}_mask.png`;
   }
   return `${meta.basePath}/${meta.id}_${size}.png`;
@@ -67,5 +71,20 @@ export function getRaceFamilies(): RaceFamily[] {
   const frames = assets.frames.filter(f => f.mainCategory === 'races' && f.family);
   const families = new Set(frames.map(f => f.family).filter(Boolean) as RaceFamily[]);
   return Array.from(families).sort();
+}
+
+// Helper: Get backgrounds
+export function getBackgrounds() {
+  return assets.backgrounds || [];
+}
+
+// Helper: Get overlays
+export function getOverlays() {
+  return assets.overlays || [];
+}
+
+// Helper: Get portraits
+export function getPortraits() {
+  return assets.portraits || [];
 }
 

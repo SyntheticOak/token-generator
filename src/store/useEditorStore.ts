@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { FrameMeta, Size, MainCategory, RaceFamily, CanvasDoc, ImageLayer, TextLayer, Transform } from "../types";
+import { FrameMeta, Size, MainCategory, CanvasDoc, ImageLayer, TextLayer, Transform } from "../types";
 import { assets, getFramesByCategory, searchFramesByTag } from "../lib/assetManifest";
 
 const STORAGE_KEY = 'tokengen_canvas_v1';
@@ -44,7 +44,6 @@ interface EditorState {
   activeTab: MainCategory | 'all';
   selectedSubCategory?: string;
   selectedSubSubCategory?: string;
-  selectedRaceFamily?: RaceFamily;
   searchQuery: string;
   filteredFrames: FrameMeta[];
   
@@ -82,7 +81,6 @@ interface EditorState {
   setActiveTab: (tab: MainCategory | 'all') => void;
   setSubCategory: (sub?: string) => void;
   setSubSubCategory: (subsub?: string) => void;
-  setRaceFamily: (family?: RaceFamily) => void;
   setSearchQuery: (query: string) => void;
   clearFilters: () => void;
   updateFilteredFrames: () => void;
@@ -110,7 +108,6 @@ export const useEditorStore = create<EditorState>((set, get) => ({
   activeTab: 'all',
   selectedSubCategory: undefined,
   selectedSubSubCategory: undefined,
-  selectedRaceFamily: undefined,
   searchQuery: '',
   filteredFrames: assets.frames,
   
@@ -411,8 +408,7 @@ export const useEditorStore = create<EditorState>((set, get) => ({
     set({ 
       activeTab, 
       selectedSubCategory: undefined, 
-      selectedSubSubCategory: undefined,
-      selectedRaceFamily: undefined 
+      selectedSubSubCategory: undefined
     });
     get().updateFilteredFrames();
   },
@@ -427,11 +423,6 @@ export const useEditorStore = create<EditorState>((set, get) => ({
     get().updateFilteredFrames();
   },
   
-  setRaceFamily: (selectedRaceFamily) => {
-    set({ selectedRaceFamily, selectedSubCategory: undefined });
-    get().updateFilteredFrames();
-  },
-  
   setSearchQuery: (searchQuery) => {
     set({ searchQuery });
     get().updateFilteredFrames();
@@ -442,7 +433,6 @@ export const useEditorStore = create<EditorState>((set, get) => ({
       activeTab: 'all',
       selectedSubCategory: undefined,
       selectedSubSubCategory: undefined,
-      selectedRaceFamily: undefined,
       searchQuery: '',
       filteredFrames: assets.frames
     });
@@ -461,10 +451,6 @@ export const useEditorStore = create<EditorState>((set, get) => ({
       state.selectedSubCategory,
       state.selectedSubSubCategory
     );
-    
-    if (state.activeTab === 'races' && state.selectedRaceFamily) {
-      frames = frames.filter(f => f.family === state.selectedRaceFamily);
-    }
     
     set({ filteredFrames: frames });
   }
