@@ -10,18 +10,17 @@ export const assets: AssetRecord = {
     "id": "eldritchknight",
     "name": "Eldritchknight",
     "mainCategory": "classes",
-    "subCategory": "fighter",
-    "subSubCategory": "eldritchknight",
+    "subCategory": "eldritchknight",
     "sizes": [
       1024,
       512,
       256
     ],
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter/eldritchknight",
+    "maskPath": "eldritchknight_mask.png",
     "tags": [
       "eldritchknight",
       "class",
-      "fighter",
       "eldritchknight"
     ]
   },
@@ -29,18 +28,17 @@ export const assets: AssetRecord = {
     "id": "hexblade",
     "name": "Hexblade",
     "mainCategory": "classes",
-    "subCategory": "warlock",
-    "subSubCategory": "hexblade",
+    "subCategory": "hexblade",
     "sizes": [
       1024,
       512,
       256
     ],
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock/hexblade",
+    "maskPath": "hexblade_mask.png",
     "tags": [
       "hexblade",
       "class",
-      "warlock",
       "hexblade"
     ]
   },
@@ -48,18 +46,17 @@ export const assets: AssetRecord = {
     "id": "oldone",
     "name": "Oldone",
     "mainCategory": "classes",
-    "subCategory": "warlock",
-    "subSubCategory": "oldone",
+    "subCategory": "oldone",
     "sizes": [
       1024,
       512,
       256
     ],
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock/oldone",
+    "maskPath": "oldone_mask.png",
     "tags": [
       "oldone",
       "class",
-      "warlock",
       "oldone"
     ]
   },
@@ -68,17 +65,16 @@ export const assets: AssetRecord = {
     "name": "Warlock",
     "mainCategory": "classes",
     "subCategory": "warlock",
-    "subSubCategory": "warlock",
     "sizes": [
       1024,
       512,
       256
     ],
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock/warlock",
+    "maskPath": "warlock_mask.png",
     "tags": [
       "warlock",
       "class",
-      "warlock",
       "warlock"
     ]
   },
@@ -93,6 +89,7 @@ export const assets: AssetRecord = {
       256
     ],
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/astralwarrior",
+    "maskPath": "astralwarrior_mask.png",
     "tags": [
       "astralwarrior",
       "race",
@@ -110,6 +107,7 @@ export const assets: AssetRecord = {
       256
     ],
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/kobold",
+    "maskPath": "kobold_mask.png",
     "tags": [
       "kobold",
       "race",
@@ -127,11 +125,346 @@ export const assets: AssetRecord = {
       256
     ],
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/starelf",
+    "maskPath": "starelf_mask.png",
     "tags": [
       "starelf",
       "race",
       "starelf"
     ]
+  },
+  {
+    "id": "nature_acorn",
+    "name": "Nature_acorn",
+    "mainCategory": "thematic",
+    "subCategory": "nature",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
+    "maskPath": "nature_acorn_mask.png",
+    "tags": [
+      "nature_acorn",
+      "thematic",
+      "nature"
+    ]
+  },
+  {
+    "id": "nature_fey",
+    "name": "Nature_fey",
+    "mainCategory": "thematic",
+    "subCategory": "nature",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
+    "maskPath": "nature_fey_mask.png",
+    "tags": [
+      "nature_fey",
+      "thematic",
+      "nature"
+    ]
+  },
+  {
+    "id": "nature_lily",
+    "name": "Nature_lily",
+    "mainCategory": "thematic",
+    "subCategory": "nature",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
+    "maskPath": "nature_lily_mask.png",
+    "tags": [
+      "nature_lily",
+      "thematic",
+      "nature"
+    ]
+  },
+  {
+    "id": "nature_moonstone",
+    "name": "Nature_moonstone",
+    "mainCategory": "thematic",
+    "subCategory": "nature",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
+    "maskPath": "nature_moonstone_mask.png",
+    "tags": [
+      "nature_moonstone",
+      "thematic",
+      "nature"
+    ]
+  },
+  {
+    "id": "nature_pink",
+    "name": "Nature_pink",
+    "mainCategory": "thematic",
+    "subCategory": "nature",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
+    "maskPath": "nature_pink_mask.png",
+    "tags": [
+      "nature_pink",
+      "thematic",
+      "nature"
+    ]
+  },
+  {
+    "id": "nature_sunflower",
+    "name": "Nature_sunflower",
+    "mainCategory": "thematic",
+    "subCategory": "nature",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
+    "maskPath": "nature_sunflower_mask.png",
+    "tags": [
+      "nature_sunflower",
+      "thematic",
+      "nature"
+    ]
+  },
+  {
+    "id": "nature_thorns",
+    "name": "Nature_thorns",
+    "mainCategory": "thematic",
+    "subCategory": "nature",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
+    "maskPath": "nature_thorns_mask.png",
+    "tags": [
+      "nature_thorns",
+      "thematic",
+      "nature"
+    ]
+  },
+  {
+    "id": "nature_underdark",
+    "name": "Nature_underdark",
+    "mainCategory": "thematic",
+    "subCategory": "nature",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
+    "maskPath": "nature_underdark_mask.png",
+    "tags": [
+      "nature_underdark",
+      "thematic",
+      "nature"
+    ]
+  },
+  {
+    "id": "elite_bronze",
+    "name": "Elite_bronze",
+    "mainCategory": "utility",
+    "subCategory": "elite",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
+    "maskPath": "elite_mask.png",
+    "tags": [
+      "elite_bronze",
+      "utility",
+      "elite"
+    ]
+  },
+  {
+    "id": "elite_gold",
+    "name": "Elite_gold",
+    "mainCategory": "utility",
+    "subCategory": "elite",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
+    "maskPath": "elite_mask.png",
+    "tags": [
+      "elite_gold",
+      "utility",
+      "elite"
+    ]
+  },
+  {
+    "id": "elite_green",
+    "name": "Elite_green",
+    "mainCategory": "utility",
+    "subCategory": "elite",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
+    "maskPath": "elite_mask.png",
+    "tags": [
+      "elite_green",
+      "utility",
+      "elite"
+    ]
+  },
+  {
+    "id": "elite_purple",
+    "name": "Elite_purple",
+    "mainCategory": "utility",
+    "subCategory": "elite",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
+    "maskPath": "elite_mask.png",
+    "tags": [
+      "elite_purple",
+      "utility",
+      "elite"
+    ]
+  },
+  {
+    "id": "elite_red",
+    "name": "Elite_red",
+    "mainCategory": "utility",
+    "subCategory": "elite",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
+    "maskPath": "elite_mask.png",
+    "tags": [
+      "elite_red",
+      "utility",
+      "elite"
+    ]
+  },
+  {
+    "id": "elite_stone",
+    "name": "Elite_stone",
+    "mainCategory": "utility",
+    "subCategory": "elite",
+    "sizes": [
+      1024,
+      512,
+      256
+    ],
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
+    "maskPath": "elite_mask.png",
+    "tags": [
+      "elite_stone",
+      "utility",
+      "elite"
+    ]
+  }
+],
+  backgrounds: [
+  {
+    "id": "bg_01",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_01.jpg"
+  },
+  {
+    "id": "bg_02",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_02.jpg"
+  },
+  {
+    "id": "bg_03",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_03.jpg"
+  },
+  {
+    "id": "bg_04",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_04.jpg"
+  },
+  {
+    "id": "bg_05",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_05.jpg"
+  },
+  {
+    "id": "bg_06",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_06.jpg"
+  },
+  {
+    "id": "bg_07",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_07.jpg"
+  },
+  {
+    "id": "bg_08",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_08.jpg"
+  },
+  {
+    "id": "bg_09",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_09.jpg"
+  },
+  {
+    "id": "bg_10",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_10.jpg"
+  },
+  {
+    "id": "bg_11",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_11.jpg"
+  }
+],
+  overlays: [
+  {
+    "id": "fx_01",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fx_01.png"
+  }
+],
+  portraits: [
+  {
+    "id": "portrait_01",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/portrait_01.jpg"
+  },
+  {
+    "id": "portrait_02",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/portrait_02.jpg"
+  },
+  {
+    "id": "portrait_03",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/portrait_03.jpg"
+  },
+  {
+    "id": "portrait_04",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/portrait_04.jpg"
+  },
+  {
+    "id": "portrait_05",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/portrait_05.jpg"
+  },
+  {
+    "id": "portrait_06",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/portrait_06.jpg"
+  },
+  {
+    "id": "portrait_07",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/portrait_07.jpg"
   }
 ],
 };

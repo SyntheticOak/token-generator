@@ -1,6 +1,6 @@
 export type Size = 1024 | 512 | 256;
 
-export type MainCategory = 'classes' | 'races' | 'world' | 'thematic' | 'seasonal';
+export type MainCategory = 'classes' | 'races' | 'world' | 'thematic' | 'seasonal' | 'utility';
 
 export type RaceFamily = 
   | 'Humanoid'
@@ -27,13 +27,22 @@ export interface FrameMeta {
   family?: RaceFamily;           // only for races
   sizes: Size[];
   basePath: string;
+  maskPath?: string;             // for shared masks (e.g. "elite_mask.png")
   tags: string[];                // for cross-category search
   // Legacy field for backwards compatibility
   category?: string;
 }
 
+export interface PortraitMeta {
+  id: string;
+  src: string;
+}
+
 export interface AssetRecord {
   frames: FrameMeta[];
+  backgrounds: PortraitMeta[];
+  overlays: PortraitMeta[];
+  portraits: PortraitMeta[];
 }
 
 // Layer system types
