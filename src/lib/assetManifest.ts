@@ -1,7 +1,7 @@
 import { MainCategory, RaceFamily, FrameMeta } from "../types";
 
-// Import auto-generated assets
-// If this file doesn't exist, run: npm run build
+// Import auto-generated assets (exists in production after build)
+// If this file doesn't exist, the build will fail, which is expected
 import { assets as generatedAssets } from "./assetManifest.generated";
 export const assets = generatedAssets;
 

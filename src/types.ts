@@ -25,6 +25,7 @@ export interface FrameMeta {
   subCategory: string;           // e.g. "warlock", "underdark", "elemental"
   subSubCategory?: string;       // e.g. "hexblade" for warlock subclass
   family?: RaceFamily;           // only for races
+  sizes?: Size[];                // legacy field for backward compatibility
   thumbnailPath?: string;        // path to 256px thumbnail (WebP preferred)
   masterPath?: string;           // path to 1024px master (PNG)
   basePath: string;
@@ -87,6 +88,11 @@ export type TextLayer = {
   locked?: boolean;
 };
 
+export type CustomFrame = {
+  frameUrl: string;
+  maskUrl?: string;
+};
+
 export type CanvasDoc = {
   width: number;
   height: number;
@@ -95,6 +101,7 @@ export type CanvasDoc = {
   character?: ImageLayer;
   overlays: ImageLayer[];
   text?: TextLayer;
+  customFrame?: CustomFrame;
 };
 
 

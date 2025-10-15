@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { FrameMeta, Size, MainCategory, CanvasDoc, ImageLayer, TextLayer, Transform } from "../types";
+import { FrameMeta, Size, MainCategory, CanvasDoc, ImageLayer, TextLayer, Transform, CustomFrame } from "../types";
 import { assets, getFramesByCategory, searchFramesByTag } from "../lib/assetManifest";
 
 const STORAGE_KEY = 'tokengen_canvas_v1';
@@ -76,6 +76,10 @@ interface EditorState {
   serialize: () => CanvasDoc;
   hydrate: (doc: Partial<CanvasDoc>) => void;
   clearAll: () => void;
+  
+  // Custom frame actions
+  setCustomFrame: (customFrame: CustomFrame) => void;
+  clearCustomFrame: () => void;
   
   // Filter actions (unchanged)
   setActiveTab: (tab: MainCategory | 'all') => void;
@@ -402,6 +406,19 @@ export const useEditorStore = create<EditorState>((set, get) => ({
       selectedFrameMeta: undefined,
     });
   },
+  
+  // Custom frame actions
+  setCustomFrame: (customFrame) => set((s) => {
+    const newDoc = { ...s.canvasDoc, customFrame };
+    debouncedSave(newDoc);
+    return { canvasDoc: newDoc };
+  }),
+  
+  clearCustomFrame: () => set((s) => {
+    const newDoc = { ...s.canvasDoc, customFrame: undefined };
+    debouncedSave(newDoc);
+    return { canvasDoc: newDoc };
+  }),
   
   // Filter actions (unchanged)
   setActiveTab: (activeTab) => {
