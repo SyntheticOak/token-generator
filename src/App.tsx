@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Sidebar from "./components/Sidebar";
 import CanvasComposer, { CanvasComposerHandle } from "./components/CanvasComposer";
 import Toolbar from "./components/Toolbar";
@@ -21,6 +22,7 @@ export default function App() {
         </div>
         <LayerSidebar />
       </div>
+      <Analytics />
     </div>
   );
 }
