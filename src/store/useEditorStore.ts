@@ -409,7 +409,14 @@ export const useEditorStore = create<EditorState>((set, get) => ({
   
   // Custom frame actions
   setCustomFrame: (customFrame) => set((s) => {
-    const newDoc = { ...s.canvasDoc, customFrame };
+    // If both frameUrl and maskUrl are empty, remove customFrame entirely
+    const hasFrame = customFrame.frameUrl && customFrame.frameUrl.trim() !== '';
+    const hasMask = customFrame.maskUrl && customFrame.maskUrl.trim() !== '';
+    
+    const newDoc = { 
+      ...s.canvasDoc, 
+      customFrame: (hasFrame || hasMask) ? customFrame : undefined 
+    };
     debouncedSave(newDoc);
     return { canvasDoc: newDoc };
   }),
