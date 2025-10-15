@@ -18,34 +18,47 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
 
   const canvasSize = canvasDoc.width;
 
-  // Load frame and mask images
+  // Load frame and mask images (custom or library)
   useEffect(() => {
     let mounted = true;
     (async () => {
-      if (!selectedFrameMeta) { 
+      // Priority: custom frame > library frame
+      if (canvasDoc.customFrame) {
+        try {
+          const [f, m] = await Promise.all([
+            loadImage(canvasDoc.customFrame.frameUrl),
+            canvasDoc.customFrame.maskUrl ? loadImage(canvasDoc.customFrame.maskUrl) : Promise.resolve(null),
+          ]);
+          if (mounted) { 
+            setFrameImg(f); 
+            setMaskImg(m); 
+          }
+        } catch (err) {
+          console.error("Failed to load custom frame/mask:", err);
+        }
+      } else if (selectedFrameMeta) {
+        const framePath = frameSrc(selectedFrameMeta, "master");
+        const maskPath = frameSrc(selectedFrameMeta, "mask");
+        
+        try {
+          const [f, m] = await Promise.all([
+            loadImage(framePath),
+            loadImage(maskPath),
+          ]);
+          if (mounted) { 
+            setFrameImg(f); 
+            setMaskImg(m); 
+          }
+        } catch (err) {
+          console.error("Failed to load frame/mask:", err);
+        }
+      } else {
         setFrameImg(null); 
         setMaskImg(null); 
-        return; 
-      }
-      
-      const framePath = frameSrc(selectedFrameMeta, "master");
-      const maskPath = frameSrc(selectedFrameMeta, "mask");
-      
-      try {
-        const [f, m] = await Promise.all([
-          loadImage(framePath),
-          loadImage(maskPath),
-        ]);
-        if (mounted) { 
-          setFrameImg(f); 
-          setMaskImg(m); 
-        }
-      } catch (err) {
-        console.error("Failed to load frame/mask:", err);
       }
     })();
     return () => { mounted = false; };
-  }, [selectedFrameMeta]);
+  }, [selectedFrameMeta, canvasDoc.customFrame]);
 
   // Load and cache layer images
   useEffect(() => {
@@ -251,6 +264,12 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
     }
     if (doc.character?.src.startsWith('blob:')) {
       URL.revokeObjectURL(doc.character.src);
+    }
+    if (doc.customFrame?.frameUrl.startsWith('blob:')) {
+      URL.revokeObjectURL(doc.customFrame.frameUrl);
+    }
+    if (doc.customFrame?.maskUrl?.startsWith('blob:')) {
+      URL.revokeObjectURL(doc.customFrame.maskUrl);
     }
     doc.overlays.forEach(overlay => {
       if (overlay.src.startsWith('blob:')) {

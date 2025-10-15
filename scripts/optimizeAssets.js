@@ -8,22 +8,12 @@ const __dirname = path.dirname(__filename);
 
 const ASSETS_DIR = path.join(__dirname, '../public/assets/frames');
 
-// Check if sharp is available for WebP conversion
-function checkSharpAvailability() {
-  try {
-    require.resolve('sharp');
-    return true;
-  } catch (e) {
-    return false;
-  }
-}
-
 // Convert PNG to WebP using sharp
-function convertToWebP(inputPath, outputPath) {
+async function convertToWebP(inputPath, outputPath) {
   try {
-    const sharp = require('sharp');
+    const sharp = await import('sharp');
     
-    return sharp(inputPath)
+    return sharp.default(inputPath)
       .webp({ quality: 85, effort: 6 })
       .toFile(outputPath);
   } catch (err) {
@@ -47,7 +37,7 @@ function scanDirectory(dir, callback) {
   }
 }
 
-function optimizeAssets() {
+async function optimizeAssets() {
   console.log('Starting asset optimization...');
   
   if (!fs.existsSync(ASSETS_DIR)) {
@@ -55,15 +45,23 @@ function optimizeAssets() {
     process.exit(1);
   }
   
-  const hasSharp = checkSharpAvailability();
-  if (!hasSharp) {
+  let deleted512 = 0;
+  let converted256 = 0;
+  let skipped256 = 0;
+  let hasSharp = false;
+  
+  // Test if Sharp is available
+  try {
+    await import('sharp');
+    hasSharp = true;
+    console.log('Sharp detected - will convert PNG to WebP');
+  } catch (e) {
     console.warn('Warning: Sharp not available. Install with: npm install sharp');
     console.warn('Will skip WebP conversion and only delete 512px files.');
   }
   
-  let deleted512 = 0;
-  let converted256 = 0;
-  let skipped256 = 0;
+  // Process files
+  const filePromises = [];
   
   scanDirectory(ASSETS_DIR, (filePath) => {
     const fileName = path.basename(filePath);
@@ -86,15 +84,19 @@ function optimizeAssets() {
           skipped256++;
         } else {
           console.log(`Converting: ${fileName} -> ${path.basename(webpPath)}`);
-          const result = convertToWebP(filePath, webpPath);
           
-          if (result) {
-            // Delete original PNG after successful conversion
-            fs.unlinkSync(filePath);
-            converted256++;
-          } else {
-            console.error(`Failed to convert ${fileName}`);
-          }
+          // Add to promises array for async processing
+          filePromises.push(
+            convertToWebP(filePath, webpPath).then(result => {
+              if (result) {
+                // Delete original PNG after successful conversion
+                fs.unlinkSync(filePath);
+                converted256++;
+              } else {
+                console.error(`Failed to convert ${fileName}`);
+              }
+            })
+          );
         }
       } else {
         console.log(`Skipping: ${fileName} (Sharp not available)`);
@@ -102,6 +104,9 @@ function optimizeAssets() {
       }
     }
   });
+  
+  // Wait for all conversions to complete
+  await Promise.all(filePromises);
   
   console.log('\nOptimization complete:');
   console.log(`- Deleted ${deleted512} 512px files`);

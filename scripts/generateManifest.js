@@ -123,8 +123,15 @@ function scanFrames(baseDir, category) {
           }
         } else if (hasMask || has1024) {
           // This is a frame directory
+          const has512 = fs.existsSync(path.join(fullPath, `${frameId}_512.png`));
           const thumbnailPath = has256WebP ? `${frameId}_256.webp` : (has256PNG ? `${frameId}_256.png` : null);
           const masterPath = has1024 ? `${frameId}_1024.png` : null;
+          
+          // For backward compatibility, include sizes array if old format exists
+          const sizes = [];
+          if (has1024) sizes.push(1024);
+          if (has512) sizes.push(512);
+          if (has256PNG || has256WebP) sizes.push(256);
           
           // Determine categories based on depth and path
           const relativePath = path.relative(categoryPath, dir);
@@ -170,6 +177,7 @@ function scanFrames(baseDir, category) {
             subCategory,
             ...(subSubCategory && { subSubCategory }),
             ...(family && { family }),
+            ...(sizes.length > 0 && { sizes }), // Include sizes for backward compatibility
             thumbnailPath,
             masterPath,
             basePath,
