@@ -14,6 +14,22 @@ export default function CustomFrameUpload() {
   const setCustomFrame = useEditorStore((s) => s.setCustomFrame);
   const clearCustomFrame = useEditorStore((s) => s.clearCustomFrame);
 
+  const clearFrame = () => {
+    if (customFrame?.maskUrl) {
+      setCustomFrame({ frameUrl: '', maskUrl: customFrame.maskUrl });
+    } else {
+      clearCustomFrame();
+    }
+  };
+
+  const clearMask = () => {
+    if (customFrame?.frameUrl) {
+      setCustomFrame({ frameUrl: customFrame.frameUrl, maskUrl: '' });
+    } else {
+      clearCustomFrame();
+    }
+  };
+
   const validateFile = (file: File): string | null => {
     if (!file.type.startsWith('image/')) {
       return 'Please select an image file';
@@ -142,25 +158,45 @@ export default function CustomFrameUpload() {
         <div className="mt-2 text-xs text-red-600">{error}</div>
       )}
 
-      {customFrame?.frameUrl && (
+      {(customFrame?.frameUrl || customFrame?.maskUrl) && (
         <div className="mt-3">
           <div className="text-xs text-gray-600 mb-2">Preview:</div>
-          <div className="relative">
-            <img
-              src={customFrame.frameUrl}
-              alt="Custom frame preview"
-              className="w-full h-24 object-contain border border-gray-200 rounded"
-            />
-            <button
-              onClick={clearCustomFrame}
-              className="absolute top-1 right-1 w-5 h-5 bg-red-500 text-white text-xs rounded-full hover:bg-red-600 flex items-center justify-center"
-              title="Clear custom frame"
-            >
-              ×
-            </button>
-          </div>
-          <div className="text-xs text-gray-500 mt-1">
-            {customFrame.maskUrl ? 'Frame + Mask' : 'Frame only'}
+          <div className="space-y-2">
+            {customFrame?.frameUrl && (
+              <div className="relative">
+                <img
+                  src={customFrame.frameUrl}
+                  alt="Custom frame preview"
+                  className="w-full h-20 object-contain border border-gray-200 rounded"
+                />
+                <button
+                  onClick={clearFrame}
+                  className="absolute top-1 right-1 w-4 h-4 bg-red-500 text-white text-xs rounded-full hover:bg-red-600 flex items-center justify-center"
+                  title="Remove frame"
+                >
+                  ×
+                </button>
+                <div className="text-xs text-gray-500 mt-1 text-center">Frame</div>
+              </div>
+            )}
+            
+            {customFrame?.maskUrl && (
+              <div className="relative">
+                <img
+                  src={customFrame.maskUrl}
+                  alt="Custom mask preview"
+                  className="w-full h-20 object-contain border border-gray-200 rounded"
+                />
+                <button
+                  onClick={clearMask}
+                  className="absolute top-1 right-1 w-4 h-4 bg-red-500 text-white text-xs rounded-full hover:bg-red-600 flex items-center justify-center"
+                  title="Remove mask"
+                >
+                  ×
+                </button>
+                <div className="text-xs text-gray-500 mt-1 text-center">Mask</div>
+              </div>
+            )}
           </div>
         </div>
       )}

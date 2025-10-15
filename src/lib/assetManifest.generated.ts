@@ -73,7 +73,7 @@ export const assets: AssetRecord = {
     "subCategory": "astralwarrior",
     "thumbnailPath": "astralwarrior_256.webp",
     "masterPath": "astralwarrior_1024.png",
-    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/astralwarrior",
     "maskPath": "astralwarrior_mask.png",
     "tags": [
       "astralwarrior",
@@ -88,7 +88,7 @@ export const assets: AssetRecord = {
     "subCategory": "kobold",
     "thumbnailPath": "kobold_256.webp",
     "masterPath": "kobold_1024.png",
-    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/kobold",
     "maskPath": "kobold_mask.png",
     "tags": [
       "kobold",
@@ -103,7 +103,7 @@ export const assets: AssetRecord = {
     "subCategory": "starelf",
     "thumbnailPath": "starelf_256.webp",
     "masterPath": "starelf_1024.png",
-    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/starelf",
     "maskPath": "starelf_mask.png",
     "tags": [
       "starelf",
@@ -232,6 +232,246 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "berserker",
+    "name": "Berserker",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "berserker_256.webp",
+    "masterPath": "berserker_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "berserker_mask.png",
+    "tags": [
+      "berserker",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "brain",
+    "name": "Brain",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "brain_256.webp",
+    "masterPath": "brain_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "brain_mask.png",
+    "tags": [
+      "brain",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "detector",
+    "name": "Detector",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "detector_256.webp",
+    "masterPath": "detector_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "detector_mask.png",
+    "tags": [
+      "detector",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "overmind",
+    "name": "Overmind",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "overmind_256.webp",
+    "masterPath": "overmind_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "overmind_mask.png",
+    "tags": [
+      "overmind",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "plasma",
+    "name": "Plasma",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "plasma_256.webp",
+    "masterPath": "plasma_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "plasma_mask.png",
+    "tags": [
+      "plasma",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "psionic",
+    "name": "Psionic",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "psionic_256.webp",
+    "masterPath": "psionic_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "psionic_mask.png",
+    "tags": [
+      "psionic",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "soldier_256.webp",
+    "masterPath": "soldier_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "soldier_mask.png",
+    "tags": [
+      "soldier",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "winter_dragon",
+    "name": "Winter_dragon",
+    "mainCategory": "thematic",
+    "subCategory": "winter",
+    "thumbnailPath": "winter_dragon_256.webp",
+    "masterPath": "winter_dragon_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
+    "maskPath": "winter_dragon_mask.png",
+    "tags": [
+      "winter_dragon",
+      "thematic",
+      "winter"
+    ]
+  },
+  {
+    "id": "winter_elven",
+    "name": "Winter_elven",
+    "mainCategory": "thematic",
+    "subCategory": "winter",
+    "thumbnailPath": "winter_elven_256.webp",
+    "masterPath": "winter_elven_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
+    "maskPath": "winter_elven_mask.png",
+    "tags": [
+      "winter_elven",
+      "thematic",
+      "winter"
+    ]
+  },
+  {
+    "id": "winter_knight",
+    "name": "Winter_knight",
+    "mainCategory": "thematic",
+    "subCategory": "winter",
+    "thumbnailPath": "winter_knight_256.webp",
+    "masterPath": "winter_knight_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
+    "maskPath": "winter_knight_mask.png",
+    "tags": [
+      "winter_knight",
+      "thematic",
+      "winter"
+    ]
+  },
+  {
+    "id": "winter_matriarch",
+    "name": "Winter_matriarch",
+    "mainCategory": "thematic",
+    "subCategory": "winter",
+    "thumbnailPath": "winter_matriarch_256.webp",
+    "masterPath": "winter_matriarch_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
+    "maskPath": "winter_matriarch_mask.png",
+    "tags": [
+      "winter_matriarch",
+      "thematic",
+      "winter"
+    ]
+  },
+  {
+    "id": "winter_nightmare",
+    "name": "Winter_nightmare",
+    "mainCategory": "thematic",
+    "subCategory": "winter",
+    "thumbnailPath": "winter_nightmare_256.webp",
+    "masterPath": "winter_nightmare_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
+    "maskPath": "winter_nightmare_mask.png",
+    "tags": [
+      "winter_nightmare",
+      "thematic",
+      "winter"
+    ]
+  },
+  {
+    "id": "winter_primal",
+    "name": "Winter_primal",
+    "mainCategory": "thematic",
+    "subCategory": "winter",
+    "thumbnailPath": "winter_primal_256.webp",
+    "masterPath": "winter_primal_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
+    "maskPath": "winter_primal_mask.png",
+    "tags": [
+      "winter_primal",
+      "thematic",
+      "winter"
+    ]
+  },
+  {
+    "id": "winter_scepter",
+    "name": "Winter_scepter",
+    "mainCategory": "thematic",
+    "subCategory": "winter",
+    "thumbnailPath": "winter_scepter_256.webp",
+    "masterPath": "winter_scepter_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
+    "maskPath": "winter_scepter_mask.png",
+    "tags": [
+      "winter_scepter",
+      "thematic",
+      "winter"
+    ]
+  },
+  {
+    "id": "winter_shepard",
+    "name": "Winter_shepard",
+    "mainCategory": "thematic",
+    "subCategory": "winter",
+    "thumbnailPath": "winter_shepard_256.webp",
+    "masterPath": "winter_shepard_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
+    "maskPath": "winter_shepard_mask.png",
+    "tags": [
+      "winter_shepard",
+      "thematic",
+      "winter"
+    ]
+  },
+  {
+    "id": "winter_tribal",
+    "name": "Winter_tribal",
+    "mainCategory": "thematic",
+    "subCategory": "winter",
+    "thumbnailPath": "winter_tribal_256.webp",
+    "masterPath": "winter_tribal_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
+    "maskPath": "winter_tribal_mask.png",
+    "tags": [
+      "winter_tribal",
+      "thematic",
+      "winter"
+    ]
+  },
+  {
     "id": "elite_bronze",
     "name": "Elite_bronze",
     "mainCategory": "utility",
@@ -319,6 +559,96 @@ export const assets: AssetRecord = {
       "elite_stone",
       "utility",
       "elite"
+    ]
+  },
+  {
+    "id": "rarity_blue",
+    "name": "Rarity_blue",
+    "mainCategory": "utility",
+    "subCategory": "rarity",
+    "thumbnailPath": "rarity_blue_256.webp",
+    "masterPath": "rarity_blue_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
+    "maskPath": "rarity_mask.png",
+    "tags": [
+      "rarity_blue",
+      "utility",
+      "rarity"
+    ]
+  },
+  {
+    "id": "rarity_green",
+    "name": "Rarity_green",
+    "mainCategory": "utility",
+    "subCategory": "rarity",
+    "thumbnailPath": "rarity_green_256.webp",
+    "masterPath": "rarity_green_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
+    "maskPath": "rarity_mask.png",
+    "tags": [
+      "rarity_green",
+      "utility",
+      "rarity"
+    ]
+  },
+  {
+    "id": "rarity_orange",
+    "name": "Rarity_orange",
+    "mainCategory": "utility",
+    "subCategory": "rarity",
+    "thumbnailPath": "rarity_orange_256.webp",
+    "masterPath": "rarity_orange_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
+    "maskPath": "rarity_mask.png",
+    "tags": [
+      "rarity_orange",
+      "utility",
+      "rarity"
+    ]
+  },
+  {
+    "id": "rarity_purple",
+    "name": "Rarity_purple",
+    "mainCategory": "utility",
+    "subCategory": "rarity",
+    "thumbnailPath": "rarity_purple_256.webp",
+    "masterPath": "rarity_purple_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
+    "maskPath": "rarity_mask.png",
+    "tags": [
+      "rarity_purple",
+      "utility",
+      "rarity"
+    ]
+  },
+  {
+    "id": "rarity_red",
+    "name": "Rarity_red",
+    "mainCategory": "utility",
+    "subCategory": "rarity",
+    "thumbnailPath": "rarity_red_256.webp",
+    "masterPath": "rarity_red_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
+    "maskPath": "rarity_mask.png",
+    "tags": [
+      "rarity_red",
+      "utility",
+      "rarity"
+    ]
+  },
+  {
+    "id": "rarity_white",
+    "name": "Rarity_white",
+    "mainCategory": "utility",
+    "subCategory": "rarity",
+    "thumbnailPath": "rarity_white_256.webp",
+    "masterPath": "rarity_white_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
+    "maskPath": "rarity_mask.png",
+    "tags": [
+      "rarity_white",
+      "utility",
+      "rarity"
     ]
   }
 ],
