@@ -80,6 +80,7 @@ interface EditorState {
   // Custom frame actions
   setCustomFrame: (customFrame: CustomFrame) => void;
   clearCustomFrame: () => void;
+  applyCustomFrame: () => void;
   
   // Filter actions (unchanged)
   setActiveTab: (tab: MainCategory | 'all') => void;
@@ -432,6 +433,23 @@ export const useEditorStore = create<EditorState>((set, get) => ({
   
   clearCustomFrame: () => set((s) => {
     const newDoc = { ...s.canvasDoc, customFrame: undefined };
+    debouncedSave(newDoc);
+    return { canvasDoc: newDoc };
+  }),
+  
+  applyCustomFrame: () => set((s) => {
+    if (!s.canvasDoc.customFrame?.frameUrl) return s;
+    
+    const newDoc = {
+      ...s.canvasDoc,
+      frame: {
+        id: 'custom-frame',
+        type: 'frame' as const,
+        src: s.canvasDoc.customFrame.frameUrl,
+        transform: defaultTransform,
+        visible: true,
+      }
+    };
     debouncedSave(newDoc);
     return { canvasDoc: newDoc };
   }),

@@ -13,6 +13,7 @@ export default function CustomFrameUpload() {
   const customFrame = useEditorStore((s) => s.canvasDoc.customFrame);
   const setCustomFrame = useEditorStore((s) => s.setCustomFrame);
   const clearCustomFrame = useEditorStore((s) => s.clearCustomFrame);
+  const applyCustomFrame = useEditorStore((s) => s.applyCustomFrame);
 
   const clearFrame = () => {
     try {
@@ -21,6 +22,8 @@ export default function CustomFrameUpload() {
       } else {
         clearCustomFrame();
       }
+      // Remove frame from canvas when frame is cleared
+      useEditorStore.getState().setSelectedFrame(undefined);
     } catch (err) {
       console.error('Error clearing frame:', err);
       setError('Failed to clear frame');
@@ -33,6 +36,8 @@ export default function CustomFrameUpload() {
         setCustomFrame({ frameUrl: customFrame.frameUrl, maskUrl: '' });
       } else {
         clearCustomFrame();
+        // Remove frame from canvas when both frame and mask are cleared
+        useEditorStore.getState().setSelectedFrame(undefined);
       }
     } catch (err) {
       console.error('Error clearing mask:', err);
@@ -109,6 +114,14 @@ export default function CustomFrameUpload() {
               frameUrl: type === 'frame' ? finalDataUrl : (currentCustomFrame?.frameUrl || ''),
               maskUrl: type === 'mask' ? finalDataUrl : (currentCustomFrame?.maskUrl || ''),
             });
+            
+            // If frame was uploaded, automatically apply it to canvas
+            if (type === 'frame') {
+              // Use setTimeout to ensure state update completes first
+              setTimeout(() => {
+                applyCustomFrame();
+              }, 0);
+            }
             
             resetInputs();
           } catch (err) {
