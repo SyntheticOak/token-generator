@@ -7,6 +7,96 @@ import { AssetRecord } from "../types";
 export const assets: AssetRecord = {
   frames: [
   {
+    "id": "alchemist",
+    "name": "Alchemist",
+    "mainCategory": "classes",
+    "subCategory": "artificer",
+    "thumbnailPath": "alchemist_256.webp",
+    "masterPath": "alchemist_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
+    "maskPath": "alchemist_mask.png",
+    "tags": [
+      "alchemist",
+      "class",
+      "artificer"
+    ]
+  },
+  {
+    "id": "beartotem",
+    "name": "Beartotem",
+    "mainCategory": "classes",
+    "subCategory": "barbarian",
+    "thumbnailPath": "beartotem_256.webp",
+    "masterPath": "beartotem_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
+    "maskPath": "beartotem_mask.png",
+    "tags": [
+      "beartotem",
+      "class",
+      "barbarian"
+    ]
+  },
+  {
+    "id": "loremaster",
+    "name": "Loremaster",
+    "mainCategory": "classes",
+    "subCategory": "bard",
+    "thumbnailPath": "loremaster_256.webp",
+    "masterPath": "loremaster_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
+    "maskPath": "loremaster_mask.png",
+    "tags": [
+      "loremaster",
+      "class",
+      "bard"
+    ]
+  },
+  {
+    "id": "holy",
+    "name": "Holy",
+    "mainCategory": "classes",
+    "subCategory": "cleric",
+    "thumbnailPath": "holy_256.webp",
+    "masterPath": "holy_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
+    "maskPath": "holy_mask.png",
+    "tags": [
+      "holy",
+      "class",
+      "cleric"
+    ]
+  },
+  {
+    "id": "moondruid",
+    "name": "Moondruid",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "moondruid_256.webp",
+    "masterPath": "moondruid_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "moondruid_mask.png",
+    "tags": [
+      "moondruid",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "stardruid",
+    "name": "Stardruid",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "stardruid_256.webp",
+    "masterPath": "stardruid_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "stardruid_mask.png",
+    "tags": [
+      "stardruid",
+      "class",
+      "druid"
+    ]
+  },
+  {
     "id": "eldritchknight",
     "name": "Eldritchknight",
     "mainCategory": "classes",
@@ -19,6 +109,111 @@ export const assets: AssetRecord = {
       "eldritchknight",
       "class",
       "fighter"
+    ]
+  },
+  {
+    "id": "drunkenmaster",
+    "name": "Drunkenmaster",
+    "mainCategory": "classes",
+    "subCategory": "monk",
+    "thumbnailPath": "drunkenmaster_256.webp",
+    "masterPath": "drunkenmaster_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
+    "maskPath": "drunkenmaster_mask.png",
+    "tags": [
+      "drunkenmaster",
+      "class",
+      "monk"
+    ]
+  },
+  {
+    "id": "justice",
+    "name": "Justice",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "justice_256.webp",
+    "masterPath": "justice_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "justice_mask.png",
+    "tags": [
+      "justice",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin",
+    "name": "Paladin",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_256.webp",
+    "masterPath": "paladin_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_mask.png",
+    "tags": [
+      "paladin",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "mainCategory": "classes",
+    "subCategory": "ranger",
+    "thumbnailPath": "hunter_256.webp",
+    "masterPath": "hunter_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
+    "maskPath": "hunter_mask.png",
+    "tags": [
+      "hunter",
+      "class",
+      "ranger"
+    ]
+  },
+  {
+    "id": "ranger",
+    "name": "Ranger",
+    "mainCategory": "classes",
+    "subCategory": "ranger",
+    "thumbnailPath": "ranger_256.webp",
+    "masterPath": "ranger_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
+    "maskPath": "ranger_mask.png",
+    "tags": [
+      "ranger",
+      "class",
+      "ranger"
+    ]
+  },
+  {
+    "id": "stalker",
+    "name": "Stalker",
+    "mainCategory": "classes",
+    "subCategory": "ranger",
+    "thumbnailPath": "stalker_256.webp",
+    "masterPath": "stalker_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
+    "maskPath": "stalker_mask.png",
+    "tags": [
+      "stalker",
+      "class",
+      "ranger"
+    ]
+  },
+  {
+    "id": "wildmagic",
+    "name": "Wildmagic",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "wildmagic_256.webp",
+    "masterPath": "wildmagic_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "maskPath": "wildmagic_mask.png",
+    "tags": [
+      "wildmagic",
+      "class",
+      "sorcerer"
     ]
   },
   {
@@ -52,6 +247,21 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "thefiend",
+    "name": "Thefiend",
+    "mainCategory": "classes",
+    "subCategory": "warlock",
+    "thumbnailPath": "thefiend_256.webp",
+    "masterPath": "thefiend_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
+    "maskPath": "thefiend_mask.png",
+    "tags": [
+      "thefiend",
+      "class",
+      "warlock"
+    ]
+  },
+  {
     "id": "warlock",
     "name": "Warlock",
     "mainCategory": "classes",
@@ -64,6 +274,36 @@ export const assets: AssetRecord = {
       "warlock",
       "class",
       "warlock"
+    ]
+  },
+  {
+    "id": "divination",
+    "name": "Divination",
+    "mainCategory": "classes",
+    "subCategory": "wizard",
+    "thumbnailPath": "divination_256.webp",
+    "masterPath": "divination_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/wizard",
+    "maskPath": "divination_mask.png",
+    "tags": [
+      "divination",
+      "class",
+      "wizard"
+    ]
+  },
+  {
+    "id": "astralmonk",
+    "name": "Astralmonk",
+    "mainCategory": "races",
+    "subCategory": "astralmonk",
+    "thumbnailPath": "astralmonk_256.webp",
+    "masterPath": "astralmonk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/astralmonk",
+    "maskPath": "astralmonk_mask.png",
+    "tags": [
+      "astralmonk",
+      "race",
+      "astralmonk"
     ]
   },
   {
@@ -82,6 +322,366 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "bearfolk",
+    "name": "Bearfolk",
+    "mainCategory": "races",
+    "subCategory": "bearfolk",
+    "thumbnailPath": "bearfolk_256.webp",
+    "masterPath": "bearfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/bearfolk",
+    "maskPath": "bearfolk_mask.png",
+    "tags": [
+      "bearfolk",
+      "race",
+      "bearfolk"
+    ]
+  },
+  {
+    "id": "bugbear",
+    "name": "Bugbear",
+    "mainCategory": "races",
+    "subCategory": "bugbear",
+    "thumbnailPath": "bugbear_256.webp",
+    "masterPath": "bugbear_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/bugbear",
+    "maskPath": "bugbear_mask.png",
+    "tags": [
+      "bugbear",
+      "race",
+      "bugbear"
+    ]
+  },
+  {
+    "id": "catfolk",
+    "name": "Catfolk",
+    "mainCategory": "races",
+    "subCategory": "catfolk",
+    "thumbnailPath": "catfolk_256.webp",
+    "masterPath": "catfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/catfolk",
+    "maskPath": "catfolk_mask.png",
+    "tags": [
+      "catfolk",
+      "race",
+      "catfolk"
+    ]
+  },
+  {
+    "id": "celestial",
+    "name": "Celestial",
+    "mainCategory": "races",
+    "subCategory": "celestial",
+    "thumbnailPath": "celestial_256.webp",
+    "masterPath": "celestial_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/celestial",
+    "maskPath": "celestial_mask.png",
+    "tags": [
+      "celestial",
+      "race",
+      "celestial"
+    ]
+  },
+  {
+    "id": "centaur",
+    "name": "Centaur",
+    "mainCategory": "races",
+    "subCategory": "centaur",
+    "thumbnailPath": "centaur_256.webp",
+    "masterPath": "centaur_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/centaur",
+    "maskPath": "centaur_mask.png",
+    "tags": [
+      "centaur",
+      "race",
+      "centaur"
+    ]
+  },
+  {
+    "id": "deepdwarf",
+    "name": "Deepdwarf",
+    "mainCategory": "races",
+    "subCategory": "deepdwarf",
+    "thumbnailPath": "deepdwarf_256.webp",
+    "masterPath": "deepdwarf_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/deepdwarf",
+    "maskPath": "deepdwarf_mask.png",
+    "tags": [
+      "deepdwarf",
+      "race",
+      "deepdwarf"
+    ]
+  },
+  {
+    "id": "deepgnome",
+    "name": "Deepgnome",
+    "mainCategory": "races",
+    "subCategory": "deepgnome",
+    "thumbnailPath": "deepgnome_256.webp",
+    "masterPath": "deepgnome_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/deepgnome",
+    "maskPath": "deepgnome_mask.png",
+    "tags": [
+      "deepgnome",
+      "race",
+      "deepgnome"
+    ]
+  },
+  {
+    "id": "dollfolk",
+    "name": "Dollfolk",
+    "mainCategory": "races",
+    "subCategory": "dollfolk",
+    "thumbnailPath": "dollfolk_256.webp",
+    "masterPath": "dollfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/dollfolk",
+    "maskPath": "dollfolk_mask.png",
+    "tags": [
+      "dollfolk",
+      "race",
+      "dollfolk"
+    ]
+  },
+  {
+    "id": "dwarf",
+    "name": "Dwarf",
+    "mainCategory": "races",
+    "subCategory": "dwarf",
+    "thumbnailPath": "dwarf_256.webp",
+    "masterPath": "dwarf_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/dwarf",
+    "maskPath": "dwarf_mask.png",
+    "tags": [
+      "dwarf",
+      "race",
+      "dwarf"
+    ]
+  },
+  {
+    "id": "elf",
+    "name": "Elf",
+    "mainCategory": "races",
+    "subCategory": "elf",
+    "thumbnailPath": "elf_256.webp",
+    "masterPath": "elf_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/elf",
+    "maskPath": "elf_mask.png",
+    "tags": [
+      "elf",
+      "race",
+      "elf"
+    ]
+  },
+  {
+    "id": "fey",
+    "name": "Fey",
+    "mainCategory": "races",
+    "subCategory": "fey",
+    "thumbnailPath": "fey_256.webp",
+    "masterPath": "fey_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/fey",
+    "maskPath": "fey_mask.png",
+    "tags": [
+      "fey",
+      "race",
+      "fey"
+    ]
+  },
+  {
+    "id": "feyelf",
+    "name": "Feyelf",
+    "mainCategory": "races",
+    "subCategory": "feyelf",
+    "thumbnailPath": "feyelf_256.webp",
+    "masterPath": "feyelf_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/feyelf",
+    "maskPath": "feyelf_mask.png",
+    "tags": [
+      "feyelf",
+      "race",
+      "feyelf"
+    ]
+  },
+  {
+    "id": "firbolg",
+    "name": "Firbolg",
+    "mainCategory": "races",
+    "subCategory": "firbolg",
+    "thumbnailPath": "firbolg_256.webp",
+    "masterPath": "firbolg_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/firbolg",
+    "maskPath": "firbolg_mask.png",
+    "tags": [
+      "firbolg",
+      "race",
+      "firbolg"
+    ]
+  },
+  {
+    "id": "fishfolk",
+    "name": "Fishfolk",
+    "mainCategory": "races",
+    "subCategory": "fishfolk",
+    "thumbnailPath": "fishfolk_256.webp",
+    "masterPath": "fishfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/fishfolk",
+    "maskPath": "fishfolk_mask.png",
+    "tags": [
+      "fishfolk",
+      "race",
+      "fishfolk"
+    ]
+  },
+  {
+    "id": "foxfolk",
+    "name": "Foxfolk",
+    "mainCategory": "races",
+    "subCategory": "foxfolk",
+    "thumbnailPath": "foxfolk_256.webp",
+    "masterPath": "foxfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/foxfolk",
+    "maskPath": "foxfolk_mask.png",
+    "tags": [
+      "foxfolk",
+      "race",
+      "foxfolk"
+    ]
+  },
+  {
+    "id": "frogfolk",
+    "name": "Frogfolk",
+    "mainCategory": "races",
+    "subCategory": "frogfolk",
+    "thumbnailPath": "frogfolk_256.webp",
+    "masterPath": "frogfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/frogfolk",
+    "maskPath": "frogfolk_mask.png",
+    "tags": [
+      "frogfolk",
+      "race",
+      "frogfolk"
+    ]
+  },
+  {
+    "id": "gnome",
+    "name": "Gnome",
+    "mainCategory": "races",
+    "subCategory": "gnome",
+    "thumbnailPath": "gnome_256.webp",
+    "masterPath": "gnome_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/gnome",
+    "maskPath": "gnome_mask.png",
+    "tags": [
+      "gnome",
+      "race",
+      "gnome"
+    ]
+  },
+  {
+    "id": "goblin",
+    "name": "Goblin",
+    "mainCategory": "races",
+    "subCategory": "goblin",
+    "thumbnailPath": "goblin_256.webp",
+    "masterPath": "goblin_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/goblin",
+    "maskPath": "goblin_mask.png",
+    "tags": [
+      "goblin",
+      "race",
+      "goblin"
+    ]
+  },
+  {
+    "id": "halfelf",
+    "name": "Halfelf",
+    "mainCategory": "races",
+    "subCategory": "halfelf",
+    "thumbnailPath": "halfelf_256.webp",
+    "masterPath": "halfelf_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/halfelf",
+    "maskPath": "halfelf_mask.png",
+    "tags": [
+      "halfelf",
+      "race",
+      "halfelf"
+    ]
+  },
+  {
+    "id": "halfling",
+    "name": "Halfling",
+    "mainCategory": "races",
+    "subCategory": "halfling",
+    "thumbnailPath": "halfling_256.webp",
+    "masterPath": "halfling_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/halfling",
+    "maskPath": "halfling_mask.png",
+    "tags": [
+      "halfling",
+      "race",
+      "halfling"
+    ]
+  },
+  {
+    "id": "halforc",
+    "name": "Halforc",
+    "mainCategory": "races",
+    "subCategory": "halforc",
+    "thumbnailPath": "halforc_256.webp",
+    "masterPath": "halforc_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/halforc",
+    "maskPath": "halforc_mask.png",
+    "tags": [
+      "halforc",
+      "race",
+      "halforc"
+    ]
+  },
+  {
+    "id": "hedgehog",
+    "name": "Hedgehog",
+    "mainCategory": "races",
+    "subCategory": "hedgehog",
+    "thumbnailPath": "hedgehog_256.webp",
+    "masterPath": "hedgehog_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/hedgehog",
+    "maskPath": "hedgehog_mask.png",
+    "tags": [
+      "hedgehog",
+      "race",
+      "hedgehog"
+    ]
+  },
+  {
+    "id": "hellborn",
+    "name": "Hellborn",
+    "mainCategory": "races",
+    "subCategory": "hellborn",
+    "thumbnailPath": "hellborn_256.webp",
+    "masterPath": "hellborn_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/hellborn",
+    "maskPath": "hellborn_mask.png",
+    "tags": [
+      "hellborn",
+      "race",
+      "hellborn"
+    ]
+  },
+  {
+    "id": "human",
+    "name": "Human",
+    "mainCategory": "races",
+    "subCategory": "human",
+    "thumbnailPath": "human_256.webp",
+    "masterPath": "human_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/human",
+    "maskPath": "human_mask.png",
+    "tags": [
+      "human",
+      "race",
+      "human"
+    ]
+  },
+  {
     "id": "kobold",
     "name": "Kobold",
     "mainCategory": "races",
@@ -97,6 +697,216 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "lionfolk",
+    "name": "Lionfolk",
+    "mainCategory": "races",
+    "subCategory": "lionfolk",
+    "thumbnailPath": "lionfolk_256.webp",
+    "masterPath": "lionfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/lionfolk",
+    "maskPath": "lionfolk_mask.png",
+    "tags": [
+      "lionfolk",
+      "race",
+      "lionfolk"
+    ]
+  },
+  {
+    "id": "lizardfolk",
+    "name": "Lizardfolk",
+    "mainCategory": "races",
+    "subCategory": "lizardfolk",
+    "thumbnailPath": "lizardfolk_256.webp",
+    "masterPath": "lizardfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/lizardfolk",
+    "maskPath": "lizardfolk_mask.png",
+    "tags": [
+      "lizardfolk",
+      "race",
+      "lizardfolk"
+    ]
+  },
+  {
+    "id": "minotaur",
+    "name": "Minotaur",
+    "mainCategory": "races",
+    "subCategory": "minotaur",
+    "thumbnailPath": "minotaur_256.webp",
+    "masterPath": "minotaur_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/minotaur",
+    "maskPath": "minotaur_mask.png",
+    "tags": [
+      "minotaur",
+      "race",
+      "minotaur"
+    ]
+  },
+  {
+    "id": "mousefolk",
+    "name": "Mousefolk",
+    "mainCategory": "races",
+    "subCategory": "mousefolk",
+    "thumbnailPath": "mousefolk_256.webp",
+    "masterPath": "mousefolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/mousefolk",
+    "maskPath": "mousefolk_mask.png",
+    "tags": [
+      "mousefolk",
+      "race",
+      "mousefolk"
+    ]
+  },
+  {
+    "id": "owlfolk",
+    "name": "Owlfolk",
+    "mainCategory": "races",
+    "subCategory": "owlfolk",
+    "thumbnailPath": "owlfolk_256.webp",
+    "masterPath": "owlfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/owlfolk",
+    "maskPath": "owlfolk_mask.png",
+    "tags": [
+      "owlfolk",
+      "race",
+      "owlfolk"
+    ]
+  },
+  {
+    "id": "rabbitfolk",
+    "name": "Rabbitfolk",
+    "mainCategory": "races",
+    "subCategory": "rabbitfolk",
+    "thumbnailPath": "rabbitfolk_256.webp",
+    "masterPath": "rabbitfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/rabbitfolk",
+    "maskPath": "rabbitfolk_mask.png",
+    "tags": [
+      "rabbitfolk",
+      "race",
+      "rabbitfolk"
+    ]
+  },
+  {
+    "id": "raven",
+    "name": "Raven",
+    "mainCategory": "races",
+    "subCategory": "raven",
+    "thumbnailPath": "raven_256.webp",
+    "masterPath": "raven_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/raven",
+    "maskPath": "raven_mask.png",
+    "tags": [
+      "raven",
+      "race",
+      "raven"
+    ]
+  },
+  {
+    "id": "ravenfolk",
+    "name": "Ravenfolk",
+    "mainCategory": "races",
+    "subCategory": "ravenfolk",
+    "thumbnailPath": "ravenfolk_256.webp",
+    "masterPath": "ravenfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/ravenfolk",
+    "maskPath": "ravenfolk_mask.png",
+    "tags": [
+      "ravenfolk",
+      "race",
+      "ravenfolk"
+    ]
+  },
+  {
+    "id": "satyr",
+    "name": "Satyr",
+    "mainCategory": "races",
+    "subCategory": "satyr",
+    "thumbnailPath": "satyr_256.webp",
+    "masterPath": "satyr_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/satyr",
+    "maskPath": "satyr_mask.png",
+    "tags": [
+      "satyr",
+      "race",
+      "satyr"
+    ]
+  },
+  {
+    "id": "seafolk",
+    "name": "Seafolk",
+    "mainCategory": "races",
+    "subCategory": "seafolk",
+    "thumbnailPath": "seafolk_256.webp",
+    "masterPath": "seafolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/seafolk",
+    "maskPath": "seafolk_mask.png",
+    "tags": [
+      "seafolk",
+      "race",
+      "seafolk"
+    ]
+  },
+  {
+    "id": "shadowborn",
+    "name": "Shadowborn",
+    "mainCategory": "races",
+    "subCategory": "shadowborn",
+    "thumbnailPath": "shadowborn_256.webp",
+    "masterPath": "shadowborn_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/shadowborn",
+    "maskPath": "shadowborn_mask.png",
+    "tags": [
+      "shadowborn",
+      "race",
+      "shadowborn"
+    ]
+  },
+  {
+    "id": "shapeshifter",
+    "name": "Shapeshifter",
+    "mainCategory": "races",
+    "subCategory": "shapeshifter",
+    "thumbnailPath": "shapeshifter_256.webp",
+    "masterPath": "shapeshifter_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/shapeshifter",
+    "maskPath": "shapeshifter_mask.png",
+    "tags": [
+      "shapeshifter",
+      "race",
+      "shapeshifter"
+    ]
+  },
+  {
+    "id": "skyfolk",
+    "name": "Skyfolk",
+    "mainCategory": "races",
+    "subCategory": "skyfolk",
+    "thumbnailPath": "skyfolk_256.webp",
+    "masterPath": "skyfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/skyfolk",
+    "maskPath": "skyfolk_mask.png",
+    "tags": [
+      "skyfolk",
+      "race",
+      "skyfolk"
+    ]
+  },
+  {
+    "id": "squirrelfolk",
+    "name": "Squirrelfolk",
+    "mainCategory": "races",
+    "subCategory": "squirrelfolk",
+    "thumbnailPath": "squirrelfolk_256.webp",
+    "masterPath": "squirrelfolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/squirrelfolk",
+    "maskPath": "squirrelfolk_mask.png",
+    "tags": [
+      "squirrelfolk",
+      "race",
+      "squirrelfolk"
+    ]
+  },
+  {
     "id": "starelf",
     "name": "Starelf",
     "mainCategory": "races",
@@ -109,6 +919,81 @@ export const assets: AssetRecord = {
       "starelf",
       "race",
       "starelf"
+    ]
+  },
+  {
+    "id": "steelborn",
+    "name": "Steelborn",
+    "mainCategory": "races",
+    "subCategory": "steelborn",
+    "thumbnailPath": "steelborn_256.webp",
+    "masterPath": "steelborn_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/steelborn",
+    "maskPath": "steelborn_mask.png",
+    "tags": [
+      "steelborn",
+      "race",
+      "steelborn"
+    ]
+  },
+  {
+    "id": "stonefolk",
+    "name": "Stonefolk",
+    "mainCategory": "races",
+    "subCategory": "stonefolk",
+    "thumbnailPath": "stonefolk_256.webp",
+    "masterPath": "stonefolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/stonefolk",
+    "maskPath": "stonefolk_mask.png",
+    "tags": [
+      "stonefolk",
+      "race",
+      "stonefolk"
+    ]
+  },
+  {
+    "id": "tideborn",
+    "name": "Tideborn",
+    "mainCategory": "races",
+    "subCategory": "tideborn",
+    "thumbnailPath": "tideborn_256.webp",
+    "masterPath": "tideborn_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/tideborn",
+    "maskPath": "tideborn_mask.png",
+    "tags": [
+      "tideborn",
+      "race",
+      "tideborn"
+    ]
+  },
+  {
+    "id": "tinkergnome",
+    "name": "Tinkergnome",
+    "mainCategory": "races",
+    "subCategory": "tinkergnome",
+    "thumbnailPath": "tinkergnome_256.webp",
+    "masterPath": "tinkergnome_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/tinkergnome",
+    "maskPath": "tinkergnome_mask.png",
+    "tags": [
+      "tinkergnome",
+      "race",
+      "tinkergnome"
+    ]
+  },
+  {
+    "id": "turtlefolk",
+    "name": "Turtlefolk",
+    "mainCategory": "races",
+    "subCategory": "turtlefolk",
+    "thumbnailPath": "turtlefolk_256.webp",
+    "masterPath": "turtlefolk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/turtlefolk",
+    "maskPath": "turtlefolk_mask.png",
+    "tags": [
+      "turtlefolk",
+      "race",
+      "turtlefolk"
     ]
   },
   {
@@ -227,6 +1112,21 @@ export const assets: AssetRecord = {
     "maskPath": "nature_underdark_mask.png",
     "tags": [
       "nature_underdark",
+      "thematic",
+      "nature"
+    ]
+  },
+  {
+    "id": "nature_wood",
+    "name": "Nature_wood",
+    "mainCategory": "thematic",
+    "subCategory": "nature",
+    "thumbnailPath": "nature_wood_256.webp",
+    "masterPath": "nature_wood_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
+    "maskPath": "nature_wood_mask.png",
+    "tags": [
+      "nature_wood",
       "thematic",
       "nature"
     ]
@@ -467,6 +1367,21 @@ export const assets: AssetRecord = {
     "maskPath": "winter_tribal_mask.png",
     "tags": [
       "winter_tribal",
+      "thematic",
+      "winter"
+    ]
+  },
+  {
+    "id": "winter_wood",
+    "name": "Winter_wood",
+    "mainCategory": "thematic",
+    "subCategory": "winter",
+    "thumbnailPath": "winter_wood_256.webp",
+    "masterPath": "winter_wood_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
+    "maskPath": "winter_wood_mask.png",
+    "tags": [
+      "winter_wood",
       "thematic",
       "winter"
     ]
