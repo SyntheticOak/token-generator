@@ -52,6 +52,21 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "duskcleric",
+    "name": "Duskcleric",
+    "mainCategory": "classes",
+    "subCategory": "cleric",
+    "thumbnailPath": "duskcleric_256.png",
+    "masterPath": "duskcleric_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
+    "maskPath": "duskcleric_mask.png",
+    "tags": [
+      "duskcleric",
+      "class",
+      "cleric"
+    ]
+  },
+  {
     "id": "holy",
     "name": "Holy",
     "mainCategory": "classes",
@@ -64,6 +79,21 @@ export const assets: AssetRecord = {
       "holy",
       "class",
       "cleric"
+    ]
+  },
+  {
+    "id": "elements",
+    "name": "Elements",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "elements_256.png",
+    "masterPath": "elements_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "elements_mask.png",
+    "tags": [
+      "elements",
+      "class",
+      "druid"
     ]
   },
   {
@@ -997,6 +1027,21 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "flames",
+    "name": "Flames",
+    "mainCategory": "thematic",
+    "subCategory": "elemental",
+    "thumbnailPath": "flames_256.png",
+    "masterPath": "flames_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/elemental",
+    "maskPath": "flames_mask.png",
+    "tags": [
+      "flames",
+      "thematic",
+      "elemental"
+    ]
+  },
+  {
     "id": "nature_acorn",
     "name": "Nature_acorn",
     "mainCategory": "thematic",
@@ -1012,6 +1057,21 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "nature_blackrose",
+    "name": "Nature_blackrose",
+    "mainCategory": "thematic",
+    "subCategory": "nature",
+    "thumbnailPath": "nature_blackrose_256.png",
+    "masterPath": "nature_blackrose_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
+    "maskPath": "nature_blackrose_mask.png",
+    "tags": [
+      "nature_blackrose",
+      "thematic",
+      "nature"
+    ]
+  },
+  {
     "id": "nature_fey",
     "name": "Nature_fey",
     "mainCategory": "thematic",
@@ -1022,6 +1082,21 @@ export const assets: AssetRecord = {
     "maskPath": "nature_fey_mask.png",
     "tags": [
       "nature_fey",
+      "thematic",
+      "nature"
+    ]
+  },
+  {
+    "id": "nature_knight",
+    "name": "Nature_knight",
+    "mainCategory": "thematic",
+    "subCategory": "nature",
+    "thumbnailPath": "nature_knight_256.png",
+    "masterPath": "nature_knight_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
+    "maskPath": "nature_knight_mask.png",
+    "tags": [
+      "nature_knight",
       "thematic",
       "nature"
     ]
@@ -1564,6 +1639,126 @@ export const assets: AssetRecord = {
       "rarity_white",
       "utility",
       "rarity"
+    ]
+  },
+  {
+    "id": "sludge_blue",
+    "name": "Sludge_blue",
+    "mainCategory": "utility",
+    "subCategory": "sludge",
+    "thumbnailPath": "sludge_blue_256.png",
+    "masterPath": "sludge_blue_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
+    "maskPath": "sludge_mask.png",
+    "tags": [
+      "sludge_blue",
+      "utility",
+      "sludge"
+    ]
+  },
+  {
+    "id": "sludge_green",
+    "name": "Sludge_green",
+    "mainCategory": "utility",
+    "subCategory": "sludge",
+    "thumbnailPath": "sludge_green_256.png",
+    "masterPath": "sludge_green_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
+    "maskPath": "sludge_mask.png",
+    "tags": [
+      "sludge_green",
+      "utility",
+      "sludge"
+    ]
+  },
+  {
+    "id": "sludge_orange",
+    "name": "Sludge_orange",
+    "mainCategory": "utility",
+    "subCategory": "sludge",
+    "thumbnailPath": "sludge_orange_256.png",
+    "masterPath": "sludge_orange_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
+    "maskPath": "sludge_mask.png",
+    "tags": [
+      "sludge_orange",
+      "utility",
+      "sludge"
+    ]
+  },
+  {
+    "id": "sludge_pink",
+    "name": "Sludge_pink",
+    "mainCategory": "utility",
+    "subCategory": "sludge",
+    "thumbnailPath": "sludge_pink_256.png",
+    "masterPath": "sludge_pink_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
+    "maskPath": "sludge_mask.png",
+    "tags": [
+      "sludge_pink",
+      "utility",
+      "sludge"
+    ]
+  },
+  {
+    "id": "sludge_purple",
+    "name": "Sludge_purple",
+    "mainCategory": "utility",
+    "subCategory": "sludge",
+    "thumbnailPath": "sludge_purple_256.png",
+    "masterPath": "sludge_purple_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
+    "maskPath": "sludge_mask.png",
+    "tags": [
+      "sludge_purple",
+      "utility",
+      "sludge"
+    ]
+  },
+  {
+    "id": "sludge_red",
+    "name": "Sludge_red",
+    "mainCategory": "utility",
+    "subCategory": "sludge",
+    "thumbnailPath": "sludge_red_256.png",
+    "masterPath": "sludge_red_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
+    "maskPath": "sludge_mask.png",
+    "tags": [
+      "sludge_red",
+      "utility",
+      "sludge"
+    ]
+  },
+  {
+    "id": "sludge_teal",
+    "name": "Sludge_teal",
+    "mainCategory": "utility",
+    "subCategory": "sludge",
+    "thumbnailPath": "sludge_teal_256.png",
+    "masterPath": "sludge_teal_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
+    "maskPath": "sludge_mask.png",
+    "tags": [
+      "sludge_teal",
+      "utility",
+      "sludge"
+    ]
+  },
+  {
+    "id": "sludge_yellow",
+    "name": "Sludge_yellow",
+    "mainCategory": "utility",
+    "subCategory": "sludge",
+    "thumbnailPath": "sludge_yellow_256.png",
+    "masterPath": "sludge_yellow_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
+    "maskPath": "sludge_mask.png",
+    "tags": [
+      "sludge_yellow",
+      "utility",
+      "sludge"
     ]
   }
 ],
