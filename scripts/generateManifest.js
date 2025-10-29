@@ -71,7 +71,7 @@ function scanFrames(baseDir, category) {
               const ext = match[3];
               
               if (!frameGroups.has(baseName)) {
-                frameGroups.set(baseName, { sizes: [], thumbnailPath: null, masterPath: null });
+                frameGroups.set(baseName, { sizes: [], thumbnailPath: undefined, masterPath: undefined });
               }
               frameGroups.get(baseName).sizes.push(size);
               
@@ -87,7 +87,7 @@ function scanFrames(baseDir, category) {
           // Create frames for each group
           for (const [baseName, frameData] of frameGroups) {
             // Check for shared mask
-            let maskPath = null;
+            let maskPath = undefined;
             if (fs.existsSync(path.join(fullPath, `${baseName}_mask.png`))) {
               maskPath = `${baseName}_mask.png`;
             } else {
@@ -124,8 +124,8 @@ function scanFrames(baseDir, category) {
         } else if (hasMask || has1024) {
           // This is a frame directory
           const has512 = fs.existsSync(path.join(fullPath, `${frameId}_512.png`));
-          const thumbnailPath = has256WebP ? `${frameId}_256.webp` : (has256PNG ? `${frameId}_256.png` : null);
-          const masterPath = has1024 ? `${frameId}_1024.png` : null;
+          const thumbnailPath = has256WebP ? `${frameId}_256.webp` : (has256PNG ? `${frameId}_256.png` : undefined);
+          const masterPath = has1024 ? `${frameId}_1024.png` : undefined;
           
           // For backward compatibility, include sizes array if old format exists
           const sizes = [];
@@ -203,8 +203,8 @@ function scanFrames(baseDir, category) {
           if (frames.some(f => f.id === frameId)) continue;
           
           // Find thumbnail and master paths
-          let thumbnailPath = null;
-          let masterPath = null;
+          let thumbnailPath = undefined;
+          let masterPath = undefined;
           const files = fs.readdirSync(dir);
           
           for (const file of files) {
@@ -225,7 +225,7 @@ function scanFrames(baseDir, category) {
           if (!thumbnailPath && !masterPath) continue;
           
           // Check for mask (either specific or shared)
-          let maskPath = null;
+          let maskPath = undefined;
           if (fs.existsSync(path.join(dir, `${frameId}_mask.png`))) {
             maskPath = `${frameId}_mask.png`;
           } else {

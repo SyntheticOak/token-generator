@@ -22,6 +22,171 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "artificer_01",
+    "name": "Artificer_01",
+    "mainCategory": "classes",
+    "subCategory": "artificer",
+    "thumbnailPath": "artificer_01_256.webp",
+    "masterPath": "artificer_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
+    "maskPath": "artificer_01_mask.png",
+    "tags": [
+      "artificer_01",
+      "class",
+      "artificer"
+    ]
+  },
+  {
+    "id": "artificer_02",
+    "name": "Artificer_02",
+    "mainCategory": "classes",
+    "subCategory": "artificer",
+    "thumbnailPath": "artificer_02_256.webp",
+    "masterPath": "artificer_02_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
+    "maskPath": "artificer_02_mask.png",
+    "tags": [
+      "artificer_02",
+      "class",
+      "artificer"
+    ]
+  },
+  {
+    "id": "artificer_03",
+    "name": "Artificer_03",
+    "mainCategory": "classes",
+    "subCategory": "artificer",
+    "thumbnailPath": "artificer_03_256.webp",
+    "masterPath": "artificer_03_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
+    "maskPath": "artificer_03_mask.png",
+    "tags": [
+      "artificer_03",
+      "class",
+      "artificer"
+    ]
+  },
+  {
+    "id": "artificer_04",
+    "name": "Artificer_04",
+    "mainCategory": "classes",
+    "subCategory": "artificer",
+    "thumbnailPath": "artificer_04_256.webp",
+    "masterPath": "artificer_04_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
+    "maskPath": "artificer_04_mask.png",
+    "tags": [
+      "artificer_04",
+      "class",
+      "artificer"
+    ]
+  },
+  {
+    "id": "artificer_05",
+    "name": "Artificer_05",
+    "mainCategory": "classes",
+    "subCategory": "artificer",
+    "thumbnailPath": "artificer_05_256.webp",
+    "masterPath": "artificer_05_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
+    "maskPath": "artificer_05_mask.png",
+    "tags": [
+      "artificer_05",
+      "class",
+      "artificer"
+    ]
+  },
+  {
+    "id": "barbarian_01",
+    "name": "Barbarian_01",
+    "mainCategory": "classes",
+    "subCategory": "barbarian",
+    "thumbnailPath": "barbarian_01_256.webp",
+    "masterPath": "barbarian_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
+    "maskPath": "barbarian_01_mask.png",
+    "tags": [
+      "barbarian_01",
+      "class",
+      "barbarian"
+    ]
+  },
+  {
+    "id": "barbarian_02",
+    "name": "Barbarian_02",
+    "mainCategory": "classes",
+    "subCategory": "barbarian",
+    "thumbnailPath": "barbarian_02_256.webp",
+    "masterPath": "barbarian_02_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
+    "maskPath": "barbarian_02_mask.png",
+    "tags": [
+      "barbarian_02",
+      "class",
+      "barbarian"
+    ]
+  },
+  {
+    "id": "barbarian_04",
+    "name": "Barbarian_04",
+    "mainCategory": "classes",
+    "subCategory": "barbarian",
+    "thumbnailPath": "barbarian_04_256.webp",
+    "masterPath": "barbarian_04_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
+    "maskPath": "barbarian_04_mask.png",
+    "tags": [
+      "barbarian_04",
+      "class",
+      "barbarian"
+    ]
+  },
+  {
+    "id": "barbarian_05",
+    "name": "Barbarian_05",
+    "mainCategory": "classes",
+    "subCategory": "barbarian",
+    "thumbnailPath": "barbarian_05_256.webp",
+    "masterPath": "barbarian_05_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
+    "maskPath": "barbarian_05_mask.png",
+    "tags": [
+      "barbarian_05",
+      "class",
+      "barbarian"
+    ]
+  },
+  {
+    "id": "barbarian_07",
+    "name": "Barbarian_07",
+    "mainCategory": "classes",
+    "subCategory": "barbarian",
+    "thumbnailPath": "barbarian_07_256.webp",
+    "masterPath": "barbarian_07_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
+    "maskPath": "barbarian_07_mask.png",
+    "tags": [
+      "barbarian_07",
+      "class",
+      "barbarian"
+    ]
+  },
+  {
+    "id": "barbarian_08",
+    "name": "Barbarian_08",
+    "mainCategory": "classes",
+    "subCategory": "barbarian",
+    "thumbnailPath": "barbarian_08_256.webp",
+    "masterPath": "barbarian_08_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
+    "maskPath": "barbarian_08_mask.png",
+    "tags": [
+      "barbarian_08",
+      "class",
+      "barbarian"
+    ]
+  },
+  {
     "id": "beartotem",
     "name": "Beartotem",
     "mainCategory": "classes",
@@ -34,6 +199,66 @@ export const assets: AssetRecord = {
       "beartotem",
       "class",
       "barbarian"
+    ]
+  },
+  {
+    "id": "bard_01",
+    "name": "Bard_01",
+    "mainCategory": "classes",
+    "subCategory": "bard",
+    "thumbnailPath": "bard_01_256.webp",
+    "masterPath": "bard_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
+    "maskPath": "bard_01_mask.png",
+    "tags": [
+      "bard_01",
+      "class",
+      "bard"
+    ]
+  },
+  {
+    "id": "bard_02",
+    "name": "Bard_02",
+    "mainCategory": "classes",
+    "subCategory": "bard",
+    "thumbnailPath": "bard_02_256.webp",
+    "masterPath": "bard_02_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
+    "maskPath": "bard_02_mask.png",
+    "tags": [
+      "bard_02",
+      "class",
+      "bard"
+    ]
+  },
+  {
+    "id": "bard_03",
+    "name": "Bard_03",
+    "mainCategory": "classes",
+    "subCategory": "bard",
+    "thumbnailPath": "bard_03_256.webp",
+    "masterPath": "bard_03_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
+    "maskPath": "bard_03_mask.png",
+    "tags": [
+      "bard_03",
+      "class",
+      "bard"
+    ]
+  },
+  {
+    "id": "bard_05",
+    "name": "Bard_05",
+    "mainCategory": "classes",
+    "subCategory": "bard",
+    "thumbnailPath": "bard_05_256.webp",
+    "masterPath": "bard_05_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
+    "maskPath": "bard_05_mask.png",
+    "tags": [
+      "bard_05",
+      "class",
+      "bard"
     ]
   },
   {
@@ -52,11 +277,41 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "cleric_01",
+    "name": "Cleric_01",
+    "mainCategory": "classes",
+    "subCategory": "cleric",
+    "thumbnailPath": "cleric_01_256.webp",
+    "masterPath": "cleric_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
+    "maskPath": "cleric_01_mask.png",
+    "tags": [
+      "cleric_01",
+      "class",
+      "cleric"
+    ]
+  },
+  {
+    "id": "cleric_02",
+    "name": "Cleric_02",
+    "mainCategory": "classes",
+    "subCategory": "cleric",
+    "thumbnailPath": "cleric_02_256.webp",
+    "masterPath": "cleric_02_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
+    "maskPath": "cleric_02_mask.png",
+    "tags": [
+      "cleric_02",
+      "class",
+      "cleric"
+    ]
+  },
+  {
     "id": "duskcleric",
     "name": "Duskcleric",
     "mainCategory": "classes",
     "subCategory": "cleric",
-    "thumbnailPath": "duskcleric_256.png",
+    "thumbnailPath": "duskcleric_256.webp",
     "masterPath": "duskcleric_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
     "maskPath": "duskcleric_mask.png",
@@ -82,11 +337,266 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "deathknight_01",
+    "name": "Deathknight_01",
+    "mainCategory": "classes",
+    "subCategory": "deathknight",
+    "thumbnailPath": "deathknight_01_256.webp",
+    "masterPath": "deathknight_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/deathknight",
+    "maskPath": "deathknight_01_mask.png",
+    "tags": [
+      "deathknight_01",
+      "class",
+      "deathknight"
+    ]
+  },
+  {
+    "id": "druid_01",
+    "name": "Druid_01",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_01_256.webp",
+    "masterPath": "druid_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_01_mask.png",
+    "tags": [
+      "druid_01",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_03",
+    "name": "Druid_03",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_03_256.webp",
+    "masterPath": "druid_03_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_03_mask.png",
+    "tags": [
+      "druid_03",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_04",
+    "name": "Druid_04",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_04_256.webp",
+    "masterPath": "druid_04_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_04_mask.png",
+    "tags": [
+      "druid_04",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_05",
+    "name": "Druid_05",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_05_256.webp",
+    "masterPath": "druid_05_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_05_mask.png",
+    "tags": [
+      "druid_05",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_07",
+    "name": "Druid_07",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_07_256.webp",
+    "masterPath": "druid_07_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_07_mask.png",
+    "tags": [
+      "druid_07",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_08",
+    "name": "Druid_08",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_08_256.webp",
+    "masterPath": "druid_08_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_08_mask.png",
+    "tags": [
+      "druid_08",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_09",
+    "name": "Druid_09",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_09_256.webp",
+    "masterPath": "druid_09_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_09_mask.png",
+    "tags": [
+      "druid_09",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_10a",
+    "name": "Druid_10a",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_10a_256.webp",
+    "masterPath": "druid_10a_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_10a_mask.png",
+    "tags": [
+      "druid_10a",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_10b",
+    "name": "Druid_10b",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_10b_256.webp",
+    "masterPath": "druid_10b_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_10b_mask.png",
+    "tags": [
+      "druid_10b",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_12",
+    "name": "Druid_12",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_12_256.webp",
+    "masterPath": "druid_12_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_12_mask.png",
+    "tags": [
+      "druid_12",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_13",
+    "name": "Druid_13",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_13_256.webp",
+    "masterPath": "druid_13_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_13_mask.png",
+    "tags": [
+      "druid_13",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_14a",
+    "name": "Druid_14a",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_14a_256.webp",
+    "masterPath": "druid_14a_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_14a_mask.png",
+    "tags": [
+      "druid_14a",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_14b",
+    "name": "Druid_14b",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_14b_256.webp",
+    "masterPath": "druid_14b_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_14b_mask.png",
+    "tags": [
+      "druid_14b",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_14c",
+    "name": "Druid_14c",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_14c_256.webp",
+    "masterPath": "druid_14c_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_14c_mask.png",
+    "tags": [
+      "druid_14c",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_14d",
+    "name": "Druid_14d",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_14d_256.webp",
+    "masterPath": "druid_14d_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_14d_mask.png",
+    "tags": [
+      "druid_14d",
+      "class",
+      "druid"
+    ]
+  },
+  {
+    "id": "druid_14e",
+    "name": "Druid_14e",
+    "mainCategory": "classes",
+    "subCategory": "druid",
+    "thumbnailPath": "druid_14e_256.webp",
+    "masterPath": "druid_14e_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
+    "maskPath": "druid_14e_mask.png",
+    "tags": [
+      "druid_14e",
+      "class",
+      "druid"
+    ]
+  },
+  {
     "id": "elements",
     "name": "Elements",
     "mainCategory": "classes",
     "subCategory": "druid",
-    "thumbnailPath": "elements_256.png",
+    "thumbnailPath": "elements_256.webp",
     "masterPath": "elements_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "elements_mask.png",
@@ -142,6 +652,81 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "fighter_01",
+    "name": "Fighter_01",
+    "mainCategory": "classes",
+    "subCategory": "fighter",
+    "thumbnailPath": "fighter_01_256.webp",
+    "masterPath": "fighter_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
+    "maskPath": "fighter_01_mask.png",
+    "tags": [
+      "fighter_01",
+      "class",
+      "fighter"
+    ]
+  },
+  {
+    "id": "fighter_02",
+    "name": "Fighter_02",
+    "mainCategory": "classes",
+    "subCategory": "fighter",
+    "thumbnailPath": "fighter_02_256.webp",
+    "masterPath": "fighter_02_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
+    "maskPath": "fighter_02_mask.png",
+    "tags": [
+      "fighter_02",
+      "class",
+      "fighter"
+    ]
+  },
+  {
+    "id": "fighter_03",
+    "name": "Fighter_03",
+    "mainCategory": "classes",
+    "subCategory": "fighter",
+    "thumbnailPath": "fighter_03_256.webp",
+    "masterPath": "fighter_03_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
+    "maskPath": "fighter_03_mask.png",
+    "tags": [
+      "fighter_03",
+      "class",
+      "fighter"
+    ]
+  },
+  {
+    "id": "fighter_05",
+    "name": "Fighter_05",
+    "mainCategory": "classes",
+    "subCategory": "fighter",
+    "thumbnailPath": "fighter_05_256.webp",
+    "masterPath": "fighter_05_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
+    "maskPath": "fighter_05_mask.png",
+    "tags": [
+      "fighter_05",
+      "class",
+      "fighter"
+    ]
+  },
+  {
+    "id": "gunslinger_01",
+    "name": "Gunslinger_01",
+    "mainCategory": "classes",
+    "subCategory": "gunslinger",
+    "thumbnailPath": "gunslinger_01_256.webp",
+    "masterPath": "gunslinger_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/gunslinger",
+    "maskPath": "gunslinger_01_mask.png",
+    "tags": [
+      "gunslinger_01",
+      "class",
+      "gunslinger"
+    ]
+  },
+  {
     "id": "drunkenmaster",
     "name": "Drunkenmaster",
     "mainCategory": "classes",
@@ -157,6 +742,96 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "monk_01",
+    "name": "Monk_01",
+    "mainCategory": "classes",
+    "subCategory": "monk",
+    "thumbnailPath": "monk_01_256.webp",
+    "masterPath": "monk_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
+    "maskPath": "monk_01_mask.png",
+    "tags": [
+      "monk_01",
+      "class",
+      "monk"
+    ]
+  },
+  {
+    "id": "monk_02",
+    "name": "Monk_02",
+    "mainCategory": "classes",
+    "subCategory": "monk",
+    "thumbnailPath": "monk_02_256.webp",
+    "masterPath": "monk_02_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
+    "maskPath": "monk_02_mask.png",
+    "tags": [
+      "monk_02",
+      "class",
+      "monk"
+    ]
+  },
+  {
+    "id": "monk_03",
+    "name": "Monk_03",
+    "mainCategory": "classes",
+    "subCategory": "monk",
+    "thumbnailPath": "monk_03_256.webp",
+    "masterPath": "monk_03_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
+    "maskPath": "monk_03_mask.png",
+    "tags": [
+      "monk_03",
+      "class",
+      "monk"
+    ]
+  },
+  {
+    "id": "monk_04",
+    "name": "Monk_04",
+    "mainCategory": "classes",
+    "subCategory": "monk",
+    "thumbnailPath": "monk_04_256.webp",
+    "masterPath": "monk_04_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
+    "maskPath": "monk_04_mask.png",
+    "tags": [
+      "monk_04",
+      "class",
+      "monk"
+    ]
+  },
+  {
+    "id": "monk_06",
+    "name": "Monk_06",
+    "mainCategory": "classes",
+    "subCategory": "monk",
+    "thumbnailPath": "monk_06_256.webp",
+    "masterPath": "monk_06_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
+    "maskPath": "monk_06_mask.png",
+    "tags": [
+      "monk_06",
+      "class",
+      "monk"
+    ]
+  },
+  {
+    "id": "dragon_paladin",
+    "name": "Dragon_paladin",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "dragon_paladin_256.webp",
+    "masterPath": "dragon_paladin_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "dragon_paladin_mask.png",
+    "tags": [
+      "dragon_paladin",
+      "class",
+      "paladin"
+    ]
+  },
+  {
     "id": "justice",
     "name": "Justice",
     "mainCategory": "classes",
@@ -167,6 +842,111 @@ export const assets: AssetRecord = {
     "maskPath": "justice_mask.png",
     "tags": [
       "justice",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_01",
+    "name": "Paladin_01",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_01_256.webp",
+    "masterPath": "paladin_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_01_mask.png",
+    "tags": [
+      "paladin_01",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_03",
+    "name": "Paladin_03",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_03_256.webp",
+    "masterPath": "paladin_03_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_03_mask.png",
+    "tags": [
+      "paladin_03",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_04",
+    "name": "Paladin_04",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_04_256.webp",
+    "masterPath": "paladin_04_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_04_mask.png",
+    "tags": [
+      "paladin_04",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_05",
+    "name": "Paladin_05",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_05_256.webp",
+    "masterPath": "paladin_05_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_05_mask.png",
+    "tags": [
+      "paladin_05",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_06",
+    "name": "Paladin_06",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_06_256.webp",
+    "masterPath": "paladin_06_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_06_mask.png",
+    "tags": [
+      "paladin_06",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_08",
+    "name": "Paladin_08",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_08_256.webp",
+    "masterPath": "paladin_08_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_08_mask.png",
+    "tags": [
+      "paladin_08",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_09",
+    "name": "Paladin_09",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_09_256.webp",
+    "masterPath": "paladin_09_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_09_mask.png",
+    "tags": [
+      "paladin_09",
       "class",
       "paladin"
     ]
@@ -187,6 +967,96 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "paladin_10",
+    "name": "Paladin_10",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_10_256.webp",
+    "masterPath": "paladin_10_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_10_mask.png",
+    "tags": [
+      "paladin_10",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_11",
+    "name": "Paladin_11",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_11_256.webp",
+    "masterPath": "paladin_11_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_11_mask.png",
+    "tags": [
+      "paladin_11",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_12",
+    "name": "Paladin_12",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_12_256.webp",
+    "masterPath": "paladin_12_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_12_mask.png",
+    "tags": [
+      "paladin_12",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_13",
+    "name": "Paladin_13",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_13_256.webp",
+    "masterPath": "paladin_13_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_13_mask.png",
+    "tags": [
+      "paladin_13",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_14",
+    "name": "Paladin_14",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_14_256.webp",
+    "masterPath": "paladin_14_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_14_mask.png",
+    "tags": [
+      "paladin_14",
+      "class",
+      "paladin"
+    ]
+  },
+  {
+    "id": "paladin_15",
+    "name": "Paladin_15",
+    "mainCategory": "classes",
+    "subCategory": "paladin",
+    "thumbnailPath": "paladin_15_256.webp",
+    "masterPath": "paladin_15_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
+    "maskPath": "paladin_15_mask.png",
+    "tags": [
+      "paladin_15",
+      "class",
+      "paladin"
+    ]
+  },
+  {
     "id": "hunter",
     "name": "Hunter",
     "mainCategory": "classes",
@@ -197,6 +1067,66 @@ export const assets: AssetRecord = {
     "maskPath": "hunter_mask.png",
     "tags": [
       "hunter",
+      "class",
+      "ranger"
+    ]
+  },
+  {
+    "id": "ranger_01",
+    "name": "Ranger_01",
+    "mainCategory": "classes",
+    "subCategory": "ranger",
+    "thumbnailPath": "ranger_01_256.webp",
+    "masterPath": "ranger_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
+    "maskPath": "ranger_01_mask.png",
+    "tags": [
+      "ranger_01",
+      "class",
+      "ranger"
+    ]
+  },
+  {
+    "id": "ranger_03",
+    "name": "Ranger_03",
+    "mainCategory": "classes",
+    "subCategory": "ranger",
+    "thumbnailPath": "ranger_03_256.webp",
+    "masterPath": "ranger_03_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
+    "maskPath": "ranger_03_mask.png",
+    "tags": [
+      "ranger_03",
+      "class",
+      "ranger"
+    ]
+  },
+  {
+    "id": "ranger_04",
+    "name": "Ranger_04",
+    "mainCategory": "classes",
+    "subCategory": "ranger",
+    "thumbnailPath": "ranger_04_256.webp",
+    "masterPath": "ranger_04_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
+    "maskPath": "ranger_04_mask.png",
+    "tags": [
+      "ranger_04",
+      "class",
+      "ranger"
+    ]
+  },
+  {
+    "id": "ranger_05",
+    "name": "Ranger_05",
+    "mainCategory": "classes",
+    "subCategory": "ranger",
+    "thumbnailPath": "ranger_05_256.webp",
+    "masterPath": "ranger_05_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
+    "maskPath": "ranger_05_mask.png",
+    "tags": [
+      "ranger_05",
       "class",
       "ranger"
     ]
@@ -229,6 +1159,240 @@ export const assets: AssetRecord = {
       "stalker",
       "class",
       "ranger"
+    ]
+  },
+  {
+    "id": "rogue_01",
+    "name": "Rogue_01",
+    "mainCategory": "classes",
+    "subCategory": "rogue",
+    "thumbnailPath": "rogue_01_256.webp",
+    "masterPath": "rogue_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/rogue",
+    "maskPath": "rogue_01_mask.png",
+    "tags": [
+      "rogue_01",
+      "class",
+      "rogue"
+    ]
+  },
+  {
+    "id": "rogue_02",
+    "name": "Rogue_02",
+    "mainCategory": "classes",
+    "subCategory": "rogue",
+    "thumbnailPath": "rogue_02_256.webp",
+    "masterPath": "rogue_02_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/rogue",
+    "maskPath": "rogue_02_mask.png",
+    "tags": [
+      "rogue_02",
+      "class",
+      "rogue"
+    ]
+  },
+  {
+    "id": "rogue_03",
+    "name": "Rogue_03",
+    "mainCategory": "classes",
+    "subCategory": "rogue",
+    "thumbnailPath": "rogue_03_256.webp",
+    "masterPath": "rogue_03_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/rogue",
+    "maskPath": "rogue_03_mask.png",
+    "tags": [
+      "rogue_03",
+      "class",
+      "rogue"
+    ]
+  },
+  {
+    "id": "rogue_04",
+    "name": "Rogue_04",
+    "mainCategory": "classes",
+    "subCategory": "rogue",
+    "thumbnailPath": "rogue_04_256.webp",
+    "masterPath": "rogue_04_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/rogue",
+    "maskPath": "rogue_04_mask.png",
+    "tags": [
+      "rogue_04",
+      "class",
+      "rogue"
+    ]
+  },
+  {
+    "id": "sorcerer_01",
+    "name": "Sorcerer_01",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_01_256.webp",
+    "masterPath": "sorcerer_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "maskPath": "sorcerer_01_mask.png",
+    "tags": [
+      "sorcerer_01",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
+    "id": "sorcerer_02",
+    "name": "Sorcerer_02",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_02_256.webp",
+    "masterPath": "sorcerer_02_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "maskPath": "sorcerer_02_mask.png",
+    "tags": [
+      "sorcerer_02",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
+    "id": "sorcerer_03",
+    "name": "Sorcerer_03",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_03_256.webp",
+    "masterPath": "sorcerer_03_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "maskPath": "sorcerer_03_mask.png",
+    "tags": [
+      "sorcerer_03",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
+    "id": "sorcerer_04",
+    "name": "Sorcerer_04",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_04_256.webp",
+    "masterPath": "sorcerer_04_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "maskPath": "sorcerer_04_mask.png",
+    "tags": [
+      "sorcerer_04",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
+    "id": "sorcerer_05",
+    "name": "Sorcerer_05",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_05_256.webp",
+    "masterPath": "sorcerer_05_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "tags": [
+      "sorcerer_05",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
+    "id": "sorcerer_06",
+    "name": "Sorcerer_06",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_06_256.webp",
+    "masterPath": "sorcerer_06_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "maskPath": "sorcerer_06_mask.png",
+    "tags": [
+      "sorcerer_06",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
+    "id": "sorcerer_07a",
+    "name": "Sorcerer_07a",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_07a_256.webp",
+    "masterPath": "sorcerer_07a_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "tags": [
+      "sorcerer_07a",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
+    "id": "sorcerer_07b",
+    "name": "Sorcerer_07b",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_07b_256.webp",
+    "masterPath": "sorcerer_07b_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "tags": [
+      "sorcerer_07b",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
+    "id": "sorcerer_07c",
+    "name": "Sorcerer_07c",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_07c_256.webp",
+    "masterPath": "sorcerer_07c_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "tags": [
+      "sorcerer_07c",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
+    "id": "sorcerer_07d",
+    "name": "Sorcerer_07d",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_07d_256.webp",
+    "masterPath": "sorcerer_07d_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "tags": [
+      "sorcerer_07d",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
+    "id": "sorcerer_07e",
+    "name": "Sorcerer_07e",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_07e_256.webp",
+    "masterPath": "sorcerer_07e_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "tags": [
+      "sorcerer_07e",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
+    "id": "sorcerer_thin",
+    "name": "Sorcerer_thin",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_thin_256.webp",
+    "masterPath": "sorcerer_thin_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "maskPath": "sorcerer_thin_mask.png",
+    "tags": [
+      "sorcerer_thin",
+      "class",
+      "sorcerer"
     ]
   },
   {
@@ -292,16 +1456,121 @@ export const assets: AssetRecord = {
     ]
   },
   {
-    "id": "warlock",
-    "name": "Warlock",
+    "id": "warlock_01",
+    "name": "Warlock_01",
     "mainCategory": "classes",
     "subCategory": "warlock",
-    "thumbnailPath": "warlock_256.webp",
-    "masterPath": "warlock_1024.png",
+    "thumbnailPath": "warlock_01_256.webp",
+    "masterPath": "warlock_01_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
-    "maskPath": "warlock_mask.png",
+    "maskPath": "warlock_01_mask.png",
     "tags": [
-      "warlock",
+      "warlock_01",
+      "class",
+      "warlock"
+    ]
+  },
+  {
+    "id": "warlock_02",
+    "name": "Warlock_02",
+    "mainCategory": "classes",
+    "subCategory": "warlock",
+    "thumbnailPath": "warlock_02_256.webp",
+    "masterPath": "warlock_02_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
+    "maskPath": "warlock_02_mask.png",
+    "tags": [
+      "warlock_02",
+      "class",
+      "warlock"
+    ]
+  },
+  {
+    "id": "warlock_03",
+    "name": "Warlock_03",
+    "mainCategory": "classes",
+    "subCategory": "warlock",
+    "thumbnailPath": "warlock_03_256.webp",
+    "masterPath": "warlock_03_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
+    "maskPath": "warlock_03_mask.png",
+    "tags": [
+      "warlock_03",
+      "class",
+      "warlock"
+    ]
+  },
+  {
+    "id": "warlock_04",
+    "name": "Warlock_04",
+    "mainCategory": "classes",
+    "subCategory": "warlock",
+    "thumbnailPath": "warlock_04_256.webp",
+    "masterPath": "warlock_04_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
+    "maskPath": "warlock_04_mask.png",
+    "tags": [
+      "warlock_04",
+      "class",
+      "warlock"
+    ]
+  },
+  {
+    "id": "warlock_05",
+    "name": "Warlock_05",
+    "mainCategory": "classes",
+    "subCategory": "warlock",
+    "thumbnailPath": "warlock_05_256.webp",
+    "masterPath": "warlock_05_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
+    "maskPath": "warlock_05_mask.png",
+    "tags": [
+      "warlock_05",
+      "class",
+      "warlock"
+    ]
+  },
+  {
+    "id": "warlock_08",
+    "name": "Warlock_08",
+    "mainCategory": "classes",
+    "subCategory": "warlock",
+    "thumbnailPath": "warlock_08_256.webp",
+    "masterPath": "warlock_08_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
+    "maskPath": "warlock_08_mask.png",
+    "tags": [
+      "warlock_08",
+      "class",
+      "warlock"
+    ]
+  },
+  {
+    "id": "warlock_10",
+    "name": "Warlock_10",
+    "mainCategory": "classes",
+    "subCategory": "warlock",
+    "thumbnailPath": "warlock_10_256.webp",
+    "masterPath": "warlock_10_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
+    "maskPath": "warlock_10_mask.png",
+    "tags": [
+      "warlock_10",
+      "class",
+      "warlock"
+    ]
+  },
+  {
+    "id": "warlock_14",
+    "name": "Warlock_14",
+    "mainCategory": "classes",
+    "subCategory": "warlock",
+    "thumbnailPath": "warlock_14_256.webp",
+    "masterPath": "warlock_14_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
+    "maskPath": "warlock_14_mask.png",
+    "tags": [
+      "warlock_14",
       "class",
       "warlock"
     ]
@@ -317,6 +1586,51 @@ export const assets: AssetRecord = {
     "maskPath": "divination_mask.png",
     "tags": [
       "divination",
+      "class",
+      "wizard"
+    ]
+  },
+  {
+    "id": "wizard_01",
+    "name": "Wizard_01",
+    "mainCategory": "classes",
+    "subCategory": "wizard",
+    "thumbnailPath": "wizard_01_256.webp",
+    "masterPath": "wizard_01_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/wizard",
+    "maskPath": "wizard_01_mask.png",
+    "tags": [
+      "wizard_01",
+      "class",
+      "wizard"
+    ]
+  },
+  {
+    "id": "wizard_02",
+    "name": "Wizard_02",
+    "mainCategory": "classes",
+    "subCategory": "wizard",
+    "thumbnailPath": "wizard_02_256.webp",
+    "masterPath": "wizard_02_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/wizard",
+    "maskPath": "wizard_02_mask.png",
+    "tags": [
+      "wizard_02",
+      "class",
+      "wizard"
+    ]
+  },
+  {
+    "id": "wizard_03",
+    "name": "Wizard_03",
+    "mainCategory": "classes",
+    "subCategory": "wizard",
+    "thumbnailPath": "wizard_03_256.webp",
+    "masterPath": "wizard_03_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/wizard",
+    "maskPath": "wizard_03_mask.png",
+    "tags": [
+      "wizard_03",
       "class",
       "wizard"
     ]
@@ -1031,7 +2345,7 @@ export const assets: AssetRecord = {
     "name": "Flames",
     "mainCategory": "thematic",
     "subCategory": "elemental",
-    "thumbnailPath": "flames_256.png",
+    "thumbnailPath": "flames_256.webp",
     "masterPath": "flames_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/elemental",
     "maskPath": "flames_mask.png",
@@ -1061,7 +2375,7 @@ export const assets: AssetRecord = {
     "name": "Nature_blackrose",
     "mainCategory": "thematic",
     "subCategory": "nature",
-    "thumbnailPath": "nature_blackrose_256.png",
+    "thumbnailPath": "nature_blackrose_256.webp",
     "masterPath": "nature_blackrose_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_blackrose_mask.png",
@@ -1091,7 +2405,7 @@ export const assets: AssetRecord = {
     "name": "Nature_knight",
     "mainCategory": "thematic",
     "subCategory": "nature",
-    "thumbnailPath": "nature_knight_256.png",
+    "thumbnailPath": "nature_knight_256.webp",
     "masterPath": "nature_knight_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_knight_mask.png",
@@ -1552,6 +2866,199 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "metallic_black",
+    "name": "Metallic_black",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_black_256.webp",
+    "masterPath": "metallic_black_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_black",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_blue",
+    "name": "Metallic_blue",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_blue_256.webp",
+    "masterPath": "metallic_blue_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_blue",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_bronze",
+    "name": "Metallic_bronze",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_bronze_256.webp",
+    "masterPath": "metallic_bronze_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_bronze",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_gold",
+    "name": "Metallic_gold",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_gold_256.webp",
+    "masterPath": "metallic_gold_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_gold",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_green",
+    "name": "Metallic_green",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_green_256.webp",
+    "masterPath": "metallic_green_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_green",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_orange",
+    "name": "Metallic_orange",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_orange_256.webp",
+    "masterPath": "metallic_orange_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_orange",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_pink",
+    "name": "Metallic_pink",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_pink_256.webp",
+    "masterPath": "metallic_pink_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_pink",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_purple",
+    "name": "Metallic_purple",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_purple_256.webp",
+    "masterPath": "metallic_purple_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_purple",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_red",
+    "name": "Metallic_red",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_red_256.webp",
+    "masterPath": "metallic_red_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_red",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_silver",
+    "name": "Metallic_silver",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_silver_256.webp",
+    "masterPath": "metallic_silver_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_silver",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_teal",
+    "name": "Metallic_teal",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_teal_256.webp",
+    "masterPath": "metallic_teal_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_teal",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_yellow",
+    "name": "Metallic_yellow",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "masterPath": "metallic_yellow_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_yellow",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
+    "id": "metallic_yellow_",
+    "name": "Metallic_yellow_",
+    "mainCategory": "utility",
+    "subCategory": "metallic",
+    "thumbnailPath": "metallic_yellow__256.webp",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
+    "maskPath": "metallic_mask.png",
+    "tags": [
+      "metallic_yellow_",
+      "utility",
+      "metallic"
+    ]
+  },
+  {
     "id": "rarity_blue",
     "name": "Rarity_blue",
     "mainCategory": "utility",
@@ -1646,10 +3153,9 @@ export const assets: AssetRecord = {
     "name": "Sludge_blue",
     "mainCategory": "utility",
     "subCategory": "sludge",
-    "thumbnailPath": "sludge_blue_256.png",
+    "thumbnailPath": "sludge_blue_256.webp",
     "masterPath": "sludge_blue_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
-    "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_blue",
       "utility",
@@ -1661,10 +3167,9 @@ export const assets: AssetRecord = {
     "name": "Sludge_green",
     "mainCategory": "utility",
     "subCategory": "sludge",
-    "thumbnailPath": "sludge_green_256.png",
+    "thumbnailPath": "sludge_green_256.webp",
     "masterPath": "sludge_green_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
-    "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_green",
       "utility",
@@ -1676,10 +3181,9 @@ export const assets: AssetRecord = {
     "name": "Sludge_orange",
     "mainCategory": "utility",
     "subCategory": "sludge",
-    "thumbnailPath": "sludge_orange_256.png",
+    "thumbnailPath": "sludge_orange_256.webp",
     "masterPath": "sludge_orange_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
-    "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_orange",
       "utility",
@@ -1691,10 +3195,9 @@ export const assets: AssetRecord = {
     "name": "Sludge_pink",
     "mainCategory": "utility",
     "subCategory": "sludge",
-    "thumbnailPath": "sludge_pink_256.png",
+    "thumbnailPath": "sludge_pink_256.webp",
     "masterPath": "sludge_pink_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
-    "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_pink",
       "utility",
@@ -1706,10 +3209,9 @@ export const assets: AssetRecord = {
     "name": "Sludge_purple",
     "mainCategory": "utility",
     "subCategory": "sludge",
-    "thumbnailPath": "sludge_purple_256.png",
+    "thumbnailPath": "sludge_purple_256.webp",
     "masterPath": "sludge_purple_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
-    "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_purple",
       "utility",
@@ -1721,10 +3223,9 @@ export const assets: AssetRecord = {
     "name": "Sludge_red",
     "mainCategory": "utility",
     "subCategory": "sludge",
-    "thumbnailPath": "sludge_red_256.png",
+    "thumbnailPath": "sludge_red_256.webp",
     "masterPath": "sludge_red_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
-    "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_red",
       "utility",
@@ -1736,10 +3237,9 @@ export const assets: AssetRecord = {
     "name": "Sludge_teal",
     "mainCategory": "utility",
     "subCategory": "sludge",
-    "thumbnailPath": "sludge_teal_256.png",
+    "thumbnailPath": "sludge_teal_256.webp",
     "masterPath": "sludge_teal_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
-    "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_teal",
       "utility",
@@ -1751,10 +3251,9 @@ export const assets: AssetRecord = {
     "name": "Sludge_yellow",
     "mainCategory": "utility",
     "subCategory": "sludge",
-    "thumbnailPath": "sludge_yellow_256.png",
+    "thumbnailPath": "sludge_yellow_256.webp",
     "masterPath": "sludge_yellow_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
-    "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_yellow",
       "utility",
