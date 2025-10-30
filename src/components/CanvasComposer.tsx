@@ -42,15 +42,26 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
         
         try {
           const [f, m] = await Promise.all([
-            loadImage(framePath),
-            loadImage(maskPath),
+            loadImage(framePath).catch(err => {
+              console.error("Failed to load frame:", framePath, err);
+              throw err;
+            }),
+            loadImage(maskPath).catch(err => {
+              console.error("Failed to load mask:", maskPath, err);
+              // Allow mask to fail gracefully - return null instead of throwing
+              return null;
+            }),
           ]);
           if (mounted) { 
             setFrameImg(f); 
             setMaskImg(m); 
           }
         } catch (err) {
-          console.error("Failed to load frame/mask:", err);
+          console.error("Failed to load frame:", framePath, err);
+          if (mounted) {
+            setFrameImg(null);
+            setMaskImg(null);
+          }
         }
       } else {
         setFrameImg(null); 
@@ -106,7 +117,7 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
             (img as any).__src = overlay.src;
             newCache.set(overlay.id, img);
           } catch (err) {
-            console.error("Failed to load overlay:", err);
+            console.error("Failed to load overlay:", overlay.src, err);
           }
         }
       }

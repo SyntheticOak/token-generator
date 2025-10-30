@@ -194,9 +194,14 @@ export async function composeToken(opts: {
   
   // Apply mask to both background and character together
   if (maskImg) {
-    const alphaMask = convertMaskToAlpha(maskImg, size);
-    tempCtx.globalCompositeOperation = "destination-in";
-    tempCtx.drawImage(alphaMask, 0, 0, size, size);
+    try {
+      const alphaMask = convertMaskToAlpha(maskImg, size);
+      tempCtx.globalCompositeOperation = "destination-in";
+      tempCtx.drawImage(alphaMask, 0, 0, size, size);
+    } catch (e) {
+      console.error("Mask application failed (likely CORS):", e);
+      // Continue without mask so overlays/frames still render
+    }
   }
   
   // Draw masked layers to main canvas
