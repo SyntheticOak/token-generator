@@ -3035,25 +3035,12 @@ export const assets: AssetRecord = {
     "name": "Metallic_yellow",
     "mainCategory": "utility",
     "subCategory": "metallic",
+    "thumbnailPath": "metallic_yellow_256.webp",
     "masterPath": "metallic_yellow_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_yellow",
-      "utility",
-      "metallic"
-    ]
-  },
-  {
-    "id": "metallic_yellow_",
-    "name": "Metallic_yellow_",
-    "mainCategory": "utility",
-    "subCategory": "metallic",
-    "thumbnailPath": "metallic_yellow__256.webp",
-    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
-    "maskPath": "metallic_mask.png",
-    "tags": [
-      "metallic_yellow_",
       "utility",
       "metallic"
     ]
