@@ -5,7 +5,10 @@ export async function loadImage(src: string): Promise<HTMLImageElement> {
     const img = new Image();
     img.crossOrigin = "anonymous";
     img.onload = () => res(img);
-    img.onerror = rej;
+    img.onerror = (err) => {
+      console.error("Image load failed:", src, err);
+      rej(new Error(`Failed to load image: ${src}. This may be a CORS issue.`));
+    };
     img.src = src;
   });
 }

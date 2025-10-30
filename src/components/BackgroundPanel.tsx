@@ -32,9 +32,14 @@ export default function BackgroundPanel() {
   };
 
   const handleLibrarySelect = async (src: string) => {
-    const img = await loadImage(src);
-    addBackground(src, img);
-    selectLayer('background');
+    try {
+      const img = await loadImage(src);
+      addBackground(src, img);
+      selectLayer('background');
+    } catch (err) {
+      console.error("Failed to load background image:", src, err);
+      alert(`Failed to load background image. This may be a CORS issue. Check console for details.`);
+    }
   };
 
   const backgrounds = getBackgrounds();
