@@ -65,8 +65,8 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
     const loadLayerImages = async () => {
       const newCache = new Map(imageCache);
       
-      // Load background
-      if (canvasDoc.background) {
+      // Load background (skip if solid color only - no src)
+      if (canvasDoc.background && canvasDoc.background.src) {
         const cached = newCache.get(canvasDoc.background.id);
         // Reload if src changed
         if (!cached || (cached as any).__src !== canvasDoc.background.src) {
@@ -78,6 +78,9 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
             console.error("Failed to load background:", err);
           }
         }
+      } else if (canvasDoc.background && !canvasDoc.background.src && canvasDoc.background.backgroundColor) {
+        // Solid color background - remove from cache if previously was an image
+        newCache.delete(canvasDoc.background.id);
       }
       
       // Load character

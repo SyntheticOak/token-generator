@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { useEditorStore } from "../store/useEditorStore";
 import { loadImage, resizeImageIfNeeded } from "../lib/canvas";
+import { getOverlays } from "../lib/assetManifest";
 
 export default function OverlaysPanel() {
   const { canvasDoc, addOverlay, updateOverlay, removeOverlay, bringOverlayForward, sendOverlayBackward, selectLayer, selectedLayerId } = useEditorStore();
@@ -26,14 +27,13 @@ export default function OverlaysPanel() {
     selectLayer(id);
   };
 
-  const handleLibrarySelect = async (fileName: string) => {
-    const src = `/assets/overlays/${fileName}`;
+  const handleLibrarySelect = async (src: string) => {
     const img = await loadImage(src);
     const id = addOverlay(src, img);
     selectLayer(id);
   };
 
-  const overlayLibrary = ['fx_01.png'];
+  const overlayLibrary = getOverlays();
 
   return (
     <div className="border-b">
@@ -67,15 +67,15 @@ export default function OverlaysPanel() {
 
       {/* Overlay library */}
       <div className="grid grid-cols-3 gap-2 mb-3">
-        {overlayLibrary.map(fileName => (
+        {overlayLibrary.map(overlay => (
           <button
-            key={fileName}
-            onClick={() => handleLibrarySelect(fileName)}
+            key={overlay.id}
+            onClick={() => handleLibrarySelect(overlay.src)}
             className="aspect-square border rounded overflow-hidden hover:border-blue-500 bg-gray-100"
           >
             <img
-              src={`/assets/overlays/${fileName}`}
-              alt={fileName}
+              src={overlay.src}
+              alt={overlay.id}
               className="w-full h-full object-contain"
             />
           </button>

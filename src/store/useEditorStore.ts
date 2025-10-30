@@ -206,9 +206,21 @@ export const useEditorStore = create<EditorState>((set, get) => ({
   }),
   
   updateBackground: (patch) => set((s) => {
+    const existingBg = s.canvasDoc.background;
+    const newBg = existingBg 
+      ? { ...existingBg, ...patch }
+      : {
+          id: 'background',
+          type: 'background' as const,
+          src: '',
+          opacity: 1,
+          transform: { ...defaultTransform, scale: 1 },
+          visible: true,
+          ...patch
+        };
     const newDoc = {
       ...s.canvasDoc,
-      background: s.canvasDoc.background ? { ...s.canvasDoc.background, ...patch } : undefined
+      background: newBg
     };
     debouncedSave(newDoc);
     return { canvasDoc: newDoc };

@@ -34,10 +34,7 @@ export default function PortraitPanel() {
 
   const handlePortraitSelect = async (portrait: { id: string; src: string }) => {
     try {
-      // Use local path for development, like BackgroundPanel does
-      const localSrc = `/assets/portraits/${portrait.id}.jpg`;
-      console.log('Loading portrait:', portrait.id, localSrc);
-      const img = await loadImage(localSrc);
+      const img = await loadImage(portrait.src);
       console.log('Portrait loaded:', img.width, img.height);
       const resizedImg = await resizeImageIfNeeded(img, 1024);
       console.log('Portrait resized:', resizedImg.width, resizedImg.height);
@@ -95,7 +92,7 @@ export default function PortraitPanel() {
                     className="aspect-square rounded border-2 border-gray-200 hover:border-blue-500 overflow-hidden"
                   >
                     <img
-                      src={`/assets/portraits/${portrait.id}.jpg`}
+                      src={portrait.src}
                       alt={portrait.id}
                       className="w-full h-full object-cover"
                     />
