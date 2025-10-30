@@ -28,9 +28,14 @@ export default function OverlaysPanel() {
   };
 
   const handleLibrarySelect = async (src: string) => {
-    const img = await loadImage(src);
-    const id = addOverlay(src, img);
-    selectLayer(id);
+    try {
+      const img = await loadImage(src);
+      const id = addOverlay(src, img);
+      selectLayer(id);
+    } catch (err) {
+      console.error("Failed to load overlay image:", src, err);
+      alert(`Failed to load overlay image. This may be a CORS issue. Check console for details.`);
+    }
   };
 
   const overlayLibrary = getOverlays();

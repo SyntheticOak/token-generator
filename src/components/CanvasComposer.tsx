@@ -86,7 +86,7 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
             (img as any).__src = canvasDoc.background.src; // Track src for cache invalidation
             newCache.set(canvasDoc.background.id, img);
           } catch (err) {
-            console.error("Failed to load background:", err);
+            console.error("Failed to load background:", canvasDoc.background.src, err);
           }
         }
       } else if (canvasDoc.background && !canvasDoc.background.src && canvasDoc.background.backgroundColor) {
@@ -103,7 +103,7 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
             (img as any).__src = canvasDoc.character.src;
             newCache.set(canvasDoc.character.id, img);
           } catch (err) {
-            console.error("Failed to load character:", err);
+            console.error("Failed to load character:", canvasDoc.character.src, err);
           }
         }
       }
