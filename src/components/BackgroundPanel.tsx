@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { useEditorStore } from "../store/useEditorStore";
 import { loadImage, resizeImageIfNeeded } from "../lib/canvas";
+import { getBackgrounds } from "../lib/assetManifest";
 
 export default function BackgroundPanel() {
   const { canvasDoc, addBackground, removeBackground, updateBackground, selectLayer, selectedLayerId } = useEditorStore();
@@ -30,18 +31,13 @@ export default function BackgroundPanel() {
     selectLayer('background');
   };
 
-  const handleLibrarySelect = async (fileName: string) => {
-    const src = `/assets/backgrounds/${fileName}`;
+  const handleLibrarySelect = async (src: string) => {
     const img = await loadImage(src);
     addBackground(src, img);
     selectLayer('background');
   };
 
-  const backgroundLibrary = [
-    'bg_01.jpg', 'bg_02.jpg', 'bg_03.jpg', 'bg_04.jpg', 
-    'bg_05.jpg', 'bg_06.jpg', 'bg_07.jpg', 'bg_08.jpg',
-    'bg_09.jpg', 'bg_10.jpg', 'bg_11.jpg'
-  ];
+  const backgrounds = getBackgrounds();
 
   return (
     <div className={`border-b ${isSelected ? 'bg-blue-50' : ''}`}>
@@ -81,24 +77,13 @@ export default function BackgroundPanel() {
             type="color"
             value={backgroundColor}
             onChange={(e) => {
-              const color = e.target.value;
-              if (bg) {
-                updateBackground({ backgroundColor: color });
-              } else {
-                addBackground('', undefined);
-                setTimeout(() => updateBackground({ backgroundColor: color }), 0);
-              }
+              updateBackground({ backgroundColor: e.target.value });
             }}
             className="h-8 w-16 cursor-pointer border border-gray-300 rounded"
           />
           <button
             onClick={() => {
-              if (bg) {
-                updateBackground({ backgroundColor: backgroundColor });
-              } else {
-                addBackground('', undefined);
-                setTimeout(() => updateBackground({ backgroundColor: backgroundColor }), 0);
-              }
+              updateBackground({ backgroundColor: backgroundColor });
               selectLayer('background');
             }}
             className="px-3 py-1 bg-gray-200 hover:bg-gray-300 rounded text-sm"
@@ -110,17 +95,17 @@ export default function BackgroundPanel() {
 
       {/* Background library */}
       <div className="grid grid-cols-3 gap-2 mb-2">
-        {backgroundLibrary.map(fileName => (
+        {backgrounds.map(background => (
           <button
-            key={fileName}
-            onClick={() => handleLibrarySelect(fileName)}
+            key={background.id}
+            onClick={() => handleLibrarySelect(background.src)}
             className={`aspect-square border-2 rounded overflow-hidden hover:border-blue-500 ${
-              bg?.src.includes(fileName) ? 'border-blue-500' : 'border-gray-300'
+              bg?.src === background.src ? 'border-blue-500' : 'border-gray-300'
             }`}
           >
             <img
-              src={`/assets/backgrounds/${fileName}`}
-              alt={fileName}
+              src={background.src}
+              alt={background.id}
               className="w-full h-full object-cover"
             />
           </button>
