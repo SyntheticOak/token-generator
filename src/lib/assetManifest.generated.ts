@@ -3304,6 +3304,10 @@ export const assets: AssetRecord = {
 ],
   overlays: [
   {
+    "id": "blue_ring",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/blue_ring.png"
+  },
+  {
     "id": "butterflies_01",
     "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/butterflies_01.png"
   },
@@ -3324,6 +3328,18 @@ export const assets: AssetRecord = {
     "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fx_01.png"
   },
   {
+    "id": "fx_02",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fx_02.png"
+  },
+  {
+    "id": "fx_03",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fx_03.png"
+  },
+  {
+    "id": "fx_04",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fx_04.png"
+  },
+  {
     "id": "glitter_01",
     "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/glitter_01.png"
   },
@@ -3342,6 +3358,18 @@ export const assets: AssetRecord = {
   {
     "id": "glow_04",
     "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/glow_04.png"
+  },
+  {
+    "id": "green_ring",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/green_ring.png"
+  },
+  {
+    "id": "purple_ring",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/purple_ring.png"
+  },
+  {
+    "id": "red_ring",
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/red_ring.png"
   },
   {
     "id": "stars_01",

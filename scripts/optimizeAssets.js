@@ -6,6 +6,9 @@ import { execSync } from 'child_process';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// NOTE: This script only processes frames (not overlays, portraits, or backgrounds).
+// This is intentional - frames need optimization (remove 512px, convert 256px to WebP)
+// while other asset types don't require optimization.
 const ASSETS_DIR = path.join(__dirname, '../public/assets/frames');
 
 // Convert PNG to WebP using sharp
