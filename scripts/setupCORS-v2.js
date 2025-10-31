@@ -1,6 +1,5 @@
-import fetch from 'node-fetch';
-
 // You'll need to get these from Cloudflare Dashboard
+// Note: Uses native fetch (Node 18+) instead of node-fetch
 const CLOUDFLARE_API_TOKEN = process.env.CLOUDFLARE_API_TOKEN;
 const CLOUDFLARE_ACCOUNT_ID = process.env.R2_ACCOUNT_ID;
 const BUCKET_NAME = process.env.R2_BUCKET_NAME;

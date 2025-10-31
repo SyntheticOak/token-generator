@@ -296,10 +296,11 @@ function scanBackgrounds() {
   const backgroundsDir = path.join(ASSETS_DIR, 'backgrounds');
   if (!fs.existsSync(backgroundsDir)) return [];
   
-  const files = fs.readdirSync(backgroundsDir);
-  return files
-    .filter(file => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
-    .map(file => {
+  const entries = fs.readdirSync(backgroundsDir, { withFileTypes: true });
+  return entries
+    .filter(entry => entry.isFile() && /\.(jpg|jpeg|png|gif|webp)$/i.test(entry.name))
+    .map(entry => {
+      const file = entry.name;
       const id = path.parse(file).name;
       const r2Path = `/assets/backgrounds/${file}`;
       const src = isProduction && R2_PUBLIC_URL
@@ -314,10 +315,11 @@ function scanOverlays() {
   const overlaysDir = path.join(ASSETS_DIR, 'overlays');
   if (!fs.existsSync(overlaysDir)) return [];
   
-  const files = fs.readdirSync(overlaysDir);
-  return files
-    .filter(file => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
-    .map(file => {
+  const entries = fs.readdirSync(overlaysDir, { withFileTypes: true });
+  return entries
+    .filter(entry => entry.isFile() && /\.(jpg|jpeg|png|gif|webp)$/i.test(entry.name))
+    .map(entry => {
+      const file = entry.name;
       const id = path.parse(file).name;
       const r2Path = `/assets/overlays/${file}`;
       const src = isProduction && R2_PUBLIC_URL
@@ -332,10 +334,11 @@ function scanPortraits() {
   const portraitsDir = path.join(ASSETS_DIR, 'portraits');
   if (!fs.existsSync(portraitsDir)) return [];
   
-  const files = fs.readdirSync(portraitsDir);
-  return files
-    .filter(file => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
-    .map(file => {
+  const entries = fs.readdirSync(portraitsDir, { withFileTypes: true });
+  return entries
+    .filter(entry => entry.isFile() && /\.(jpg|jpeg|png|gif|webp)$/i.test(entry.name))
+    .map(entry => {
+      const file = entry.name;
       const id = path.parse(file).name;
       const r2Path = `/assets/portraits/${file}`;
       const src = isProduction && R2_PUBLIC_URL
