@@ -82,15 +82,21 @@ async function uploadDirectory(localDir, bucket, prefix = '') {
     if (entry.isDirectory()) {
       await uploadDirectory(localPath, bucket, key);
     } else {
-      // Check if file already exists and has same size
+      // Check if file already exists
       const stats = fs.statSync(localPath);
       const exists = await fileExists(bucket, key);
       
       if (exists) {
-        console.log(`  Skipping ${key} (already exists)`);
+        console.log(`  ✓ Skipping ${key} (already exists)`);
       } else {
-        console.log(`  Uploading ${key}...`);
-        await uploadFile(bucket, key, localPath);
+        try {
+          console.log(`  ↑ Uploading ${key} (${(stats.size / 1024).toFixed(1)} KB)...`);
+          await uploadFile(bucket, key, localPath);
+          console.log(`  ✓ Successfully uploaded ${key}`);
+        } catch (error) {
+          console.error(`  ✗ Failed to upload ${key}:`, error.message);
+          throw error; // Re-throw to stop the process
+        }
       }
     }
   }
@@ -101,18 +107,44 @@ async function uploadAssets() {
   console.log(`Bucket: ${R2_BUCKET_NAME}`);
   console.log(`Public URL: ${R2_PUBLIC_URL}`);
   console.log(`Local directory: ${ASSETS_DIR}`);
+  console.log('');
   
   if (!fs.existsSync(ASSETS_DIR)) {
-    console.error(`Assets directory not found: ${ASSETS_DIR}`);
+    console.error(`✗ Assets directory not found: ${ASSETS_DIR}`);
     process.exit(1);
   }
   
+  // Count files to upload
+  let totalFiles = 0;
+  let newFiles = 0;
+  function countFiles(dir, prefix = '') {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+      const localPath = path.join(dir, entry.name);
+      const key = prefix ? `${prefix}/${entry.name}` : entry.name;
+      if (entry.isDirectory()) {
+        countFiles(localPath, key);
+      } else {
+        totalFiles++;
+      }
+    }
+  }
+  countFiles(ASSETS_DIR, 'assets');
+  
+  console.log(`Found ${totalFiles} files to process`);
+  console.log('');
+  
   try {
     await uploadDirectory(ASSETS_DIR, R2_BUCKET_NAME, 'assets');
-    console.log('\nUpload completed successfully!');
+    console.log('');
+    console.log('✅ Upload completed successfully!');
     console.log(`Assets are now available at: ${R2_PUBLIC_URL}`);
   } catch (error) {
-    console.error('Upload failed:', error);
+    console.error('');
+    console.error('❌ Upload failed:', error.message);
+    if (error.stack) {
+      console.error(error.stack);
+    }
     process.exit(1);
   }
 }
