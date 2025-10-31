@@ -114,9 +114,8 @@ async function uploadAssets() {
     process.exit(1);
   }
   
-  // Count files to upload
+  // Count total files for informational purposes
   let totalFiles = 0;
-  let newFiles = 0;
   function countFiles(dir, prefix = '') {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
     for (const entry of entries) {

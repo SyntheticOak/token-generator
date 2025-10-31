@@ -161,6 +161,27 @@ Humanoid, Beastfolk, Dragonkin, Fey, Undead, Fiendish, Celestial, Construct, Ele
 3. Drag to pan, scroll to zoom, use buttons to rotate
 4. Export as PNG or WebP at desired size
 
+## Asset Workflow
+
+### Quick Start
+
+**Adding new assets:**
+1. Add files to `public/assets/` (frames, overlays, portraits, backgrounds)
+2. Run `npm run add-assets` (uploads to R2, generates manifest, builds)
+3. Commit and push: `git add . && git commit -m "Add assets" && git push`
+
+**Git workflow:**
+- **Assets only**: Commit `public/assets/` and `src/lib/assetManifest.generated.ts`
+- **Code only**: Commit code changes, Vercel rebuilds automatically
+- **Assets + code**: Commit everything together
+
+**Important notes:**
+- `assetManifest.generated.ts` is auto-generated - don't edit manually
+- Vercel automatically runs `npm run build` on push (includes manifest generation)
+- For frame optimization: Run `npm run optimize-assets` before `add-assets`
+
+See [ASSET_WORKFLOW.md](./ASSET_WORKFLOW.md) for detailed workflow guide.
+
 ## Deployment
 
 ### Manual Deployment to Vercel

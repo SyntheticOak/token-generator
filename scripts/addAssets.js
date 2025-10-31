@@ -29,8 +29,7 @@ function runCommand(command, args) {
   return new Promise((resolve, reject) => {
     const child = spawn(command, args, {
       stdio: 'inherit',
-      shell: true,
-      env: { ...process.env, NODE_ENV: 'production' }
+      shell: true
     });
     
     child.on('close', (code) => {
