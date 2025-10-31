@@ -1,34 +1,23 @@
 import { CanvasDoc, ImageLayer, TextLayer } from "../types";
 
 export async function loadImage(src: string): Promise<HTMLImageElement> {
-  // For R2 URLs, use fetch to bypass CORS preflight (R2 doesn't support OPTIONS)
-  // This allows us to load images without triggering OPTIONS preflight requests
+  // For R2 URLs, proxy through our Vercel API endpoint to add CORS headers
+  // R2 public URLs don't respect bucket CORS policies, so we need a proxy
   if (src.startsWith('https://pub-') && src.includes('.r2.dev')) {
-    try {
-      const response = await fetch(src);
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-      }
-      const blob = await response.blob();
-      const objectUrl = URL.createObjectURL(blob);
-      
-      return new Promise((res, rej) => {
-        const img = new Image();
-        img.onload = () => {
-          URL.revokeObjectURL(objectUrl); // Clean up after load
-          res(img);
-        };
-        img.onerror = (err) => {
-          URL.revokeObjectURL(objectUrl); // Clean up on error
-          console.error("Image load failed:", src, err);
-          rej(new Error(`Failed to load image: ${src}`));
-        };
-        img.src = objectUrl;
-      });
-    } catch (error) {
-      console.error("Fetch failed for R2 image:", src, error);
-      throw new Error(`Failed to fetch image: ${src}. ${error instanceof Error ? error.message : String(error)}`);
-    }
+    // Use Vercel proxy endpoint that adds CORS headers
+    // Use window.location.origin to work in both dev (with Vercel CLI) and production
+    const proxyUrl = `${window.location.origin}/api/proxy-r2?url=${encodeURIComponent(src)}`;
+    
+    return new Promise((res, rej) => {
+      const img = new Image();
+      img.crossOrigin = "anonymous"; // Can use crossOrigin with our proxy
+      img.onload = () => res(img);
+      img.onerror = (err) => {
+        console.error("Image load failed via proxy:", src, err);
+        rej(new Error(`Failed to load image: ${src}`));
+      };
+      img.src = proxyUrl;
+    });
   }
   
   // For non-R2 URLs (local files, other CDNs), use crossOrigin approach
