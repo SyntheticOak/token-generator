@@ -59,3 +59,6 @@ To verify CORS is working:
 - Images are proxied on-demand (no pre-fetching or caching)
 - This solution works for all deployment platforms that support serverless functions (Vercel, Netlify, etc.)
 
+
+
+

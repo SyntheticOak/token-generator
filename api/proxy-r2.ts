@@ -47,7 +47,7 @@ export default async function handler(req: any, res: any) {
     res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
 
     // Return the image
-    return res.send(Buffer.from(buffer));
+    return res.send(new Uint8Array(buffer));
   } catch (error) {
     console.error('Proxy error:', error);
     return res.status(500).json({ 
