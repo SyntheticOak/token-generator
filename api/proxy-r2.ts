@@ -1,4 +1,6 @@
-export default async function handler(req: any, res: any) {
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+
+export default async function handler(req: VercelRequest, res: VercelResponse) {
   // Handle OPTIONS preflight
   if (req.method === 'OPTIONS') {
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -35,7 +37,8 @@ export default async function handler(req: any, res: any) {
     }
 
     // Get the image data
-    const buffer = await response.arrayBuffer();
+    const arrayBuffer = await response.arrayBuffer();
+    const buffer = Buffer.from(arrayBuffer);
     const contentType = response.headers.get('content-type') || 'image/png';
 
     // Set CORS headers
@@ -46,8 +49,8 @@ export default async function handler(req: any, res: any) {
     res.setHeader('Content-Type', contentType);
     res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
 
-    // Return the image
-    return res.send(new Uint8Array(buffer));
+    // Return the image as Buffer
+    return res.send(buffer);
   } catch (error) {
     console.error('Proxy error:', error);
     return res.status(500).json({ 
