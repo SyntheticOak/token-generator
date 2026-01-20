@@ -69,7 +69,7 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
       }
     })();
     return () => { mounted = false; };
-  }, [selectedFrameMeta, canvasDoc.customFrame]);
+  }, [selectedFrameMeta, canvasDoc]);
 
   // Load and cache layer images
   useEffect(() => {
