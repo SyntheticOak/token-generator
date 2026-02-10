@@ -6,20 +6,23 @@ import { assets as generatedAssets } from "./assetManifest.generated";
 export const assets = generatedAssets;
 
 export function frameSrc(meta: { basePath: string; id: string; maskPath?: string; thumbnailPath?: string; masterPath?: string }, kind: "thumbnail" | "master" | "mask") {
+  // Normalize basePath: remove trailing slash to avoid double slashes
+  const normalizedBasePath = meta.basePath.replace(/\/+$/, '');
+  
   if (kind === "mask") {
     // Use shared mask if available, otherwise fallback to specific mask
     if (meta.maskPath) {
-      return `${meta.basePath}/${meta.maskPath}`;
+      return `${normalizedBasePath}/${meta.maskPath}`;
     }
-    return `${meta.basePath}/${meta.id}_mask.png`;
+    return `${normalizedBasePath}/${meta.id}_mask.png`;
   }
   
   if (kind === "thumbnail") {
-    return meta.thumbnailPath ? `${meta.basePath}/${meta.thumbnailPath}` : `${meta.basePath}/${meta.id}_256.png`;
+    return meta.thumbnailPath ? `${normalizedBasePath}/${meta.thumbnailPath}` : `${normalizedBasePath}/${meta.id}_256.png`;
   }
   
   // kind === "master"
-  return meta.masterPath ? `${meta.basePath}/${meta.masterPath}` : `${meta.basePath}/${meta.id}_1024.png`;
+  return meta.masterPath ? `${normalizedBasePath}/${meta.masterPath}` : `${normalizedBasePath}/${meta.id}_1024.png`;
 }
 
 // Helper: Filter frames by category hierarchy
