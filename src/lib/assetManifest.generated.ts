@@ -1381,6 +1381,21 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "sorcerer_08",
+    "name": "Sorcerer_08",
+    "mainCategory": "classes",
+    "subCategory": "sorcerer",
+    "thumbnailPath": "sorcerer_08_256.png",
+    "masterPath": "sorcerer_08_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
+    "maskPath": "sorcerer_08_mask.png",
+    "tags": [
+      "sorcerer_08",
+      "class",
+      "sorcerer"
+    ]
+  },
+  {
     "id": "sorcerer_thin",
     "name": "Sorcerer_thin",
     "mainCategory": "classes",
@@ -2551,6 +2566,96 @@ export const assets: AssetRecord = {
     ]
   },
   {
+    "id": "cyber_cleric",
+    "name": "Cyber_cleric",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "cyber_cleric_256.png",
+    "masterPath": "cyber_cleric_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "cyber_cleric_mask.png",
+    "tags": [
+      "cyber_cleric",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "cyber_druid",
+    "name": "Cyber_druid",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "cyber_druid_256.png",
+    "masterPath": "cyber_druid_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "cyber_druid_mask.png",
+    "tags": [
+      "cyber_druid",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "cyber_monk",
+    "name": "Cyber_monk",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "cyber_monk_256.png",
+    "masterPath": "cyber_monk_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "cyber_monk_mask.png",
+    "tags": [
+      "cyber_monk",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "cyber_ranger",
+    "name": "Cyber_ranger",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "cyber_ranger_256.png",
+    "masterPath": "cyber_ranger_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "cyber_ranger_mask.png",
+    "tags": [
+      "cyber_ranger",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "cyber_rogue",
+    "name": "Cyber_rogue",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "cyber_rogue_256.png",
+    "masterPath": "cyber_rogue_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "cyber_rogue_mask.png",
+    "tags": [
+      "cyber_rogue",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
+    "id": "cyber_sorcerer",
+    "name": "Cyber_sorcerer",
+    "mainCategory": "thematic",
+    "subCategory": "scifi",
+    "thumbnailPath": "cyber_sorcerer_256.png",
+    "masterPath": "cyber_sorcerer_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
+    "maskPath": "cyber_sorcerer_mask.png",
+    "tags": [
+      "cyber_sorcerer",
+      "thematic",
+      "scifi"
+    ]
+  },
+  {
     "id": "detector",
     "name": "Detector",
     "mainCategory": "thematic",
@@ -3253,6 +3358,36 @@ export const assets: AssetRecord = {
       "sludge_yellow",
       "utility",
       "sludge"
+    ]
+  },
+  {
+    "id": "ravenloft",
+    "name": "Ravenloft",
+    "mainCategory": "world",
+    "subCategory": "ravenloft",
+    "thumbnailPath": "ravenloft_256.png",
+    "masterPath": "ravenloft_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
+    "maskPath": "ravenloft_mask.png",
+    "tags": [
+      "ravenloft",
+      "world",
+      "ravenloft"
+    ]
+  },
+  {
+    "id": "underdark",
+    "name": "Underdark",
+    "mainCategory": "world",
+    "subCategory": "underdark",
+    "thumbnailPath": "underdark_256.png",
+    "masterPath": "underdark_1024.png",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
+    "maskPath": "underdark_mask.png",
+    "tags": [
+      "underdark",
+      "world",
+      "underdark"
     ]
   }
 ],
