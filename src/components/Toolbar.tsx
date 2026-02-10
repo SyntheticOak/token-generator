@@ -5,19 +5,34 @@ export default function Toolbar({ onExport }: { onExport: (fmt: "png" | "webp", 
 
   return (
     <div className="flex items-center gap-3 p-2 border-b">
-      <a
-        href="https://www.etsy.com/shop/SyntheticOak"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex-shrink-0 hover:opacity-80 transition-opacity"
-        title="Visit our Etsy shop"
-      >
-        <img
-          src="/assets/ETSY_SHOP.png"
-          alt="Etsy Shop"
-          className="h-8 w-auto"
-        />
-      </a>
+      <div className="flex items-center gap-2 flex-shrink-0">
+        <a
+          href="https://www.etsy.com/shop/SyntheticOak"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-80 transition-opacity"
+          title="Visit our Etsy shop"
+        >
+          <img
+            src="/assets/ETSY_SHOP.png"
+            alt="Etsy Shop"
+            className="h-16 w-auto"
+          />
+        </a>
+        <a
+          href="https://syntheticoak.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-80 transition-opacity"
+          title="Visit Synthetic Oak homepage"
+        >
+          <img
+            src="/assets/SOAK_LOGO.png"
+            alt="Synthetic Oak"
+            className="h-16 w-auto"
+          />
+        </a>
+      </div>
       <div className="flex-1 text-center text-sm text-gray-600 px-4">
         <span className="font-medium">Quick Guide:</span> Upload Portrait | Select Frame | Adjust Layers (drag/scroll) | Export
       </div>
