@@ -13,7 +13,6 @@ export default function FilterPanel() {
 
   // Compute all data at top level (Rules of Hooks)
   const classes = useMemo(() => getUniqueSubcategories('classes'), []);
-  const worldLocations = useMemo(() => getUniqueSubcategories('world'), []);
   const thematicThemes = useMemo(() => getUniqueSubcategories('thematic'), []);
   const seasonalEvents = useMemo(() => getUniqueSubcategories('seasonal'), []);
   const utilityCategories = useMemo(() => getUniqueSubcategories('utility'), []);
@@ -49,25 +48,9 @@ export default function FilterPanel() {
     return null;
   }
 
-  // World filter
+  // World filter: No dropdowns (same as races)
   if (activeTab === 'world') {
-    return (
-      <div className="p-3 border-b">
-        <label className="text-xs font-medium text-gray-700 mb-1 block">Location</label>
-        <select
-          value={selectedSubCategory || ''}
-          onChange={(e) => setSubCategory(e.target.value || undefined)}
-          className="w-full px-2 py-1.5 text-sm border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          <option value="">All Locations</option>
-          {worldLocations.map((sub) => (
-            <option key={sub} value={sub}>
-              {sub.charAt(0).toUpperCase() + sub.slice(1)}
-            </option>
-          ))}
-        </select>
-      </div>
-    );
+    return null;
   }
 
   // Thematic filter

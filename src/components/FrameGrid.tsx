@@ -1,6 +1,30 @@
+import { useState } from "react";
 import { frameSrc } from "../lib/assetManifest";
+import type { FrameMeta } from "../types";
 import { useEditorStore } from "../store/useEditorStore";
 import LazyImage from "./LazyImage";
+
+function FrameThumbnail({ meta }: { meta: FrameMeta }) {
+  const masterSrc = frameSrc(meta, "master");
+  const [src, setSrc] = useState(() => frameSrc(meta, "thumbnail"));
+  const [usedFallback, setUsedFallback] = useState(false);
+  const handleError = () => {
+    if (!usedFallback) {
+      setUsedFallback(true);
+      setSrc(masterSrc);
+    }
+  };
+  return (
+    <LazyImage
+      src={src}
+      alt={meta.name}
+      width={128}
+      height={128}
+      style={{ objectFit: "contain" }}
+      onError={handleError}
+    />
+  );
+}
 
 export default function FrameGrid() {
   const setSelectedFrame = useEditorStore((s) => s.setSelectedFrame);
@@ -28,13 +52,7 @@ export default function FrameGrid() {
             onClick={() => setSelectedFrame(meta)}
             title={meta.name}
           >
-            <LazyImage
-              src={frameSrc(meta, "thumbnail")}
-              alt={meta.name}
-              width={128}
-              height={128}
-              style={{ objectFit: "contain" }}
-            />
+            <FrameThumbnail meta={meta} />
             <div className="text-xs mt-1">{meta.name}</div>
           </button>
         ))}

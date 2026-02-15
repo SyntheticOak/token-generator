@@ -7,9 +7,10 @@ interface LazyImageProps {
   height?: number;
   className?: string;
   style?: React.CSSProperties;
+  onError?: React.ReactEventHandler<HTMLImageElement>;
 }
 
-export default function LazyImage({ src, alt, width, height, className, style }: LazyImageProps) {
+export default function LazyImage({ src, alt, width, height, className, style, onError }: LazyImageProps) {
   const [isInView, setIsInView] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
 
@@ -43,6 +44,7 @@ export default function LazyImage({ src, alt, width, height, className, style }:
       className={className}
       style={style}
       loading="lazy"
+      onError={onError}
     />
   );
 }
