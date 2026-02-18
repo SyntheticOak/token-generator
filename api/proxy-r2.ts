@@ -47,7 +47,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     res.setHeader('Access-Control-Allow-Headers', '*');
     res.setHeader('Access-Control-Max-Age', '3600');
     res.setHeader('Content-Type', contentType);
-    res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+    res.setHeader('Cache-Control', 'public, max-age=3600');
 
     // Return the image as Buffer
     return res.send(buffer);
