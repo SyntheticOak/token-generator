@@ -163,6 +163,16 @@ Humanoid, Beastfolk, Dragonkin, Fey, Undead, Fiendish, Celestial, Construct, Ele
 
 ## Asset Workflow
 
+### New assets checklist (required for frames to load in production)
+
+The **live app loads frame images from R2**, not from the repo. If you skip the upload step, new frames will not load in production.
+
+1. Add files to `public/assets/frames/...` (e.g. `{id}_1024.png`, `{id}_256.png` or `_256.webp`, `{id}_mask.png`)
+2. **`npm run optimize-assets`** — converts 256px PNG to WebP, removes 512px
+3. **`npm run generate-manifest`** — updates `src/lib/assetManifest.generated.ts`
+4. **`npm run upload-assets`** — uploads to R2 (required for production)
+5. Commit and push: `git add . && git commit -m "Add assets" && git push`
+
 ### Quick Start
 
 **Adding new assets:**
@@ -179,6 +189,7 @@ Humanoid, Beastfolk, Dragonkin, Fey, Undead, Fiendish, Celestial, Construct, Ele
 - `assetManifest.generated.ts` is auto-generated - don't edit manually
 - Vercel automatically runs `npm run build` on push (includes manifest generation)
 - For frame optimization: Run `npm run optimize-assets` before `add-assets`
+- **New frames won’t appear in the live app until you run `npm run upload-assets`**
 
 See [ASSET_WORKFLOW.md](./ASSET_WORKFLOW.md) for detailed workflow guide.
 
