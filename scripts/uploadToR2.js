@@ -1,3 +1,8 @@
+/**
+ * Upload public/assets to Cloudflare R2.
+ * Required after adding new frame/assets — the live app loads images from R2, not the repo.
+ * Run: npm run upload-assets
+ */
 import fs from 'fs';
 import path from 'path';
 import { S3Client, PutObjectCommand, HeadObjectCommand } from '@aws-sdk/client-s3';
