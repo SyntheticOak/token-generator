@@ -13,17 +13,20 @@ export default function App() {
   };
 
   return (
-    <div className="h-screen flex flex-col">
-      <Toolbar onExport={handleExport} />
-      <div className="flex flex-1 min-h-0">
+    <div className="h-screen flex flex-col overflow-hidden">
+      <div className="flex-shrink-0">
+        <Toolbar onExport={handleExport} />
+      </div>
+      <div className="flex flex-1 min-h-0 overflow-hidden">
         <Sidebar />
-        <div className="flex-1 flex flex-col min-h-0">
+        <div className="flex-1 flex flex-col min-h-0 overflow-hidden">
           <div className="flex-1 flex items-center justify-center min-h-0 overflow-auto">
             <CanvasComposer ref={composerRef} />
           </div>
           <div className="flex-shrink-0 w-full max-w-md mx-auto px-2 py-3 text-center text-xs text-gray-500 border-t border-gray-200">
             <div className="font-medium text-gray-600 mb-1">Changelog</div>
             <ul className="space-y-0.5 mb-3">
+              <li>Added hue and saturation sliders on loaded frames.</li>
               <li>Fixed: Some mask files were not working correctly</li>
             </ul>
             <div>

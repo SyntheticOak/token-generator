@@ -9,7 +9,7 @@ export interface CanvasComposerHandle {
 }
 
 const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
-  const { canvasDoc, selectedFrameMeta, clearAll: storeClearAll, selectedLayerId, updateLayerTransform } = useEditorStore();
+  const { canvasDoc, selectedFrameMeta, clearAll: storeClearAll, selectedLayerId, updateLayerTransform, updateFrameColorAdjustments } = useEditorStore();
   const [frameImg, setFrameImg] = useState<HTMLImageElement | null>(null);
   const [maskImg, setMaskImg] = useState<HTMLImageElement | null>(null);
   const [imageCache, setImageCache] = useState<Map<string, HTMLImageElement>>(new Map());
@@ -422,6 +422,46 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
           Clear Canvas
         </button>
       </div>
+      {/* Frame color adjustments - only when a frame is loaded */}
+      {(frameImg != null && canvasDoc.frame) && (
+        <div className="flex items-center gap-4 flex-wrap justify-center">
+          <div className="flex items-center gap-2">
+            <label className="text-sm font-medium text-gray-700">Hue:</label>
+            <input
+              type="range"
+              min="0"
+              max="360"
+              step="1"
+              value={canvasDoc.frameHue ?? 0}
+              onChange={(e) => updateFrameColorAdjustments({ hue: Number(e.target.value) })}
+              className="w-28"
+              title="Shift frame colors (hue)"
+            />
+            <span className="text-sm text-gray-600 w-8">{(canvasDoc.frameHue ?? 0)}°</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <label className="text-sm font-medium text-gray-700">Saturation:</label>
+            <input
+              type="range"
+              min="0"
+              max="2"
+              step="0.01"
+              value={canvasDoc.frameSaturation ?? 1}
+              onChange={(e) => updateFrameColorAdjustments({ saturation: Number(e.target.value) })}
+              className="w-28"
+              title="Frame color intensity (0 = grayscale, 1 = normal, 2 = vibrant)"
+            />
+            <span className="text-sm text-gray-600 w-10">{((canvasDoc.frameSaturation ?? 1) * 100).toFixed(0)}%</span>
+          </div>
+          <button
+            onClick={() => updateFrameColorAdjustments({ hue: 0, saturation: 1 })}
+            className="px-2 py-1.5 text-sm bg-gray-500 text-white rounded hover:bg-gray-600 transition-colors"
+            title="Reset frame hue and saturation"
+          >
+            Reset
+          </button>
+        </div>
+      )}
     </div>
   );
 });
