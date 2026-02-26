@@ -81,7 +81,8 @@ interface EditorState {
   setCustomFrame: (customFrame: CustomFrame) => void;
   clearCustomFrame: () => void;
   applyCustomFrame: () => void;
-  
+  updateFrameColorAdjustments: (patch: { hue?: number; saturation?: number }) => void;
+
   // Filter actions (unchanged)
   setActiveTab: (tab: MainCategory | 'all') => void;
   setSubCategory: (sub?: string) => void;
@@ -461,6 +462,16 @@ export const useEditorStore = create<EditorState>((set, get) => ({
         transform: defaultTransform,
         visible: true,
       }
+    };
+    debouncedSave(newDoc);
+    return { canvasDoc: newDoc };
+  }),
+
+  updateFrameColorAdjustments: (patch) => set((s) => {
+    const newDoc = {
+      ...s.canvasDoc,
+      ...(patch.hue !== undefined && { frameHue: patch.hue }),
+      ...(patch.saturation !== undefined && { frameSaturation: patch.saturation }),
     };
     debouncedSave(newDoc);
     return { canvasDoc: newDoc };

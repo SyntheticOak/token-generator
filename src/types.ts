@@ -102,6 +102,8 @@ export type CanvasDoc = {
   overlays: ImageLayer[];
   text?: TextLayer;
   customFrame?: CustomFrame;
+  frameHue?: number;
+  frameSaturation?: number;
 };
 
 

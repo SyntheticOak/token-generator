@@ -4,7 +4,7 @@ export default function Toolbar({ onExport }: { onExport: (fmt: "png" | "webp", 
   const [exportSize, setExportSize] = useState(1024);
 
   return (
-    <div className="flex items-center gap-3 p-2 border-b">
+    <div className="flex items-center gap-3 p-2 border-b bg-white">
       <div className="flex items-center gap-2 flex-shrink-0">
         <a
           href="https://www.etsy.com/shop/SyntheticOak"

@@ -232,7 +232,11 @@ export async function composeToken(opts: {
   
   // Layer 3: Frame
   if (doc.frame && frameImg) {
+    const hue = doc.frameHue ?? 0;
+    const sat = doc.frameSaturation ?? 1;
+    ctx.filter = `hue-rotate(${hue}deg) saturate(${sat})`;
     ctx.drawImage(frameImg, 0, 0, size, size);
+    ctx.filter = 'none';
   }
   
   // Layer 4: Overlays
