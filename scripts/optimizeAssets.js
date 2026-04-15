@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { execSync } from 'child_process';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,6 +20,21 @@ async function convertToWebP(inputPath, outputPath) {
       .toFile(outputPath);
   } catch (err) {
     console.error(`Failed to convert ${inputPath} to WebP:`, err.message);
+    return null;
+  }
+}
+
+// Resize PNG to 256x256 and convert to WebP using sharp
+async function resizeAndConvertToWebP(inputPath, outputPath) {
+  try {
+    const sharp = await import('sharp');
+
+    return sharp.default(inputPath)
+      .resize(256, 256, { fit: 'fill' })
+      .webp({ quality: 85, effort: 6 })
+      .toFile(outputPath);
+  } catch (err) {
+    console.error(`Failed to resize/convert ${inputPath} to WebP:`, err.message);
     return null;
   }
 }
@@ -68,43 +82,89 @@ async function optimizeAssets() {
   
   scanDirectory(ASSETS_DIR, (filePath) => {
     const fileName = path.basename(filePath);
-    
-    // Delete 512px files
-    if (fileName.includes('_512.png')) {
-      console.log(`Deleting: ${fileName}`);
-      fs.unlinkSync(filePath);
-      deleted512++;
-    }
-    
-    // Convert 256px PNG to WebP
-    else if (fileName.includes('_256.png')) {
-      if (hasSharp) {
-        const webpPath = filePath.replace('.png', '.webp');
-        
-        // Skip if WebP already exists
-        if (fs.existsSync(webpPath)) {
-          console.log(`Skipping: ${fileName} (WebP already exists)`);
-          skipped256++;
-        } else {
-          console.log(`Converting: ${fileName} -> ${path.basename(webpPath)}`);
-          
-          // Add to promises array for async processing
-          filePromises.push(
-            convertToWebP(filePath, webpPath).then(result => {
-              if (result) {
-                // Delete original PNG after successful conversion
-                fs.unlinkSync(filePath);
-                converted256++;
-              } else {
-                console.error(`Failed to convert ${fileName}`);
-              }
-            })
-          );
-        }
-      } else {
-        console.log(`Skipping: ${fileName} (Sharp not available)`);
+
+    const match = fileName.match(/^(.*)_(256|512)\.png$/);
+    if (!match) return;
+
+    const frameId = match[1];
+    const size = match[2];
+    const dir = path.dirname(filePath);
+    const png256Path = path.join(dir, `${frameId}_256.png`);
+    const png512Path = path.join(dir, `${frameId}_512.png`);
+    const webp256Path = path.join(dir, `${frameId}_256.webp`);
+
+    // If 256.webp already exists, just remove any 512.png
+    if (fs.existsSync(webp256Path)) {
+      if (size === '512' && fs.existsSync(filePath)) {
+        console.log(`Deleting: ${fileName} (256.webp already exists)`);
+        fs.unlinkSync(filePath);
+        deleted512++;
+      } else if (size === '256') {
+        console.log(`Skipping: ${fileName} (WebP already exists)`);
         skipped256++;
       }
+      return;
+    }
+
+    // Prefer converting existing 256.png source
+    if (size === '256') {
+      if (!hasSharp) {
+        console.log(`Skipping: ${fileName} (Sharp not available)`);
+        skipped256++;
+        return;
+      }
+
+      console.log(`Converting: ${fileName} -> ${path.basename(webp256Path)}`);
+
+      filePromises.push(
+        convertToWebP(filePath, webp256Path).then(result => {
+          if (result) {
+            // Delete original 256 PNG after successful conversion
+            if (fs.existsSync(filePath)) {
+              fs.unlinkSync(filePath);
+            }
+            // Clean up sibling 512 PNG if present
+            if (fs.existsSync(png512Path)) {
+              console.log(`Deleting: ${path.basename(png512Path)} (replaced by 256.webp)`);
+              fs.unlinkSync(png512Path);
+              deleted512++;
+            }
+            converted256++;
+          } else {
+            console.error(`Failed to convert ${fileName}`);
+          }
+        })
+      );
+      return;
+    }
+
+    // Fallback: no 256 source, but 512 exists -> resize to 256.webp
+    if (size === '512') {
+      if (fs.existsSync(png256Path)) {
+        // 256 handler will take care of conversion + 512 cleanup
+        return;
+      }
+      if (!hasSharp) {
+        console.log(`Skipping: ${fileName} (Sharp not available)`);
+        skipped256++;
+        return;
+      }
+
+      console.log(`Resizing fallback: ${fileName} -> ${path.basename(webp256Path)}`);
+      filePromises.push(
+        resizeAndConvertToWebP(filePath, webp256Path).then(result => {
+          if (result) {
+            // Delete 512 source after successful fallback conversion
+            if (fs.existsSync(filePath)) {
+              fs.unlinkSync(filePath);
+              deleted512++;
+            }
+            converted256++;
+          } else {
+            console.error(`Failed fallback conversion for ${fileName}`);
+          }
+        })
+      );
     }
   });
   

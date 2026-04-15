@@ -26,7 +26,7 @@ export default function App() {
           <div className="flex-shrink-0 w-full max-w-md mx-auto px-2 py-3 text-center text-xs text-gray-500 border-t border-gray-200">
             <div className="font-medium text-gray-600 mb-1">Changelog</div>
             <ul className="space-y-0.5 mb-3">
-              <li>Added hue and saturation sliders on loaded frames.</li>
+              <li>Added hue and saturation sliders on loaded frames</li>
               <li>Fixed: Some mask files were not working correctly</li>
             </ul>
             <div>
