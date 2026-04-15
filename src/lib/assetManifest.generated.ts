@@ -3518,6 +3518,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "cat_256.webp",
     "masterPath": "cat_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "cat_mask.png",
     "tags": [
       "cat",
       "utility",
@@ -3532,6 +3533,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "dog_256.webp",
     "masterPath": "dog_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "dog_mask.png",
     "tags": [
       "dog",
       "utility",
@@ -3546,6 +3548,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "fox_256.webp",
     "masterPath": "fox_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "fox_mask.png",
     "tags": [
       "fox",
       "utility",
@@ -3560,6 +3563,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "horse_256.webp",
     "masterPath": "horse_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "horse_mask.png",
     "tags": [
       "horse",
       "utility",
@@ -3574,6 +3578,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "lizard_256.webp",
     "masterPath": "lizard_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "lizard_mask.png",
     "tags": [
       "lizard",
       "utility",
@@ -3588,6 +3593,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "mouse_256.webp",
     "masterPath": "mouse_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "mouse_mask.png",
     "tags": [
       "mouse",
       "utility",
@@ -3602,6 +3608,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "owl_256.webp",
     "masterPath": "owl_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "owl_mask.png",
     "tags": [
       "owl",
       "utility",
@@ -3616,6 +3623,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "panther_256.webp",
     "masterPath": "panther_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "panther_mask.png",
     "tags": [
       "panther",
       "utility",
@@ -3630,6 +3638,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "raven_256.webp",
     "masterPath": "raven_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "raven_mask.png",
     "tags": [
       "raven",
       "utility",
@@ -3644,6 +3653,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "snake_256.webp",
     "masterPath": "snake_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "snake_mask.png",
     "tags": [
       "snake",
       "utility",
@@ -3658,6 +3668,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "toad_256.webp",
     "masterPath": "toad_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "toad_mask.png",
     "tags": [
       "toad",
       "utility",
@@ -3672,6 +3683,7 @@ export const assets: AssetRecord = {
     "thumbnailPath": "wolf_256.webp",
     "masterPath": "wolf_1024.png",
     "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
+    "maskPath": "wolf_mask.png",
     "tags": [
       "wolf",
       "utility",
