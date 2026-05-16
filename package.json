@@ -11,7 +11,8 @@
     "generate-manifest": "node scripts/generateManifest.js",
     "add-assets": "node scripts/addAssets.js",
     "optimize-assets": "node scripts/optimizeAssets.js",
-    "resize-masks": "node scripts/resizeMasks.js"
+    "resize-masks": "node scripts/resizeMasks.js",
+    "prepare-portraits": "node scripts/preparePortraits.js"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
