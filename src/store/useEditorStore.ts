@@ -39,6 +39,9 @@ interface EditorState {
   
   // Legacy support for frame selection UI
   selectedFrameMeta?: FrameMeta;
+
+  exportAllowed: boolean;
+  setExportAllowed: (allowed: boolean) => void;
   
   // Filter state (unchanged)
   activeTab: MainCategory | 'all';
@@ -109,6 +112,8 @@ export const useEditorStore = create<EditorState>((set, get) => ({
   canvasDoc: initialCanvasDoc,
   selectedLayerId: null,
   selectedFrameMeta: undefined,
+  exportAllowed: false,
+  setExportAllowed: (allowed) => set({ exportAllowed: allowed }),
   
   // Filter defaults (unchanged)
   activeTab: 'all',

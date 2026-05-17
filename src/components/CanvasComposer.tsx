@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, useImperativeHandle, forwardRef } from "re
 import { useEditorStore } from "../store/useEditorStore";
 import { frameSrc } from "../lib/assetManifest";
 import { composeToken, exportCanvas, exportAtSize, loadImage } from "../lib/canvas";
+import { canExportToken } from "../lib/exportGuard";
 
 export interface CanvasComposerHandle {
   exportImage: (fmt: "png" | "webp", size: number) => Promise<void>;
@@ -9,7 +10,7 @@ export interface CanvasComposerHandle {
 }
 
 const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
-  const { canvasDoc, selectedFrameMeta, clearAll: storeClearAll, selectedLayerId, updateLayerTransform, updateFrameColorAdjustments } = useEditorStore();
+  const { canvasDoc, selectedFrameMeta, exportAllowed, setExportAllowed, clearAll: storeClearAll, selectedLayerId, updateLayerTransform, updateFrameColorAdjustments } = useEditorStore();
   const [frameImg, setFrameImg] = useState<HTMLImageElement | null>(null);
   const [maskImg, setMaskImg] = useState<HTMLImageElement | null>(null);
   const [imageCache, setImageCache] = useState<Map<string, HTMLImageElement>>(new Map());
@@ -70,6 +71,10 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
     })();
     return () => { mounted = false; };
   }, [selectedFrameMeta, canvasDoc]);
+
+  useEffect(() => {
+    setExportAllowed(canExportToken(canvasDoc, frameImg));
+  }, [canvasDoc.frame, frameImg, setExportAllowed]);
 
   // Load and cache layer images
   useEffect(() => {
@@ -152,6 +157,7 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
   }, [canvasDoc, imageCache, frameImg, maskImg]);
 
   const handleExport = async (fmt: "png" | "webp", size: number) => {
+    if (!canExportToken(canvasDoc, frameImg)) return;
     try {
       const composed = await composeToken({
         doc: canvasDoc,
@@ -364,6 +370,19 @@ const CanvasComposer = forwardRef<CanvasComposerHandle>((_, ref) => {
             cursor: selectedLayerId ? 'move' : 'default',
           }}
         />
+        {!exportAllowed && canvasDoc.character && (
+          <div
+            className="absolute inset-0 flex items-center justify-center pointer-events-none bg-black/20"
+            style={{ width: 512, height: 512 }}
+          >
+            <p
+              className="text-center font-bold text-3xl text-white px-6"
+              style={{ opacity: 0.8, textShadow: "0 2px 8px rgba(0,0,0,0.8)" }}
+            >
+              Load a frame to export
+            </p>
+          </div>
+        )}
       </div>
       <div className="flex items-center gap-3">
         {/* Scale Slider */}

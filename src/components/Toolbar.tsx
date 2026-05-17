@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useEditorStore } from "../store/useEditorStore";
 
 export default function Toolbar({ onExport }: { onExport: (fmt: "png" | "webp", size: number) => Promise<void> }) {
   const [exportSize, setExportSize] = useState(1024);
+  const exportAllowed = useEditorStore((s) => s.exportAllowed);
 
   return (
     <div className="flex items-center gap-3 p-2 border-b bg-white">
@@ -51,13 +53,25 @@ export default function Toolbar({ onExport }: { onExport: (fmt: "png" | "webp", 
         
         <button 
           onClick={() => onExport("png", exportSize)}
-          className="px-6 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-colors shadow-md"
+          disabled={!exportAllowed}
+          title={exportAllowed ? undefined : "Select a frame before exporting"}
+          className={`px-6 py-2 font-semibold rounded-lg transition-colors shadow-md ${
+            exportAllowed
+              ? "bg-green-600 text-white hover:bg-green-700"
+              : "bg-green-600/50 text-white/70 cursor-not-allowed"
+          }`}
         >
           Export PNG
         </button>
         <button 
           onClick={() => onExport("webp", exportSize)}
-          className="px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-md"
+          disabled={!exportAllowed}
+          title={exportAllowed ? undefined : "Select a frame before exporting"}
+          className={`px-6 py-2 font-semibold rounded-lg transition-colors shadow-md ${
+            exportAllowed
+              ? "bg-blue-600 text-white hover:bg-blue-700"
+              : "bg-blue-600/50 text-white/70 cursor-not-allowed"
+          }`}
         >
           Export WebP
         </button>
