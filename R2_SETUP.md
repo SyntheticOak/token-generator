@@ -23,6 +23,8 @@ This guide explains how to set up Cloudflare R2 for external asset storage to su
 
 ## 3. Configure Environment
 
+**Never commit `.env`** — it is gitignored. If credentials were ever pushed, revoke the R2 API token in Cloudflare, create a new one, update local `.env` and GitHub Actions secrets (`R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`), then purge `.env` from git history.
+
 1. Copy `.env.example` to `.env`:
    ```bash
    cp .env.example .env
