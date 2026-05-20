@@ -3,9 +3,6 @@
   "outputDirectory": "dist",
   "installCommand": "npm install",
   "framework": null,
-  "env": {
-    "R2_PUBLIC_URL": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev"
-  },
   "rewrites": [
     {
       "source": "/((?!api).*)",

@@ -1,12 +1,11 @@
 import { spawn } from 'child_process';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import dotenv from 'dotenv';
+import { resolveR2PublicUrl } from './r2Config.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+dotenv.config();
 
-// Set NODE_ENV to production
 process.env.NODE_ENV = 'production';
+process.env.R2_PUBLIC_URL = resolveR2PublicUrl();
 
 // Run the build process
 async function runBuild() {
@@ -33,7 +32,8 @@ function runCommand(command, args) {
   return new Promise((resolve, reject) => {
     const child = spawn(command, args, {
       stdio: 'inherit',
-      shell: true
+      shell: true,
+      env: process.env,
     });
     
     child.on('close', (code) => {

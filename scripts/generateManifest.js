@@ -2,8 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
+import { resolveR2PublicUrl } from './r2Config.js';
 
-// Load environment variables
 dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
@@ -13,21 +13,10 @@ const ASSETS_DIR = path.join(__dirname, '../public/assets');
 const FRAMES_DIR = path.join(ASSETS_DIR, 'frames');
 const OUTPUT_FILE = path.join(__dirname, '../src/lib/assetManifest.generated.ts');
 
-// Get R2 public URL from environment
-const R2_PUBLIC_URL = process.env.R2_PUBLIC_URL || 'https://pub-xxxxx.r2.dev';
-
-// Detect environment
 const isProduction = process.env.NODE_ENV === 'production';
-
-if (isProduction) {
-  const url = process.env.R2_PUBLIC_URL?.trim();
-  if (!url || url.includes('pub-xxxxx')) {
-    console.error(
-      'Production manifest requires R2_PUBLIC_URL in .env (or CI secrets).'
-    );
-    process.exit(1);
-  }
-}
+const R2_PUBLIC_URL = isProduction
+  ? resolveR2PublicUrl()
+  : (process.env.R2_PUBLIC_URL?.trim() || '/assets');
 
 // Scan directory structure and generate manifest
 function scanFrames(baseDir, category) {
