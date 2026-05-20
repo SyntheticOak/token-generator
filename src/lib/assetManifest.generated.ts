@@ -13,7 +13,7 @@ export const assets: AssetRecord = {
     "subCategory": "artificer",
     "thumbnailPath": "alchemist_256.webp",
     "masterPath": "alchemist_1024.png",
-    "basePath": "/assets/frames/classes/artificer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
     "maskPath": "alchemist_mask.png",
     "tags": [
       "alchemist",
@@ -28,7 +28,7 @@ export const assets: AssetRecord = {
     "subCategory": "artificer",
     "thumbnailPath": "artificer_01_256.webp",
     "masterPath": "artificer_01_1024.png",
-    "basePath": "/assets/frames/classes/artificer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
     "maskPath": "artificer_01_mask.png",
     "tags": [
       "artificer_01",
@@ -43,7 +43,7 @@ export const assets: AssetRecord = {
     "subCategory": "artificer",
     "thumbnailPath": "artificer_02_256.webp",
     "masterPath": "artificer_02_1024.png",
-    "basePath": "/assets/frames/classes/artificer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
     "maskPath": "artificer_02_mask.png",
     "tags": [
       "artificer_02",
@@ -58,7 +58,7 @@ export const assets: AssetRecord = {
     "subCategory": "artificer",
     "thumbnailPath": "artificer_03_256.webp",
     "masterPath": "artificer_03_1024.png",
-    "basePath": "/assets/frames/classes/artificer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
     "maskPath": "artificer_03_mask.png",
     "tags": [
       "artificer_03",
@@ -73,7 +73,7 @@ export const assets: AssetRecord = {
     "subCategory": "artificer",
     "thumbnailPath": "artificer_04_256.webp",
     "masterPath": "artificer_04_1024.png",
-    "basePath": "/assets/frames/classes/artificer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
     "maskPath": "artificer_04_mask.png",
     "tags": [
       "artificer_04",
@@ -88,7 +88,7 @@ export const assets: AssetRecord = {
     "subCategory": "artificer",
     "thumbnailPath": "artificer_05_256.webp",
     "masterPath": "artificer_05_1024.png",
-    "basePath": "/assets/frames/classes/artificer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
     "maskPath": "artificer_05_mask.png",
     "tags": [
       "artificer_05",
@@ -103,7 +103,7 @@ export const assets: AssetRecord = {
     "subCategory": "artificer",
     "thumbnailPath": "art_name_256.webp",
     "masterPath": "art_name_1024.png",
-    "basePath": "/assets/frames/classes/artificer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/artificer",
     "maskPath": "art_name_mask.png",
     "tags": [
       "art_name",
@@ -118,7 +118,7 @@ export const assets: AssetRecord = {
     "subCategory": "barbarian",
     "thumbnailPath": "barbarian_01_256.webp",
     "masterPath": "barbarian_01_1024.png",
-    "basePath": "/assets/frames/classes/barbarian",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
     "maskPath": "barbarian_01_mask.png",
     "tags": [
       "barbarian_01",
@@ -133,7 +133,7 @@ export const assets: AssetRecord = {
     "subCategory": "barbarian",
     "thumbnailPath": "barbarian_02_256.webp",
     "masterPath": "barbarian_02_1024.png",
-    "basePath": "/assets/frames/classes/barbarian",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
     "maskPath": "barbarian_02_mask.png",
     "tags": [
       "barbarian_02",
@@ -148,7 +148,7 @@ export const assets: AssetRecord = {
     "subCategory": "barbarian",
     "thumbnailPath": "barbarian_04_256.webp",
     "masterPath": "barbarian_04_1024.png",
-    "basePath": "/assets/frames/classes/barbarian",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
     "maskPath": "barbarian_04_mask.png",
     "tags": [
       "barbarian_04",
@@ -163,7 +163,7 @@ export const assets: AssetRecord = {
     "subCategory": "barbarian",
     "thumbnailPath": "barbarian_05_256.webp",
     "masterPath": "barbarian_05_1024.png",
-    "basePath": "/assets/frames/classes/barbarian",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
     "maskPath": "barbarian_05_mask.png",
     "tags": [
       "barbarian_05",
@@ -178,7 +178,7 @@ export const assets: AssetRecord = {
     "subCategory": "barbarian",
     "thumbnailPath": "barbarian_07_256.webp",
     "masterPath": "barbarian_07_1024.png",
-    "basePath": "/assets/frames/classes/barbarian",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
     "maskPath": "barbarian_07_mask.png",
     "tags": [
       "barbarian_07",
@@ -193,7 +193,7 @@ export const assets: AssetRecord = {
     "subCategory": "barbarian",
     "thumbnailPath": "barbarian_08_256.webp",
     "masterPath": "barbarian_08_1024.png",
-    "basePath": "/assets/frames/classes/barbarian",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
     "maskPath": "barbarian_08_mask.png",
     "tags": [
       "barbarian_08",
@@ -208,7 +208,7 @@ export const assets: AssetRecord = {
     "subCategory": "barbarian",
     "thumbnailPath": "beartotem_256.webp",
     "masterPath": "beartotem_1024.png",
-    "basePath": "/assets/frames/classes/barbarian",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
     "maskPath": "beartotem_mask.png",
     "tags": [
       "beartotem",
@@ -223,7 +223,7 @@ export const assets: AssetRecord = {
     "subCategory": "barbarian",
     "thumbnailPath": "minsc_256.webp",
     "masterPath": "minsc_1024.png",
-    "basePath": "/assets/frames/classes/barbarian",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/barbarian",
     "maskPath": "minsc_mask.png",
     "tags": [
       "minsc",
@@ -238,7 +238,7 @@ export const assets: AssetRecord = {
     "subCategory": "bard",
     "thumbnailPath": "bard_01_256.webp",
     "masterPath": "bard_01_1024.png",
-    "basePath": "/assets/frames/classes/bard",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
     "maskPath": "bard_01_mask.png",
     "tags": [
       "bard_01",
@@ -253,7 +253,7 @@ export const assets: AssetRecord = {
     "subCategory": "bard",
     "thumbnailPath": "bard_02_256.webp",
     "masterPath": "bard_02_1024.png",
-    "basePath": "/assets/frames/classes/bard",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
     "maskPath": "bard_02_mask.png",
     "tags": [
       "bard_02",
@@ -268,7 +268,7 @@ export const assets: AssetRecord = {
     "subCategory": "bard",
     "thumbnailPath": "bard_03_256.webp",
     "masterPath": "bard_03_1024.png",
-    "basePath": "/assets/frames/classes/bard",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
     "maskPath": "bard_03_mask.png",
     "tags": [
       "bard_03",
@@ -283,7 +283,7 @@ export const assets: AssetRecord = {
     "subCategory": "bard",
     "thumbnailPath": "bard_05_256.webp",
     "masterPath": "bard_05_1024.png",
-    "basePath": "/assets/frames/classes/bard",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
     "maskPath": "bard_05_mask.png",
     "tags": [
       "bard_05",
@@ -298,7 +298,7 @@ export const assets: AssetRecord = {
     "subCategory": "bard",
     "thumbnailPath": "bard_name_256.webp",
     "masterPath": "bard_name_1024.png",
-    "basePath": "/assets/frames/classes/bard",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
     "maskPath": "bard_name_mask.png",
     "tags": [
       "bard_name",
@@ -313,7 +313,7 @@ export const assets: AssetRecord = {
     "subCategory": "bard",
     "thumbnailPath": "lorebard_256.webp",
     "masterPath": "lorebard_1024.png",
-    "basePath": "/assets/frames/classes/bard",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
     "maskPath": "lorebard_mask.png",
     "tags": [
       "lorebard",
@@ -328,7 +328,7 @@ export const assets: AssetRecord = {
     "subCategory": "bard",
     "thumbnailPath": "loremaster_256.webp",
     "masterPath": "loremaster_1024.png",
-    "basePath": "/assets/frames/classes/bard",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bard",
     "maskPath": "loremaster_mask.png",
     "tags": [
       "loremaster",
@@ -343,7 +343,7 @@ export const assets: AssetRecord = {
     "subCategory": "bloodhunter",
     "thumbnailPath": "bloodhunter_256.webp",
     "masterPath": "bloodhunter_1024.png",
-    "basePath": "/assets/frames/classes/bloodhunter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bloodhunter",
     "maskPath": "bloodhunter_mask.png",
     "tags": [
       "bloodhunter",
@@ -358,7 +358,7 @@ export const assets: AssetRecord = {
     "subCategory": "bloodhunter",
     "thumbnailPath": "dd_01_256.webp",
     "masterPath": "dd_01_1024.png",
-    "basePath": "/assets/frames/classes/bloodhunter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/bloodhunter",
     "maskPath": "dd_01_mask.png",
     "tags": [
       "dd_01",
@@ -373,7 +373,7 @@ export const assets: AssetRecord = {
     "subCategory": "cleric",
     "thumbnailPath": "cleric_01_256.webp",
     "masterPath": "cleric_01_1024.png",
-    "basePath": "/assets/frames/classes/cleric",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
     "maskPath": "cleric_01_mask.png",
     "tags": [
       "cleric_01",
@@ -388,7 +388,7 @@ export const assets: AssetRecord = {
     "subCategory": "cleric",
     "thumbnailPath": "cleric_02_256.webp",
     "masterPath": "cleric_02_1024.png",
-    "basePath": "/assets/frames/classes/cleric",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
     "maskPath": "cleric_02_mask.png",
     "tags": [
       "cleric_02",
@@ -403,7 +403,7 @@ export const assets: AssetRecord = {
     "subCategory": "cleric",
     "thumbnailPath": "cler_name_256.webp",
     "masterPath": "cler_name_1024.png",
-    "basePath": "/assets/frames/classes/cleric",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
     "maskPath": "cler_name_mask.png",
     "tags": [
       "cler_name",
@@ -418,7 +418,7 @@ export const assets: AssetRecord = {
     "subCategory": "cleric",
     "thumbnailPath": "duskcleric_256.webp",
     "masterPath": "duskcleric_1024.png",
-    "basePath": "/assets/frames/classes/cleric",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
     "maskPath": "duskcleric_mask.png",
     "tags": [
       "duskcleric",
@@ -433,7 +433,7 @@ export const assets: AssetRecord = {
     "subCategory": "cleric",
     "thumbnailPath": "holy_256.webp",
     "masterPath": "holy_1024.png",
-    "basePath": "/assets/frames/classes/cleric",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
     "maskPath": "holy_mask.png",
     "tags": [
       "holy",
@@ -448,7 +448,7 @@ export const assets: AssetRecord = {
     "subCategory": "cleric",
     "thumbnailPath": "thin_cleric_256.webp",
     "masterPath": "thin_cleric_1024.png",
-    "basePath": "/assets/frames/classes/cleric",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
     "maskPath": "thin_cleric_mask.png",
     "tags": [
       "thin_cleric",
@@ -463,7 +463,7 @@ export const assets: AssetRecord = {
     "subCategory": "cleric",
     "thumbnailPath": "warpriest_256.webp",
     "masterPath": "warpriest_1024.png",
-    "basePath": "/assets/frames/classes/cleric",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/cleric",
     "maskPath": "warpriest_mask.png",
     "tags": [
       "warpriest",
@@ -478,7 +478,7 @@ export const assets: AssetRecord = {
     "subCategory": "deathknight",
     "thumbnailPath": "cursedblade_256.webp",
     "masterPath": "cursedblade_1024.png",
-    "basePath": "/assets/frames/classes/deathknight",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/deathknight",
     "maskPath": "cursedblade_mask.png",
     "tags": [
       "cursedblade",
@@ -493,7 +493,7 @@ export const assets: AssetRecord = {
     "subCategory": "deathknight",
     "thumbnailPath": "deathknight_01_256.webp",
     "masterPath": "deathknight_01_1024.png",
-    "basePath": "/assets/frames/classes/deathknight",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/deathknight",
     "maskPath": "deathknight_01_mask.png",
     "tags": [
       "deathknight_01",
@@ -508,7 +508,7 @@ export const assets: AssetRecord = {
     "subCategory": "deathknight",
     "thumbnailPath": "duke_frame_256.webp",
     "masterPath": "duke_frame_1024.png",
-    "basePath": "/assets/frames/classes/deathknight",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/deathknight",
     "maskPath": "duke_mask.png",
     "tags": [
       "duke_frame",
@@ -523,7 +523,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_01_256.webp",
     "masterPath": "druid_01_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_01_mask.png",
     "tags": [
       "druid_01",
@@ -538,7 +538,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_03_256.webp",
     "masterPath": "druid_03_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_03_mask.png",
     "tags": [
       "druid_03",
@@ -553,7 +553,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_04_256.webp",
     "masterPath": "druid_04_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_04_mask.png",
     "tags": [
       "druid_04",
@@ -568,7 +568,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_05_256.webp",
     "masterPath": "druid_05_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_05_mask.png",
     "tags": [
       "druid_05",
@@ -583,7 +583,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_07_256.webp",
     "masterPath": "druid_07_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_07_mask.png",
     "tags": [
       "druid_07",
@@ -598,7 +598,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_08_256.webp",
     "masterPath": "druid_08_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_08_mask.png",
     "tags": [
       "druid_08",
@@ -613,7 +613,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_09_256.webp",
     "masterPath": "druid_09_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_09_mask.png",
     "tags": [
       "druid_09",
@@ -628,7 +628,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_10a_256.webp",
     "masterPath": "druid_10a_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_10a_mask.png",
     "tags": [
       "druid_10a",
@@ -643,7 +643,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_10b_256.webp",
     "masterPath": "druid_10b_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_10b_mask.png",
     "tags": [
       "druid_10b",
@@ -658,7 +658,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_12_256.webp",
     "masterPath": "druid_12_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_12_mask.png",
     "tags": [
       "druid_12",
@@ -673,7 +673,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_13_256.webp",
     "masterPath": "druid_13_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_13_mask.png",
     "tags": [
       "druid_13",
@@ -688,7 +688,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_14a_256.webp",
     "masterPath": "druid_14a_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_14a_mask.png",
     "tags": [
       "druid_14a",
@@ -703,7 +703,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_14b_256.webp",
     "masterPath": "druid_14b_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_14b_mask.png",
     "tags": [
       "druid_14b",
@@ -718,7 +718,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_14c_256.webp",
     "masterPath": "druid_14c_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_14c_mask.png",
     "tags": [
       "druid_14c",
@@ -733,7 +733,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_14d_256.webp",
     "masterPath": "druid_14d_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_14d_mask.png",
     "tags": [
       "druid_14d",
@@ -748,7 +748,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "druid_14e_256.webp",
     "masterPath": "druid_14e_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "druid_14e_mask.png",
     "tags": [
       "druid_14e",
@@ -763,7 +763,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "drui_name_256.webp",
     "masterPath": "drui_name_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "drui_name_mask.png",
     "tags": [
       "drui_name",
@@ -778,7 +778,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "elements_256.webp",
     "masterPath": "elements_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "elements_mask.png",
     "tags": [
       "elements",
@@ -793,7 +793,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "moondruid_256.webp",
     "masterPath": "moondruid_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "moondruid_mask.png",
     "tags": [
       "moondruid",
@@ -808,7 +808,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "stardruid_256.webp",
     "masterPath": "stardruid_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "stardruid_mask.png",
     "tags": [
       "stardruid",
@@ -823,7 +823,7 @@ export const assets: AssetRecord = {
     "subCategory": "druid",
     "thumbnailPath": "thin_druid_256.webp",
     "masterPath": "thin_druid_1024.png",
-    "basePath": "/assets/frames/classes/druid",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/druid",
     "maskPath": "thin_druid_mask.png",
     "tags": [
       "thin_druid",
@@ -838,7 +838,7 @@ export const assets: AssetRecord = {
     "subCategory": "fighter",
     "thumbnailPath": "eldritchknight_256.webp",
     "masterPath": "eldritchknight_1024.png",
-    "basePath": "/assets/frames/classes/fighter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
     "maskPath": "eldritchknight_mask.png",
     "tags": [
       "eldritchknight",
@@ -853,7 +853,7 @@ export const assets: AssetRecord = {
     "subCategory": "fighter",
     "thumbnailPath": "fighter_01_256.webp",
     "masterPath": "fighter_01_1024.png",
-    "basePath": "/assets/frames/classes/fighter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
     "maskPath": "fighter_01_mask.png",
     "tags": [
       "fighter_01",
@@ -868,7 +868,7 @@ export const assets: AssetRecord = {
     "subCategory": "fighter",
     "thumbnailPath": "fighter_02_256.webp",
     "masterPath": "fighter_02_1024.png",
-    "basePath": "/assets/frames/classes/fighter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
     "maskPath": "fighter_02_mask.png",
     "tags": [
       "fighter_02",
@@ -883,7 +883,7 @@ export const assets: AssetRecord = {
     "subCategory": "fighter",
     "thumbnailPath": "fighter_03_256.webp",
     "masterPath": "fighter_03_1024.png",
-    "basePath": "/assets/frames/classes/fighter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
     "maskPath": "fighter_03_mask.png",
     "tags": [
       "fighter_03",
@@ -898,7 +898,7 @@ export const assets: AssetRecord = {
     "subCategory": "fighter",
     "thumbnailPath": "fighter_05_256.webp",
     "masterPath": "fighter_05_1024.png",
-    "basePath": "/assets/frames/classes/fighter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
     "maskPath": "fighter_05_mask.png",
     "tags": [
       "fighter_05",
@@ -913,7 +913,7 @@ export const assets: AssetRecord = {
     "subCategory": "fighter",
     "thumbnailPath": "fight_name_256.webp",
     "masterPath": "fight_name_1024.png",
-    "basePath": "/assets/frames/classes/fighter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
     "maskPath": "fight_name_mask.png",
     "tags": [
       "fight_name",
@@ -928,7 +928,7 @@ export const assets: AssetRecord = {
     "subCategory": "fighter",
     "thumbnailPath": "obswolf_256.webp",
     "masterPath": "obswolf_1024.png",
-    "basePath": "/assets/frames/classes/fighter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
     "maskPath": "obswolf_mask.png",
     "tags": [
       "obswolf",
@@ -943,7 +943,7 @@ export const assets: AssetRecord = {
     "subCategory": "fighter",
     "thumbnailPath": "obs_wolf_256.webp",
     "masterPath": "obs_wolf_1024.png",
-    "basePath": "/assets/frames/classes/fighter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
     "maskPath": "obs_wolf_mask.png",
     "tags": [
       "obs_wolf",
@@ -958,7 +958,7 @@ export const assets: AssetRecord = {
     "subCategory": "fighter",
     "thumbnailPath": "rune_knight_256.webp",
     "masterPath": "rune_knight_1024.png",
-    "basePath": "/assets/frames/classes/fighter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
     "maskPath": "rune_knight_mask.png",
     "tags": [
       "rune_knight",
@@ -973,7 +973,7 @@ export const assets: AssetRecord = {
     "subCategory": "fighter",
     "thumbnailPath": "thin_fighter_256.webp",
     "masterPath": "thin_fighter_1024.png",
-    "basePath": "/assets/frames/classes/fighter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/fighter",
     "maskPath": "thin_fighter_mask.png",
     "tags": [
       "thin_fighter",
@@ -988,7 +988,7 @@ export const assets: AssetRecord = {
     "subCategory": "gunslinger",
     "thumbnailPath": "gunslinger_01_256.webp",
     "masterPath": "gunslinger_01_1024.png",
-    "basePath": "/assets/frames/classes/gunslinger",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/gunslinger",
     "maskPath": "gunslinger_01_mask.png",
     "tags": [
       "gunslinger_01",
@@ -1003,7 +1003,7 @@ export const assets: AssetRecord = {
     "subCategory": "monk",
     "thumbnailPath": "drunkenmaster_256.webp",
     "masterPath": "drunkenmaster_1024.png",
-    "basePath": "/assets/frames/classes/monk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
     "maskPath": "drunkenmaster_mask.png",
     "tags": [
       "drunkenmaster",
@@ -1018,7 +1018,7 @@ export const assets: AssetRecord = {
     "subCategory": "monk",
     "thumbnailPath": "monk_01_256.webp",
     "masterPath": "monk_01_1024.png",
-    "basePath": "/assets/frames/classes/monk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
     "maskPath": "monk_01_mask.png",
     "tags": [
       "monk_01",
@@ -1033,7 +1033,7 @@ export const assets: AssetRecord = {
     "subCategory": "monk",
     "thumbnailPath": "monk_02_256.webp",
     "masterPath": "monk_02_1024.png",
-    "basePath": "/assets/frames/classes/monk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
     "maskPath": "monk_02_mask.png",
     "tags": [
       "monk_02",
@@ -1048,7 +1048,7 @@ export const assets: AssetRecord = {
     "subCategory": "monk",
     "thumbnailPath": "monk_03_256.webp",
     "masterPath": "monk_03_1024.png",
-    "basePath": "/assets/frames/classes/monk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
     "maskPath": "monk_03_mask.png",
     "tags": [
       "monk_03",
@@ -1063,7 +1063,7 @@ export const assets: AssetRecord = {
     "subCategory": "monk",
     "thumbnailPath": "monk_04_256.webp",
     "masterPath": "monk_04_1024.png",
-    "basePath": "/assets/frames/classes/monk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
     "maskPath": "monk_04_mask.png",
     "tags": [
       "monk_04",
@@ -1078,7 +1078,7 @@ export const assets: AssetRecord = {
     "subCategory": "monk",
     "thumbnailPath": "monk_06_256.webp",
     "masterPath": "monk_06_1024.png",
-    "basePath": "/assets/frames/classes/monk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
     "maskPath": "monk_06_mask.png",
     "tags": [
       "monk_06",
@@ -1093,7 +1093,7 @@ export const assets: AssetRecord = {
     "subCategory": "monk",
     "thumbnailPath": "thin_monk_256.webp",
     "masterPath": "thin_monk_1024.png",
-    "basePath": "/assets/frames/classes/monk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/monk",
     "maskPath": "thin_monk_mask.png",
     "tags": [
       "thin_monk",
@@ -1108,7 +1108,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "default_paladin_256.webp",
     "masterPath": "default_paladin_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "default_paladin_mask.png",
     "tags": [
       "default_paladin",
@@ -1123,7 +1123,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "dragon_paladin_256.webp",
     "masterPath": "dragon_paladin_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "dragon_paladin_mask.png",
     "tags": [
       "dragon_paladin",
@@ -1138,7 +1138,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "fallen_paladin_256.webp",
     "masterPath": "fallen_paladin_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "fallen_paladin_mask.png",
     "tags": [
       "fallen_paladin",
@@ -1153,7 +1153,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "justice_256.webp",
     "masterPath": "justice_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "justice_mask.png",
     "tags": [
       "justice",
@@ -1168,7 +1168,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_01_256.webp",
     "masterPath": "paladin_01_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_01_mask.png",
     "tags": [
       "paladin_01",
@@ -1183,7 +1183,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_03_256.webp",
     "masterPath": "paladin_03_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_03_mask.png",
     "tags": [
       "paladin_03",
@@ -1198,7 +1198,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_04_256.webp",
     "masterPath": "paladin_04_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_04_mask.png",
     "tags": [
       "paladin_04",
@@ -1213,7 +1213,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_05_256.webp",
     "masterPath": "paladin_05_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_05_mask.png",
     "tags": [
       "paladin_05",
@@ -1228,7 +1228,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_06_256.webp",
     "masterPath": "paladin_06_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_06_mask.png",
     "tags": [
       "paladin_06",
@@ -1243,7 +1243,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_08_256.webp",
     "masterPath": "paladin_08_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_08_mask.png",
     "tags": [
       "paladin_08",
@@ -1258,7 +1258,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_09_256.webp",
     "masterPath": "paladin_09_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_09_mask.png",
     "tags": [
       "paladin_09",
@@ -1273,7 +1273,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_256.webp",
     "masterPath": "paladin_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_mask.png",
     "tags": [
       "paladin",
@@ -1288,7 +1288,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_10_256.webp",
     "masterPath": "paladin_10_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_10_mask.png",
     "tags": [
       "paladin_10",
@@ -1303,7 +1303,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_11_256.webp",
     "masterPath": "paladin_11_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_11_mask.png",
     "tags": [
       "paladin_11",
@@ -1318,7 +1318,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_12_256.webp",
     "masterPath": "paladin_12_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_12_mask.png",
     "tags": [
       "paladin_12",
@@ -1333,7 +1333,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_13_256.webp",
     "masterPath": "paladin_13_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_13_mask.png",
     "tags": [
       "paladin_13",
@@ -1348,7 +1348,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_14_256.webp",
     "masterPath": "paladin_14_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_14_mask.png",
     "tags": [
       "paladin_14",
@@ -1363,7 +1363,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "paladin_15_256.webp",
     "masterPath": "paladin_15_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "paladin_15_mask.png",
     "tags": [
       "paladin_15",
@@ -1378,7 +1378,7 @@ export const assets: AssetRecord = {
     "subCategory": "paladin",
     "thumbnailPath": "pal_name_256.webp",
     "masterPath": "pal_name_1024.png",
-    "basePath": "/assets/frames/classes/paladin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/paladin",
     "maskPath": "pal_name_mask.png",
     "tags": [
       "pal_name",
@@ -1393,7 +1393,7 @@ export const assets: AssetRecord = {
     "subCategory": "ranger",
     "thumbnailPath": "hunter_256.webp",
     "masterPath": "hunter_1024.png",
-    "basePath": "/assets/frames/classes/ranger",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
     "maskPath": "hunter_mask.png",
     "tags": [
       "hunter",
@@ -1408,7 +1408,7 @@ export const assets: AssetRecord = {
     "subCategory": "ranger",
     "thumbnailPath": "ranger_01_256.webp",
     "masterPath": "ranger_01_1024.png",
-    "basePath": "/assets/frames/classes/ranger",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
     "maskPath": "ranger_01_mask.png",
     "tags": [
       "ranger_01",
@@ -1423,7 +1423,7 @@ export const assets: AssetRecord = {
     "subCategory": "ranger",
     "thumbnailPath": "ranger_03_256.webp",
     "masterPath": "ranger_03_1024.png",
-    "basePath": "/assets/frames/classes/ranger",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
     "maskPath": "ranger_03_mask.png",
     "tags": [
       "ranger_03",
@@ -1438,7 +1438,7 @@ export const assets: AssetRecord = {
     "subCategory": "ranger",
     "thumbnailPath": "ranger_04_256.webp",
     "masterPath": "ranger_04_1024.png",
-    "basePath": "/assets/frames/classes/ranger",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
     "maskPath": "ranger_04_mask.png",
     "tags": [
       "ranger_04",
@@ -1453,7 +1453,7 @@ export const assets: AssetRecord = {
     "subCategory": "ranger",
     "thumbnailPath": "ranger_05_256.webp",
     "masterPath": "ranger_05_1024.png",
-    "basePath": "/assets/frames/classes/ranger",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
     "maskPath": "ranger_05_mask.png",
     "tags": [
       "ranger_05",
@@ -1468,7 +1468,7 @@ export const assets: AssetRecord = {
     "subCategory": "ranger",
     "thumbnailPath": "ranger_256.webp",
     "masterPath": "ranger_1024.png",
-    "basePath": "/assets/frames/classes/ranger",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
     "maskPath": "ranger_mask.png",
     "tags": [
       "ranger",
@@ -1483,7 +1483,7 @@ export const assets: AssetRecord = {
     "subCategory": "ranger",
     "thumbnailPath": "rang_name_256.webp",
     "masterPath": "rang_name_1024.png",
-    "basePath": "/assets/frames/classes/ranger",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
     "maskPath": "rang_name_mask.png",
     "tags": [
       "rang_name",
@@ -1498,7 +1498,7 @@ export const assets: AssetRecord = {
     "subCategory": "ranger",
     "thumbnailPath": "stalker_256.webp",
     "masterPath": "stalker_1024.png",
-    "basePath": "/assets/frames/classes/ranger",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
     "maskPath": "stalker_mask.png",
     "tags": [
       "stalker",
@@ -1513,7 +1513,7 @@ export const assets: AssetRecord = {
     "subCategory": "ranger",
     "thumbnailPath": "thin_ranger_256.webp",
     "masterPath": "thin_ranger_1024.png",
-    "basePath": "/assets/frames/classes/ranger",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/ranger",
     "maskPath": "thin_ranger_mask.png",
     "tags": [
       "thin_ranger",
@@ -1528,7 +1528,7 @@ export const assets: AssetRecord = {
     "subCategory": "rogue",
     "thumbnailPath": "rogue_01_256.webp",
     "masterPath": "rogue_01_1024.png",
-    "basePath": "/assets/frames/classes/rogue",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/rogue",
     "maskPath": "rogue_01_mask.png",
     "tags": [
       "rogue_01",
@@ -1543,7 +1543,7 @@ export const assets: AssetRecord = {
     "subCategory": "rogue",
     "thumbnailPath": "rogue_02_256.webp",
     "masterPath": "rogue_02_1024.png",
-    "basePath": "/assets/frames/classes/rogue",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/rogue",
     "maskPath": "rogue_02_mask.png",
     "tags": [
       "rogue_02",
@@ -1558,7 +1558,7 @@ export const assets: AssetRecord = {
     "subCategory": "rogue",
     "thumbnailPath": "rogue_03_256.webp",
     "masterPath": "rogue_03_1024.png",
-    "basePath": "/assets/frames/classes/rogue",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/rogue",
     "maskPath": "rogue_03_mask.png",
     "tags": [
       "rogue_03",
@@ -1573,7 +1573,7 @@ export const assets: AssetRecord = {
     "subCategory": "rogue",
     "thumbnailPath": "rogue_04_256.webp",
     "masterPath": "rogue_04_1024.png",
-    "basePath": "/assets/frames/classes/rogue",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/rogue",
     "maskPath": "rogue_04_mask.png",
     "tags": [
       "rogue_04",
@@ -1588,7 +1588,7 @@ export const assets: AssetRecord = {
     "subCategory": "rogue",
     "thumbnailPath": "rog_name_256.webp",
     "masterPath": "rog_name_1024.png",
-    "basePath": "/assets/frames/classes/rogue",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/rogue",
     "maskPath": "rog_name_mask.png",
     "tags": [
       "rog_name",
@@ -1603,7 +1603,7 @@ export const assets: AssetRecord = {
     "subCategory": "rogue",
     "thumbnailPath": "shadow_ring_256.webp",
     "masterPath": "shadow_ring_1024.png",
-    "basePath": "/assets/frames/classes/rogue",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/rogue",
     "maskPath": "shadow_ring_mask.png",
     "tags": [
       "shadow_ring",
@@ -1618,7 +1618,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "divinesoul_256.webp",
     "masterPath": "divinesoul_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "divinesoul_mask.png",
     "tags": [
       "divinesoul",
@@ -1633,7 +1633,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "drag_sorc_256.webp",
     "masterPath": "drag_sorc_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "drag_sorc_mask.png",
     "tags": [
       "drag_sorc",
@@ -1648,7 +1648,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "purple_dragon_256.webp",
     "masterPath": "purple_dragon_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "purple_dragon_mask.png",
     "tags": [
       "purple_dragon",
@@ -1663,7 +1663,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_01_256.webp",
     "masterPath": "sorcerer_01_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "sorcerer_01_mask.png",
     "tags": [
       "sorcerer_01",
@@ -1678,7 +1678,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_02_256.webp",
     "masterPath": "sorcerer_02_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "sorcerer_02_mask.png",
     "tags": [
       "sorcerer_02",
@@ -1693,7 +1693,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_03_256.webp",
     "masterPath": "sorcerer_03_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "sorcerer_03_mask.png",
     "tags": [
       "sorcerer_03",
@@ -1708,7 +1708,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_04_256.webp",
     "masterPath": "sorcerer_04_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "sorcerer_04_mask.png",
     "tags": [
       "sorcerer_04",
@@ -1723,7 +1723,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_05_256.webp",
     "masterPath": "sorcerer_05_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "tags": [
       "sorcerer_05",
       "class",
@@ -1737,7 +1737,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_06_256.webp",
     "masterPath": "sorcerer_06_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "sorcerer_06_mask.png",
     "tags": [
       "sorcerer_06",
@@ -1752,7 +1752,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_07a_256.webp",
     "masterPath": "sorcerer_07a_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "tags": [
       "sorcerer_07a",
       "class",
@@ -1766,7 +1766,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_07b_256.webp",
     "masterPath": "sorcerer_07b_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "tags": [
       "sorcerer_07b",
       "class",
@@ -1780,7 +1780,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_07c_256.webp",
     "masterPath": "sorcerer_07c_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "tags": [
       "sorcerer_07c",
       "class",
@@ -1794,7 +1794,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_07d_256.webp",
     "masterPath": "sorcerer_07d_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "tags": [
       "sorcerer_07d",
       "class",
@@ -1808,7 +1808,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_07e_256.webp",
     "masterPath": "sorcerer_07e_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "tags": [
       "sorcerer_07e",
       "class",
@@ -1822,7 +1822,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_08_256.webp",
     "masterPath": "sorcerer_08_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "sorcerer_08_mask.png",
     "tags": [
       "sorcerer_08",
@@ -1837,7 +1837,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sorcerer_thin_256.webp",
     "masterPath": "sorcerer_thin_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "sorcerer_thin_mask.png",
     "tags": [
       "sorcerer_thin",
@@ -1852,7 +1852,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "sor_name_256.webp",
     "masterPath": "sor_name_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "sor_name_mask.png",
     "tags": [
       "sor_name",
@@ -1867,7 +1867,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "thin_sorcerer_256.webp",
     "masterPath": "thin_sorcerer_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "thin_sorcerer_mask.png",
     "tags": [
       "thin_sorcerer",
@@ -1882,7 +1882,7 @@ export const assets: AssetRecord = {
     "subCategory": "sorcerer",
     "thumbnailPath": "wildmagic_256.webp",
     "masterPath": "wildmagic_1024.png",
-    "basePath": "/assets/frames/classes/sorcerer",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/sorcerer",
     "maskPath": "wildmagic_mask.png",
     "tags": [
       "wildmagic",
@@ -1897,7 +1897,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "hexblade_256.webp",
     "masterPath": "hexblade_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "hexblade_mask.png",
     "tags": [
       "hexblade",
@@ -1912,7 +1912,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "oldone_256.webp",
     "masterPath": "oldone_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "oldone_mask.png",
     "tags": [
       "oldone",
@@ -1927,7 +1927,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "thefiend_256.webp",
     "masterPath": "thefiend_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "thefiend_mask.png",
     "tags": [
       "thefiend",
@@ -1942,7 +1942,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "twins_256.webp",
     "masterPath": "twins_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "twins_mask.png",
     "tags": [
       "twins",
@@ -1957,7 +1957,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "warlock_01_256.webp",
     "masterPath": "warlock_01_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "warlock_01_mask.png",
     "tags": [
       "warlock_01",
@@ -1972,7 +1972,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "warlock_02_256.webp",
     "masterPath": "warlock_02_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "warlock_02_mask.png",
     "tags": [
       "warlock_02",
@@ -1987,7 +1987,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "warlock_03_256.webp",
     "masterPath": "warlock_03_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "warlock_03_mask.png",
     "tags": [
       "warlock_03",
@@ -2002,7 +2002,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "warlock_04_256.webp",
     "masterPath": "warlock_04_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "warlock_04_mask.png",
     "tags": [
       "warlock_04",
@@ -2017,7 +2017,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "warlock_05_256.webp",
     "masterPath": "warlock_05_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "warlock_05_mask.png",
     "tags": [
       "warlock_05",
@@ -2032,7 +2032,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "warlock_08_256.webp",
     "masterPath": "warlock_08_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "warlock_08_mask.png",
     "tags": [
       "warlock_08",
@@ -2047,7 +2047,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "warlock_10_256.webp",
     "masterPath": "warlock_10_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "warlock_10_mask.png",
     "tags": [
       "warlock_10",
@@ -2062,7 +2062,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "warlock_14_256.webp",
     "masterPath": "warlock_14_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "warlock_14_mask.png",
     "tags": [
       "warlock_14",
@@ -2077,7 +2077,7 @@ export const assets: AssetRecord = {
     "subCategory": "warlock",
     "thumbnailPath": "warl_name_256.webp",
     "masterPath": "warl_name_1024.png",
-    "basePath": "/assets/frames/classes/warlock",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/warlock",
     "maskPath": "warl_name_mask.png",
     "tags": [
       "warl_name",
@@ -2092,7 +2092,7 @@ export const assets: AssetRecord = {
     "subCategory": "wizard",
     "thumbnailPath": "divination_256.webp",
     "masterPath": "divination_1024.png",
-    "basePath": "/assets/frames/classes/wizard",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/wizard",
     "maskPath": "divination_mask.png",
     "tags": [
       "divination",
@@ -2107,7 +2107,7 @@ export const assets: AssetRecord = {
     "subCategory": "wizard",
     "thumbnailPath": "wizard_01_256.webp",
     "masterPath": "wizard_01_1024.png",
-    "basePath": "/assets/frames/classes/wizard",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/wizard",
     "maskPath": "wizard_01_mask.png",
     "tags": [
       "wizard_01",
@@ -2122,7 +2122,7 @@ export const assets: AssetRecord = {
     "subCategory": "wizard",
     "thumbnailPath": "wizard_02_256.webp",
     "masterPath": "wizard_02_1024.png",
-    "basePath": "/assets/frames/classes/wizard",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/wizard",
     "maskPath": "wizard_02_mask.png",
     "tags": [
       "wizard_02",
@@ -2137,7 +2137,7 @@ export const assets: AssetRecord = {
     "subCategory": "wizard",
     "thumbnailPath": "wizard_03_256.webp",
     "masterPath": "wizard_03_1024.png",
-    "basePath": "/assets/frames/classes/wizard",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/classes/wizard",
     "maskPath": "wizard_03_mask.png",
     "tags": [
       "wizard_03",
@@ -2152,7 +2152,7 @@ export const assets: AssetRecord = {
     "subCategory": "astralmonk",
     "thumbnailPath": "astralmonk_256.webp",
     "masterPath": "astralmonk_1024.png",
-    "basePath": "/assets/frames/races/astralmonk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/astralmonk",
     "maskPath": "astralmonk_mask.png",
     "tags": [
       "astralmonk",
@@ -2167,7 +2167,7 @@ export const assets: AssetRecord = {
     "subCategory": "astralwarrior",
     "thumbnailPath": "astralwarrior_256.webp",
     "masterPath": "astralwarrior_1024.png",
-    "basePath": "/assets/frames/races/astralwarrior",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/astralwarrior",
     "maskPath": "astralwarrior_mask.png",
     "tags": [
       "astralwarrior",
@@ -2182,7 +2182,7 @@ export const assets: AssetRecord = {
     "subCategory": "bearfolk",
     "thumbnailPath": "bearfolk_256.webp",
     "masterPath": "bearfolk_1024.png",
-    "basePath": "/assets/frames/races/bearfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/bearfolk",
     "maskPath": "bearfolk_mask.png",
     "tags": [
       "bearfolk",
@@ -2197,7 +2197,7 @@ export const assets: AssetRecord = {
     "subCategory": "bugbear",
     "thumbnailPath": "bugbear_256.webp",
     "masterPath": "bugbear_1024.png",
-    "basePath": "/assets/frames/races/bugbear",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/bugbear",
     "maskPath": "bugbear_mask.png",
     "tags": [
       "bugbear",
@@ -2212,7 +2212,7 @@ export const assets: AssetRecord = {
     "subCategory": "catfolk",
     "thumbnailPath": "catfolk_256.webp",
     "masterPath": "catfolk_1024.png",
-    "basePath": "/assets/frames/races/catfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/catfolk",
     "maskPath": "catfolk_mask.png",
     "tags": [
       "catfolk",
@@ -2227,7 +2227,7 @@ export const assets: AssetRecord = {
     "subCategory": "celestial",
     "thumbnailPath": "celestial_256.webp",
     "masterPath": "celestial_1024.png",
-    "basePath": "/assets/frames/races/celestial",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/celestial",
     "maskPath": "celestial_mask.png",
     "tags": [
       "celestial",
@@ -2242,7 +2242,7 @@ export const assets: AssetRecord = {
     "subCategory": "centaur",
     "thumbnailPath": "centaur_256.webp",
     "masterPath": "centaur_1024.png",
-    "basePath": "/assets/frames/races/centaur",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/centaur",
     "maskPath": "centaur_mask.png",
     "tags": [
       "centaur",
@@ -2257,7 +2257,7 @@ export const assets: AssetRecord = {
     "subCategory": "deepdwarf",
     "thumbnailPath": "deepdwarf_256.webp",
     "masterPath": "deepdwarf_1024.png",
-    "basePath": "/assets/frames/races/deepdwarf",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/deepdwarf",
     "maskPath": "deepdwarf_mask.png",
     "tags": [
       "deepdwarf",
@@ -2272,7 +2272,7 @@ export const assets: AssetRecord = {
     "subCategory": "deepgnome",
     "thumbnailPath": "deepgnome_256.webp",
     "masterPath": "deepgnome_1024.png",
-    "basePath": "/assets/frames/races/deepgnome",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/deepgnome",
     "maskPath": "deepgnome_mask.png",
     "tags": [
       "deepgnome",
@@ -2287,7 +2287,7 @@ export const assets: AssetRecord = {
     "subCategory": "dollfolk",
     "thumbnailPath": "dollfolk_256.webp",
     "masterPath": "dollfolk_1024.png",
-    "basePath": "/assets/frames/races/dollfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/dollfolk",
     "maskPath": "dollfolk_mask.png",
     "tags": [
       "dollfolk",
@@ -2302,7 +2302,7 @@ export const assets: AssetRecord = {
     "subCategory": "drow",
     "thumbnailPath": "drow_race_border_256.webp",
     "masterPath": "drow_race_border_1024.png",
-    "basePath": "/assets/frames/races/drow",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/drow",
     "maskPath": "drow_race_border_mask.png",
     "tags": [
       "drow_race_border",
@@ -2317,7 +2317,7 @@ export const assets: AssetRecord = {
     "subCategory": "dwarf",
     "thumbnailPath": "dwarf_256.webp",
     "masterPath": "dwarf_1024.png",
-    "basePath": "/assets/frames/races/dwarf",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/dwarf",
     "maskPath": "dwarf_mask.png",
     "tags": [
       "dwarf",
@@ -2332,7 +2332,7 @@ export const assets: AssetRecord = {
     "subCategory": "elf",
     "thumbnailPath": "elf_256.webp",
     "masterPath": "elf_1024.png",
-    "basePath": "/assets/frames/races/elf",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/elf",
     "maskPath": "elf_mask.png",
     "tags": [
       "elf",
@@ -2347,7 +2347,7 @@ export const assets: AssetRecord = {
     "subCategory": "fey",
     "thumbnailPath": "fey_256.webp",
     "masterPath": "fey_1024.png",
-    "basePath": "/assets/frames/races/fey",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/fey",
     "maskPath": "fey_mask.png",
     "tags": [
       "fey",
@@ -2362,7 +2362,7 @@ export const assets: AssetRecord = {
     "subCategory": "feyelf",
     "thumbnailPath": "feyelf_256.webp",
     "masterPath": "feyelf_1024.png",
-    "basePath": "/assets/frames/races/feyelf",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/feyelf",
     "maskPath": "feyelf_mask.png",
     "tags": [
       "feyelf",
@@ -2377,7 +2377,7 @@ export const assets: AssetRecord = {
     "subCategory": "firbolg",
     "thumbnailPath": "firbolg_256.webp",
     "masterPath": "firbolg_1024.png",
-    "basePath": "/assets/frames/races/firbolg",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/firbolg",
     "maskPath": "firbolg_mask.png",
     "tags": [
       "firbolg",
@@ -2392,7 +2392,7 @@ export const assets: AssetRecord = {
     "subCategory": "fishfolk",
     "thumbnailPath": "fishfolk_256.webp",
     "masterPath": "fishfolk_1024.png",
-    "basePath": "/assets/frames/races/fishfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/fishfolk",
     "maskPath": "fishfolk_mask.png",
     "tags": [
       "fishfolk",
@@ -2407,7 +2407,7 @@ export const assets: AssetRecord = {
     "subCategory": "foxfolk",
     "thumbnailPath": "foxfolk_256.webp",
     "masterPath": "foxfolk_1024.png",
-    "basePath": "/assets/frames/races/foxfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/foxfolk",
     "maskPath": "foxfolk_mask.png",
     "tags": [
       "foxfolk",
@@ -2422,7 +2422,7 @@ export const assets: AssetRecord = {
     "subCategory": "frogfolk",
     "thumbnailPath": "frogfolk_256.webp",
     "masterPath": "frogfolk_1024.png",
-    "basePath": "/assets/frames/races/frogfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/frogfolk",
     "maskPath": "frogfolk_mask.png",
     "tags": [
       "frogfolk",
@@ -2437,7 +2437,7 @@ export const assets: AssetRecord = {
     "subCategory": "gnome",
     "thumbnailPath": "gnome_256.webp",
     "masterPath": "gnome_1024.png",
-    "basePath": "/assets/frames/races/gnome",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/gnome",
     "maskPath": "gnome_mask.png",
     "tags": [
       "gnome",
@@ -2452,7 +2452,7 @@ export const assets: AssetRecord = {
     "subCategory": "goblin",
     "thumbnailPath": "goblin_256.webp",
     "masterPath": "goblin_1024.png",
-    "basePath": "/assets/frames/races/goblin",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/goblin",
     "maskPath": "goblin_mask.png",
     "tags": [
       "goblin",
@@ -2467,7 +2467,7 @@ export const assets: AssetRecord = {
     "subCategory": "griffon",
     "thumbnailPath": "griffon_256.webp",
     "masterPath": "griffon_1024.png",
-    "basePath": "/assets/frames/races/griffon",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/griffon",
     "maskPath": "griffon_mask.png",
     "tags": [
       "griffon",
@@ -2482,7 +2482,7 @@ export const assets: AssetRecord = {
     "subCategory": "halfelf",
     "thumbnailPath": "halfelf_256.webp",
     "masterPath": "halfelf_1024.png",
-    "basePath": "/assets/frames/races/halfelf",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/halfelf",
     "maskPath": "halfelf_mask.png",
     "tags": [
       "halfelf",
@@ -2497,7 +2497,7 @@ export const assets: AssetRecord = {
     "subCategory": "halfling",
     "thumbnailPath": "halfling_256.webp",
     "masterPath": "halfling_1024.png",
-    "basePath": "/assets/frames/races/halfling",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/halfling",
     "maskPath": "halfling_mask.png",
     "tags": [
       "halfling",
@@ -2512,7 +2512,7 @@ export const assets: AssetRecord = {
     "subCategory": "halforc",
     "thumbnailPath": "halforc_256.webp",
     "masterPath": "halforc_1024.png",
-    "basePath": "/assets/frames/races/halforc",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/halforc",
     "maskPath": "halforc_mask.png",
     "tags": [
       "halforc",
@@ -2527,7 +2527,7 @@ export const assets: AssetRecord = {
     "subCategory": "hedgehog",
     "thumbnailPath": "hedgehog_256.webp",
     "masterPath": "hedgehog_1024.png",
-    "basePath": "/assets/frames/races/hedgehog",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/hedgehog",
     "maskPath": "hedgehog_mask.png",
     "tags": [
       "hedgehog",
@@ -2542,7 +2542,7 @@ export const assets: AssetRecord = {
     "subCategory": "hellborn",
     "thumbnailPath": "hellborn_256.webp",
     "masterPath": "hellborn_1024.png",
-    "basePath": "/assets/frames/races/hellborn",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/hellborn",
     "maskPath": "hellborn_mask.png",
     "tags": [
       "hellborn",
@@ -2557,7 +2557,7 @@ export const assets: AssetRecord = {
     "subCategory": "human",
     "thumbnailPath": "human_256.webp",
     "masterPath": "human_1024.png",
-    "basePath": "/assets/frames/races/human",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/human",
     "maskPath": "human_mask.png",
     "tags": [
       "human",
@@ -2572,7 +2572,7 @@ export const assets: AssetRecord = {
     "subCategory": "kobold",
     "thumbnailPath": "kobold_256.webp",
     "masterPath": "kobold_1024.png",
-    "basePath": "/assets/frames/races/kobold",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/kobold",
     "maskPath": "kobold_mask.png",
     "tags": [
       "kobold",
@@ -2587,7 +2587,7 @@ export const assets: AssetRecord = {
     "subCategory": "lionfolk",
     "thumbnailPath": "lionfolk_256.webp",
     "masterPath": "lionfolk_1024.png",
-    "basePath": "/assets/frames/races/lionfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/lionfolk",
     "maskPath": "lionfolk_mask.png",
     "tags": [
       "lionfolk",
@@ -2602,7 +2602,7 @@ export const assets: AssetRecord = {
     "subCategory": "lizardfolk",
     "thumbnailPath": "lizardfolk_256.webp",
     "masterPath": "lizardfolk_1024.png",
-    "basePath": "/assets/frames/races/lizardfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/lizardfolk",
     "maskPath": "lizardfolk_mask.png",
     "tags": [
       "lizardfolk",
@@ -2617,7 +2617,7 @@ export const assets: AssetRecord = {
     "subCategory": "minotaur",
     "thumbnailPath": "minotaur_256.webp",
     "masterPath": "minotaur_1024.png",
-    "basePath": "/assets/frames/races/minotaur",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/minotaur",
     "maskPath": "minotaur_mask.png",
     "tags": [
       "minotaur",
@@ -2632,7 +2632,7 @@ export const assets: AssetRecord = {
     "subCategory": "mousefolk",
     "thumbnailPath": "mousefolk_256.webp",
     "masterPath": "mousefolk_1024.png",
-    "basePath": "/assets/frames/races/mousefolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/mousefolk",
     "maskPath": "mousefolk_mask.png",
     "tags": [
       "mousefolk",
@@ -2647,7 +2647,7 @@ export const assets: AssetRecord = {
     "subCategory": "owl",
     "thumbnailPath": "owl_simple_256.webp",
     "masterPath": "owl_simple_1024.png",
-    "basePath": "/assets/frames/races/owl",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/owl",
     "maskPath": "owl_simple_mask.png",
     "tags": [
       "owl_simple",
@@ -2662,7 +2662,7 @@ export const assets: AssetRecord = {
     "subCategory": "owlfolk",
     "thumbnailPath": "owlfolk_256.webp",
     "masterPath": "owlfolk_1024.png",
-    "basePath": "/assets/frames/races/owlfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/owlfolk",
     "maskPath": "owlfolk_mask.png",
     "tags": [
       "owlfolk",
@@ -2677,7 +2677,7 @@ export const assets: AssetRecord = {
     "subCategory": "rabbitfolk",
     "thumbnailPath": "rabbitfolk_256.webp",
     "masterPath": "rabbitfolk_1024.png",
-    "basePath": "/assets/frames/races/rabbitfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/rabbitfolk",
     "maskPath": "rabbitfolk_mask.png",
     "tags": [
       "rabbitfolk",
@@ -2692,7 +2692,7 @@ export const assets: AssetRecord = {
     "subCategory": "raven",
     "thumbnailPath": "raven_256.webp",
     "masterPath": "raven_1024.png",
-    "basePath": "/assets/frames/races/raven",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/raven",
     "maskPath": "raven_mask.png",
     "tags": [
       "raven",
@@ -2707,7 +2707,7 @@ export const assets: AssetRecord = {
     "subCategory": "ravenfolk",
     "thumbnailPath": "ravenfolk_256.webp",
     "masterPath": "ravenfolk_1024.png",
-    "basePath": "/assets/frames/races/ravenfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/ravenfolk",
     "maskPath": "ravenfolk_mask.png",
     "tags": [
       "ravenfolk",
@@ -2722,7 +2722,7 @@ export const assets: AssetRecord = {
     "subCategory": "satyr",
     "thumbnailPath": "satyr_256.webp",
     "masterPath": "satyr_1024.png",
-    "basePath": "/assets/frames/races/satyr",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/satyr",
     "maskPath": "satyr_mask.png",
     "tags": [
       "satyr",
@@ -2737,7 +2737,7 @@ export const assets: AssetRecord = {
     "subCategory": "seafolk",
     "thumbnailPath": "seafolk_256.webp",
     "masterPath": "seafolk_1024.png",
-    "basePath": "/assets/frames/races/seafolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/seafolk",
     "maskPath": "seafolk_mask.png",
     "tags": [
       "seafolk",
@@ -2752,7 +2752,7 @@ export const assets: AssetRecord = {
     "subCategory": "shadowborn",
     "thumbnailPath": "shadowborn_256.webp",
     "masterPath": "shadowborn_1024.png",
-    "basePath": "/assets/frames/races/shadowborn",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/shadowborn",
     "maskPath": "shadowborn_mask.png",
     "tags": [
       "shadowborn",
@@ -2767,7 +2767,7 @@ export const assets: AssetRecord = {
     "subCategory": "shapeshifter",
     "thumbnailPath": "shapeshifter_256.webp",
     "masterPath": "shapeshifter_1024.png",
-    "basePath": "/assets/frames/races/shapeshifter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/shapeshifter",
     "maskPath": "shapeshifter_mask.png",
     "tags": [
       "shapeshifter",
@@ -2782,7 +2782,7 @@ export const assets: AssetRecord = {
     "subCategory": "skyfolk",
     "thumbnailPath": "skyfolk_256.webp",
     "masterPath": "skyfolk_1024.png",
-    "basePath": "/assets/frames/races/skyfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/skyfolk",
     "maskPath": "skyfolk_mask.png",
     "tags": [
       "skyfolk",
@@ -2797,7 +2797,7 @@ export const assets: AssetRecord = {
     "subCategory": "squirrelfolk",
     "thumbnailPath": "squirrelfolk_256.webp",
     "masterPath": "squirrelfolk_1024.png",
-    "basePath": "/assets/frames/races/squirrelfolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/squirrelfolk",
     "maskPath": "squirrelfolk_mask.png",
     "tags": [
       "squirrelfolk",
@@ -2812,7 +2812,7 @@ export const assets: AssetRecord = {
     "subCategory": "starelf",
     "thumbnailPath": "starelf_256.webp",
     "masterPath": "starelf_1024.png",
-    "basePath": "/assets/frames/races/starelf",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/starelf",
     "maskPath": "starelf_mask.png",
     "tags": [
       "starelf",
@@ -2827,7 +2827,7 @@ export const assets: AssetRecord = {
     "subCategory": "steelborn",
     "thumbnailPath": "steelborn_256.webp",
     "masterPath": "steelborn_1024.png",
-    "basePath": "/assets/frames/races/steelborn",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/steelborn",
     "maskPath": "steelborn_mask.png",
     "tags": [
       "steelborn",
@@ -2842,7 +2842,7 @@ export const assets: AssetRecord = {
     "subCategory": "stonefolk",
     "thumbnailPath": "stonefolk_256.webp",
     "masterPath": "stonefolk_1024.png",
-    "basePath": "/assets/frames/races/stonefolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/stonefolk",
     "maskPath": "stonefolk_mask.png",
     "tags": [
       "stonefolk",
@@ -2857,7 +2857,7 @@ export const assets: AssetRecord = {
     "subCategory": "tideborn",
     "thumbnailPath": "tideborn_256.webp",
     "masterPath": "tideborn_1024.png",
-    "basePath": "/assets/frames/races/tideborn",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/tideborn",
     "maskPath": "tideborn_mask.png",
     "tags": [
       "tideborn",
@@ -2872,7 +2872,7 @@ export const assets: AssetRecord = {
     "subCategory": "tinkergnome",
     "thumbnailPath": "tinkergnome_256.webp",
     "masterPath": "tinkergnome_1024.png",
-    "basePath": "/assets/frames/races/tinkergnome",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/tinkergnome",
     "maskPath": "tinkergnome_mask.png",
     "tags": [
       "tinkergnome",
@@ -2887,7 +2887,7 @@ export const assets: AssetRecord = {
     "subCategory": "turtlefolk",
     "thumbnailPath": "turtlefolk_256.webp",
     "masterPath": "turtlefolk_1024.png",
-    "basePath": "/assets/frames/races/turtlefolk",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/races/turtlefolk",
     "maskPath": "turtlefolk_mask.png",
     "tags": [
       "turtlefolk",
@@ -2902,7 +2902,7 @@ export const assets: AssetRecord = {
     "subCategory": "elemental",
     "thumbnailPath": "flames_256.webp",
     "masterPath": "flames_1024.png",
-    "basePath": "/assets/frames/thematic/elemental",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/elemental",
     "maskPath": "flames_mask.png",
     "tags": [
       "flames",
@@ -2917,7 +2917,7 @@ export const assets: AssetRecord = {
     "subCategory": "elemental",
     "thumbnailPath": "ice_02_256.webp",
     "masterPath": "ice_02_1024.png",
-    "basePath": "/assets/frames/thematic/elemental",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/elemental",
     "maskPath": "ice_02_mask.png",
     "tags": [
       "ice_02",
@@ -2932,7 +2932,7 @@ export const assets: AssetRecord = {
     "subCategory": "elemental",
     "thumbnailPath": "ice_border_256.webp",
     "masterPath": "ice_border_1024.png",
-    "basePath": "/assets/frames/thematic/elemental",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/elemental",
     "maskPath": "ice_border_mask.png",
     "tags": [
       "ice_border",
@@ -2947,7 +2947,7 @@ export const assets: AssetRecord = {
     "subCategory": "elemental",
     "thumbnailPath": "lavarock_256.webp",
     "masterPath": "lavarock_1024.png",
-    "basePath": "/assets/frames/thematic/elemental",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/elemental",
     "maskPath": "lavarock_mask.png",
     "tags": [
       "lavarock",
@@ -2962,7 +2962,7 @@ export const assets: AssetRecord = {
     "subCategory": "nature",
     "thumbnailPath": "nature_acorn_256.webp",
     "masterPath": "nature_acorn_1024.png",
-    "basePath": "/assets/frames/thematic/nature",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_acorn_mask.png",
     "tags": [
       "nature_acorn",
@@ -2977,7 +2977,7 @@ export const assets: AssetRecord = {
     "subCategory": "nature",
     "thumbnailPath": "nature_blackrose_256.webp",
     "masterPath": "nature_blackrose_1024.png",
-    "basePath": "/assets/frames/thematic/nature",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_blackrose_mask.png",
     "tags": [
       "nature_blackrose",
@@ -2992,7 +2992,7 @@ export const assets: AssetRecord = {
     "subCategory": "nature",
     "thumbnailPath": "nature_fey_256.webp",
     "masterPath": "nature_fey_1024.png",
-    "basePath": "/assets/frames/thematic/nature",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_fey_mask.png",
     "tags": [
       "nature_fey",
@@ -3007,7 +3007,7 @@ export const assets: AssetRecord = {
     "subCategory": "nature",
     "thumbnailPath": "nature_knight_256.webp",
     "masterPath": "nature_knight_1024.png",
-    "basePath": "/assets/frames/thematic/nature",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_knight_mask.png",
     "tags": [
       "nature_knight",
@@ -3022,7 +3022,7 @@ export const assets: AssetRecord = {
     "subCategory": "nature",
     "thumbnailPath": "nature_lily_256.webp",
     "masterPath": "nature_lily_1024.png",
-    "basePath": "/assets/frames/thematic/nature",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_lily_mask.png",
     "tags": [
       "nature_lily",
@@ -3037,7 +3037,7 @@ export const assets: AssetRecord = {
     "subCategory": "nature",
     "thumbnailPath": "nature_moonstone_256.webp",
     "masterPath": "nature_moonstone_1024.png",
-    "basePath": "/assets/frames/thematic/nature",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_moonstone_mask.png",
     "tags": [
       "nature_moonstone",
@@ -3052,7 +3052,7 @@ export const assets: AssetRecord = {
     "subCategory": "nature",
     "thumbnailPath": "nature_pink_256.webp",
     "masterPath": "nature_pink_1024.png",
-    "basePath": "/assets/frames/thematic/nature",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_pink_mask.png",
     "tags": [
       "nature_pink",
@@ -3067,7 +3067,7 @@ export const assets: AssetRecord = {
     "subCategory": "nature",
     "thumbnailPath": "nature_sunflower_256.webp",
     "masterPath": "nature_sunflower_1024.png",
-    "basePath": "/assets/frames/thematic/nature",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_sunflower_mask.png",
     "tags": [
       "nature_sunflower",
@@ -3082,7 +3082,7 @@ export const assets: AssetRecord = {
     "subCategory": "nature",
     "thumbnailPath": "nature_thorns_256.webp",
     "masterPath": "nature_thorns_1024.png",
-    "basePath": "/assets/frames/thematic/nature",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_thorns_mask.png",
     "tags": [
       "nature_thorns",
@@ -3097,7 +3097,7 @@ export const assets: AssetRecord = {
     "subCategory": "nature",
     "thumbnailPath": "nature_underdark_256.webp",
     "masterPath": "nature_underdark_1024.png",
-    "basePath": "/assets/frames/thematic/nature",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_underdark_mask.png",
     "tags": [
       "nature_underdark",
@@ -3112,7 +3112,7 @@ export const assets: AssetRecord = {
     "subCategory": "nature",
     "thumbnailPath": "nature_wood_256.webp",
     "masterPath": "nature_wood_1024.png",
-    "basePath": "/assets/frames/thematic/nature",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/nature",
     "maskPath": "nature_wood_mask.png",
     "tags": [
       "nature_wood",
@@ -3127,7 +3127,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "berserker_256.webp",
     "masterPath": "berserker_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "berserker_mask.png",
     "tags": [
       "berserker",
@@ -3142,7 +3142,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "brain_256.webp",
     "masterPath": "brain_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "brain_mask.png",
     "tags": [
       "brain",
@@ -3157,7 +3157,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "cyber_cleric_256.webp",
     "masterPath": "cyber_cleric_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "cyber_cleric_mask.png",
     "tags": [
       "cyber_cleric",
@@ -3172,7 +3172,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "cyber_druid_256.webp",
     "masterPath": "cyber_druid_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "cyber_druid_mask.png",
     "tags": [
       "cyber_druid",
@@ -3187,7 +3187,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "cyber_monk_256.webp",
     "masterPath": "cyber_monk_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "cyber_monk_mask.png",
     "tags": [
       "cyber_monk",
@@ -3202,7 +3202,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "cyber_ranger_256.webp",
     "masterPath": "cyber_ranger_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "cyber_ranger_mask.png",
     "tags": [
       "cyber_ranger",
@@ -3217,7 +3217,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "cyber_rogue_256.webp",
     "masterPath": "cyber_rogue_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "cyber_rogue_mask.png",
     "tags": [
       "cyber_rogue",
@@ -3232,7 +3232,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "cyber_sorcerer_256.webp",
     "masterPath": "cyber_sorcerer_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "cyber_sorcerer_mask.png",
     "tags": [
       "cyber_sorcerer",
@@ -3247,7 +3247,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "detector_256.webp",
     "masterPath": "detector_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "detector_mask.png",
     "tags": [
       "detector",
@@ -3262,7 +3262,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "overmind_256.webp",
     "masterPath": "overmind_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "overmind_mask.png",
     "tags": [
       "overmind",
@@ -3277,7 +3277,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "plasma_256.webp",
     "masterPath": "plasma_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "plasma_mask.png",
     "tags": [
       "plasma",
@@ -3292,7 +3292,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "psionic_256.webp",
     "masterPath": "psionic_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "psionic_mask.png",
     "tags": [
       "psionic",
@@ -3307,7 +3307,7 @@ export const assets: AssetRecord = {
     "subCategory": "scifi",
     "thumbnailPath": "soldier_256.webp",
     "masterPath": "soldier_1024.png",
-    "basePath": "/assets/frames/thematic/scifi",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/scifi",
     "maskPath": "soldier_mask.png",
     "tags": [
       "soldier",
@@ -3322,7 +3322,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "iceflower_256.webp",
     "masterPath": "iceflower_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "iceflower_mask.png",
     "tags": [
       "iceflower",
@@ -3337,7 +3337,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "jagged_256.webp",
     "masterPath": "jagged_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "jagged_mask.png",
     "tags": [
       "jagged",
@@ -3352,7 +3352,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "snowflake_256.webp",
     "masterPath": "snowflake_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "snowflake_mask.png",
     "tags": [
       "snowflake",
@@ -3367,7 +3367,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "winter_dragon_256.webp",
     "masterPath": "winter_dragon_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "winter_dragon_mask.png",
     "tags": [
       "winter_dragon",
@@ -3382,7 +3382,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "winter_elven_256.webp",
     "masterPath": "winter_elven_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "winter_elven_mask.png",
     "tags": [
       "winter_elven",
@@ -3397,7 +3397,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "winter_knight_256.webp",
     "masterPath": "winter_knight_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "winter_knight_mask.png",
     "tags": [
       "winter_knight",
@@ -3412,7 +3412,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "winter_matriarch_256.webp",
     "masterPath": "winter_matriarch_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "winter_matriarch_mask.png",
     "tags": [
       "winter_matriarch",
@@ -3427,7 +3427,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "winter_nightmare_256.webp",
     "masterPath": "winter_nightmare_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "winter_nightmare_mask.png",
     "tags": [
       "winter_nightmare",
@@ -3442,7 +3442,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "winter_primal_256.webp",
     "masterPath": "winter_primal_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "winter_primal_mask.png",
     "tags": [
       "winter_primal",
@@ -3457,7 +3457,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "winter_scepter_256.webp",
     "masterPath": "winter_scepter_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "winter_scepter_mask.png",
     "tags": [
       "winter_scepter",
@@ -3472,7 +3472,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "winter_shepard_256.webp",
     "masterPath": "winter_shepard_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "winter_shepard_mask.png",
     "tags": [
       "winter_shepard",
@@ -3487,7 +3487,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "winter_tribal_256.webp",
     "masterPath": "winter_tribal_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "winter_tribal_mask.png",
     "tags": [
       "winter_tribal",
@@ -3502,7 +3502,7 @@ export const assets: AssetRecord = {
     "subCategory": "winter",
     "thumbnailPath": "winter_wood_256.webp",
     "masterPath": "winter_wood_1024.png",
-    "basePath": "/assets/frames/thematic/winter",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/thematic/winter",
     "maskPath": "winter_wood_mask.png",
     "tags": [
       "winter_wood",
@@ -3517,7 +3517,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "cat_256.webp",
     "masterPath": "cat_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "cat_mask.png",
     "tags": [
       "cat",
@@ -3532,7 +3532,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "dog_256.webp",
     "masterPath": "dog_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "dog_mask.png",
     "tags": [
       "dog",
@@ -3547,7 +3547,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "fox_256.webp",
     "masterPath": "fox_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "fox_mask.png",
     "tags": [
       "fox",
@@ -3562,7 +3562,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "horse_256.webp",
     "masterPath": "horse_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "horse_mask.png",
     "tags": [
       "horse",
@@ -3577,7 +3577,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "lizard_256.webp",
     "masterPath": "lizard_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "lizard_mask.png",
     "tags": [
       "lizard",
@@ -3592,7 +3592,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "mouse_256.webp",
     "masterPath": "mouse_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "mouse_mask.png",
     "tags": [
       "mouse",
@@ -3607,7 +3607,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "owl_256.webp",
     "masterPath": "owl_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "owl_mask.png",
     "tags": [
       "owl",
@@ -3622,7 +3622,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "panther_256.webp",
     "masterPath": "panther_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "panther_mask.png",
     "tags": [
       "panther",
@@ -3637,7 +3637,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "raven_256.webp",
     "masterPath": "raven_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "raven_mask.png",
     "tags": [
       "raven",
@@ -3652,7 +3652,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "snake_256.webp",
     "masterPath": "snake_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "snake_mask.png",
     "tags": [
       "snake",
@@ -3667,7 +3667,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "toad_256.webp",
     "masterPath": "toad_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "toad_mask.png",
     "tags": [
       "toad",
@@ -3682,7 +3682,7 @@ export const assets: AssetRecord = {
     "subCategory": "companions",
     "thumbnailPath": "wolf_256.webp",
     "masterPath": "wolf_1024.png",
-    "basePath": "/assets/frames/utility/companions",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/companions",
     "maskPath": "wolf_mask.png",
     "tags": [
       "wolf",
@@ -3697,7 +3697,7 @@ export const assets: AssetRecord = {
     "subCategory": "elite",
     "thumbnailPath": "elite_bronze_256.webp",
     "masterPath": "elite_bronze_1024.png",
-    "basePath": "/assets/frames/utility/elite",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [
       "elite_bronze",
@@ -3712,7 +3712,7 @@ export const assets: AssetRecord = {
     "subCategory": "elite",
     "thumbnailPath": "elite_gold_256.webp",
     "masterPath": "elite_gold_1024.png",
-    "basePath": "/assets/frames/utility/elite",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [
       "elite_gold",
@@ -3727,7 +3727,7 @@ export const assets: AssetRecord = {
     "subCategory": "elite",
     "thumbnailPath": "elite_green_256.webp",
     "masterPath": "elite_green_1024.png",
-    "basePath": "/assets/frames/utility/elite",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [
       "elite_green",
@@ -3742,7 +3742,7 @@ export const assets: AssetRecord = {
     "subCategory": "elite",
     "thumbnailPath": "elite_purple_256.webp",
     "masterPath": "elite_purple_1024.png",
-    "basePath": "/assets/frames/utility/elite",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [
       "elite_purple",
@@ -3757,7 +3757,7 @@ export const assets: AssetRecord = {
     "subCategory": "elite",
     "thumbnailPath": "elite_red_256.webp",
     "masterPath": "elite_red_1024.png",
-    "basePath": "/assets/frames/utility/elite",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [
       "elite_red",
@@ -3772,7 +3772,7 @@ export const assets: AssetRecord = {
     "subCategory": "elite",
     "thumbnailPath": "elite_stone_256.webp",
     "masterPath": "elite_stone_1024.png",
-    "basePath": "/assets/frames/utility/elite",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/elite",
     "maskPath": "elite_mask.png",
     "tags": [
       "elite_stone",
@@ -3787,7 +3787,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_black_256.webp",
     "masterPath": "metallic_black_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_black",
@@ -3802,7 +3802,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_blue_256.webp",
     "masterPath": "metallic_blue_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_blue",
@@ -3817,7 +3817,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_bronze_256.webp",
     "masterPath": "metallic_bronze_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_bronze",
@@ -3832,7 +3832,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_gold_256.webp",
     "masterPath": "metallic_gold_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_gold",
@@ -3847,7 +3847,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_green_256.webp",
     "masterPath": "metallic_green_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_green",
@@ -3862,7 +3862,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_orange_256.webp",
     "masterPath": "metallic_orange_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_orange",
@@ -3877,7 +3877,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_pink_256.webp",
     "masterPath": "metallic_pink_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_pink",
@@ -3892,7 +3892,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_purple_256.webp",
     "masterPath": "metallic_purple_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_purple",
@@ -3907,7 +3907,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_red_256.webp",
     "masterPath": "metallic_red_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_red",
@@ -3922,7 +3922,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_silver_256.webp",
     "masterPath": "metallic_silver_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_silver",
@@ -3937,7 +3937,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_teal_256.webp",
     "masterPath": "metallic_teal_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_teal",
@@ -3952,7 +3952,7 @@ export const assets: AssetRecord = {
     "subCategory": "metallic",
     "thumbnailPath": "metallic_yellow_256.webp",
     "masterPath": "metallic_yellow_1024.png",
-    "basePath": "/assets/frames/utility/metallic",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/metallic",
     "maskPath": "metallic_mask.png",
     "tags": [
       "metallic_yellow",
@@ -3967,7 +3967,8 @@ export const assets: AssetRecord = {
     "subCategory": "named",
     "thumbnailPath": "name_01_256.webp",
     "masterPath": "name_01_1024.png",
-    "basePath": "/assets/frames/utility/named",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/named",
+    "maskPath": "name_01_mask.png",
     "tags": [
       "name_01",
       "utility",
@@ -3981,7 +3982,8 @@ export const assets: AssetRecord = {
     "subCategory": "named",
     "thumbnailPath": "name_02_256.webp",
     "masterPath": "name_02_1024.png",
-    "basePath": "/assets/frames/utility/named",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/named",
+    "maskPath": "name_02_mask.png",
     "tags": [
       "name_02",
       "utility",
@@ -3995,7 +3997,7 @@ export const assets: AssetRecord = {
     "subCategory": "rarity",
     "thumbnailPath": "rarity_blue_256.webp",
     "masterPath": "rarity_blue_1024.png",
-    "basePath": "/assets/frames/utility/rarity",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
     "maskPath": "rarity_mask.png",
     "tags": [
       "rarity_blue",
@@ -4010,7 +4012,7 @@ export const assets: AssetRecord = {
     "subCategory": "rarity",
     "thumbnailPath": "rarity_green_256.webp",
     "masterPath": "rarity_green_1024.png",
-    "basePath": "/assets/frames/utility/rarity",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
     "maskPath": "rarity_mask.png",
     "tags": [
       "rarity_green",
@@ -4025,7 +4027,7 @@ export const assets: AssetRecord = {
     "subCategory": "rarity",
     "thumbnailPath": "rarity_orange_256.webp",
     "masterPath": "rarity_orange_1024.png",
-    "basePath": "/assets/frames/utility/rarity",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
     "maskPath": "rarity_mask.png",
     "tags": [
       "rarity_orange",
@@ -4040,7 +4042,7 @@ export const assets: AssetRecord = {
     "subCategory": "rarity",
     "thumbnailPath": "rarity_purple_256.webp",
     "masterPath": "rarity_purple_1024.png",
-    "basePath": "/assets/frames/utility/rarity",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
     "maskPath": "rarity_mask.png",
     "tags": [
       "rarity_purple",
@@ -4055,7 +4057,7 @@ export const assets: AssetRecord = {
     "subCategory": "rarity",
     "thumbnailPath": "rarity_red_256.webp",
     "masterPath": "rarity_red_1024.png",
-    "basePath": "/assets/frames/utility/rarity",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
     "maskPath": "rarity_mask.png",
     "tags": [
       "rarity_red",
@@ -4070,7 +4072,7 @@ export const assets: AssetRecord = {
     "subCategory": "rarity",
     "thumbnailPath": "rarity_white_256.webp",
     "masterPath": "rarity_white_1024.png",
-    "basePath": "/assets/frames/utility/rarity",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/rarity",
     "maskPath": "rarity_mask.png",
     "tags": [
       "rarity_white",
@@ -4085,7 +4087,7 @@ export const assets: AssetRecord = {
     "subCategory": "sludge",
     "thumbnailPath": "sludge_blue_256.webp",
     "masterPath": "sludge_blue_1024.png",
-    "basePath": "/assets/frames/utility/sludge",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
     "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_blue",
@@ -4100,7 +4102,7 @@ export const assets: AssetRecord = {
     "subCategory": "sludge",
     "thumbnailPath": "sludge_green_256.webp",
     "masterPath": "sludge_green_1024.png",
-    "basePath": "/assets/frames/utility/sludge",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
     "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_green",
@@ -4115,7 +4117,7 @@ export const assets: AssetRecord = {
     "subCategory": "sludge",
     "thumbnailPath": "sludge_orange_256.webp",
     "masterPath": "sludge_orange_1024.png",
-    "basePath": "/assets/frames/utility/sludge",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
     "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_orange",
@@ -4130,7 +4132,7 @@ export const assets: AssetRecord = {
     "subCategory": "sludge",
     "thumbnailPath": "sludge_pink_256.webp",
     "masterPath": "sludge_pink_1024.png",
-    "basePath": "/assets/frames/utility/sludge",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
     "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_pink",
@@ -4145,7 +4147,7 @@ export const assets: AssetRecord = {
     "subCategory": "sludge",
     "thumbnailPath": "sludge_purple_256.webp",
     "masterPath": "sludge_purple_1024.png",
-    "basePath": "/assets/frames/utility/sludge",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
     "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_purple",
@@ -4160,7 +4162,7 @@ export const assets: AssetRecord = {
     "subCategory": "sludge",
     "thumbnailPath": "sludge_red_256.webp",
     "masterPath": "sludge_red_1024.png",
-    "basePath": "/assets/frames/utility/sludge",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
     "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_red",
@@ -4175,7 +4177,7 @@ export const assets: AssetRecord = {
     "subCategory": "sludge",
     "thumbnailPath": "sludge_teal_256.webp",
     "masterPath": "sludge_teal_1024.png",
-    "basePath": "/assets/frames/utility/sludge",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
     "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_teal",
@@ -4190,7 +4192,7 @@ export const assets: AssetRecord = {
     "subCategory": "sludge",
     "thumbnailPath": "sludge_yellow_256.webp",
     "masterPath": "sludge_yellow_1024.png",
-    "basePath": "/assets/frames/utility/sludge",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/utility/sludge",
     "maskPath": "sludge_mask.png",
     "tags": [
       "sludge_yellow",
@@ -4205,7 +4207,7 @@ export const assets: AssetRecord = {
     "subCategory": "aztec_border",
     "thumbnailPath": "aztec_border_256.webp",
     "masterPath": "aztec_border_1024.png",
-    "basePath": "/assets/frames/world/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
     "maskPath": "aztec_border_mask.png",
     "tags": [
       "aztec_border",
@@ -4220,7 +4222,7 @@ export const assets: AssetRecord = {
     "subCategory": "castle",
     "thumbnailPath": "castle_256.webp",
     "masterPath": "castle_1024.png",
-    "basePath": "/assets/frames/world/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
     "maskPath": "castle_mask.png",
     "tags": [
       "castle",
@@ -4235,7 +4237,7 @@ export const assets: AssetRecord = {
     "subCategory": "dragonborn_border",
     "thumbnailPath": "dragonborn_border_256.webp",
     "masterPath": "dragonborn_border_1024.png",
-    "basePath": "/assets/frames/world/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
     "maskPath": "dragonborn_border_mask.png",
     "tags": [
       "dragonborn_border",
@@ -4250,7 +4252,7 @@ export const assets: AssetRecord = {
     "subCategory": "dragonhouses",
     "thumbnailPath": "dragonhouses_256.webp",
     "masterPath": "dragonhouses_1024.png",
-    "basePath": "/assets/frames/world/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
     "maskPath": "dragonhouses_mask.png",
     "tags": [
       "dragonhouses",
@@ -4265,7 +4267,7 @@ export const assets: AssetRecord = {
     "subCategory": "dragonshield_border",
     "thumbnailPath": "dragonshield_border_256.webp",
     "masterPath": "dragonshield_border_1024.png",
-    "basePath": "/assets/frames/world/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
     "maskPath": "dragonshield_border_mask.png",
     "tags": [
       "dragonshield_border",
@@ -4280,7 +4282,7 @@ export const assets: AssetRecord = {
     "subCategory": "dungeon04",
     "thumbnailPath": "dungeon04_256.webp",
     "masterPath": "dungeon04_1024.png",
-    "basePath": "/assets/frames/world/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
     "maskPath": "dungeon04_mask.png",
     "tags": [
       "dungeon04",
@@ -4295,7 +4297,7 @@ export const assets: AssetRecord = {
     "subCategory": "dungeon",
     "thumbnailPath": "dungeon_256.webp",
     "masterPath": "dungeon_1024.png",
-    "basePath": "/assets/frames/world/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
     "maskPath": "dungeon_mask.png",
     "tags": [
       "dungeon",
@@ -4310,7 +4312,7 @@ export const assets: AssetRecord = {
     "subCategory": "earthtemple",
     "thumbnailPath": "earthtemple_256.webp",
     "masterPath": "earthtemple_1024.png",
-    "basePath": "/assets/frames/world/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
     "maskPath": "earthtemple_mask.png",
     "tags": [
       "earthtemple",
@@ -4325,7 +4327,7 @@ export const assets: AssetRecord = {
     "subCategory": "lords",
     "thumbnailPath": "lords_256.webp",
     "masterPath": "lords_1024.png",
-    "basePath": "/assets/frames/world/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
     "maskPath": "lords_mask.png",
     "tags": [
       "lords",
@@ -4340,7 +4342,7 @@ export const assets: AssetRecord = {
     "subCategory": "ravenloft",
     "thumbnailPath": "ravenloft_256.webp",
     "masterPath": "ravenloft_1024.png",
-    "basePath": "/assets/frames/world/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
     "maskPath": "ravenloft_mask.png",
     "tags": [
       "ravenloft",
@@ -4355,7 +4357,7 @@ export const assets: AssetRecord = {
     "subCategory": "underdark",
     "thumbnailPath": "underdark_256.webp",
     "masterPath": "underdark_1024.png",
-    "basePath": "/assets/frames/world/",
+    "basePath": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/frames/world/",
     "maskPath": "underdark_mask.png",
     "tags": [
       "underdark",
@@ -4367,331 +4369,331 @@ export const assets: AssetRecord = {
   backgrounds: [
   {
     "id": "bg_01",
-    "src": "/assets/backgrounds/bg_01.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_01.jpg"
   },
   {
     "id": "bg_02",
-    "src": "/assets/backgrounds/bg_02.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_02.jpg"
   },
   {
     "id": "bg_03",
-    "src": "/assets/backgrounds/bg_03.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_03.jpg"
   },
   {
     "id": "bg_04",
-    "src": "/assets/backgrounds/bg_04.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_04.jpg"
   },
   {
     "id": "bg_05",
-    "src": "/assets/backgrounds/bg_05.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_05.jpg"
   },
   {
     "id": "bg_06",
-    "src": "/assets/backgrounds/bg_06.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_06.jpg"
   },
   {
     "id": "bg_07",
-    "src": "/assets/backgrounds/bg_07.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_07.jpg"
   },
   {
     "id": "bg_08",
-    "src": "/assets/backgrounds/bg_08.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_08.jpg"
   },
   {
     "id": "bg_09",
-    "src": "/assets/backgrounds/bg_09.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_09.jpg"
   },
   {
     "id": "bg_10",
-    "src": "/assets/backgrounds/bg_10.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_10.jpg"
   },
   {
     "id": "bg_11",
-    "src": "/assets/backgrounds/bg_11.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/backgrounds/bg_11.jpg"
   }
 ],
   overlays: [
   {
     "id": "ban01",
-    "src": "/assets/overlays/ban01.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/ban01.png"
   },
   {
     "id": "blue_ring",
-    "src": "/assets/overlays/blue_ring.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/blue_ring.png"
   },
   {
     "id": "butterflies_01",
-    "src": "/assets/overlays/butterflies_01.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/butterflies_01.png"
   },
   {
     "id": "fire_ring01",
-    "src": "/assets/overlays/fire_ring01.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fire_ring01.png"
   },
   {
     "id": "fire_ring02",
-    "src": "/assets/overlays/fire_ring02.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fire_ring02.png"
   },
   {
     "id": "fire_ring03",
-    "src": "/assets/overlays/fire_ring03.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fire_ring03.png"
   },
   {
     "id": "fx_01",
-    "src": "/assets/overlays/fx_01.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fx_01.png"
   },
   {
     "id": "fx_02",
-    "src": "/assets/overlays/fx_02.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fx_02.png"
   },
   {
     "id": "fx_03",
-    "src": "/assets/overlays/fx_03.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fx_03.png"
   },
   {
     "id": "fx_04",
-    "src": "/assets/overlays/fx_04.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/fx_04.png"
   },
   {
     "id": "glitter_01",
-    "src": "/assets/overlays/glitter_01.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/glitter_01.png"
   },
   {
     "id": "glow_01",
-    "src": "/assets/overlays/glow_01.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/glow_01.png"
   },
   {
     "id": "glow_02",
-    "src": "/assets/overlays/glow_02.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/glow_02.png"
   },
   {
     "id": "glow_03",
-    "src": "/assets/overlays/glow_03.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/glow_03.png"
   },
   {
     "id": "glow_04",
-    "src": "/assets/overlays/glow_04.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/glow_04.png"
   },
   {
     "id": "green_ring",
-    "src": "/assets/overlays/green_ring.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/green_ring.png"
   },
   {
     "id": "purple_ring",
-    "src": "/assets/overlays/purple_ring.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/purple_ring.png"
   },
   {
     "id": "red_ring",
-    "src": "/assets/overlays/red_ring.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/red_ring.png"
   },
   {
     "id": "stars_01",
-    "src": "/assets/overlays/stars_01.png"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/overlays/stars_01.png"
   }
 ],
   portraits: [
   {
     "id": "abomination",
-    "src": "/assets/portraits/abomination.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/abomination.jpg"
   },
   {
     "id": "boar",
-    "src": "/assets/portraits/boar.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/boar.jpg"
   },
   {
     "id": "cave_bug",
-    "src": "/assets/portraits/cave_bug.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/cave_bug.jpg"
   },
   {
     "id": "cultist_goblin",
-    "src": "/assets/portraits/cultist_goblin.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/cultist_goblin.jpg"
   },
   {
     "id": "cyclop",
-    "src": "/assets/portraits/cyclop.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/cyclop.jpg"
   },
   {
     "id": "demon_soldier",
-    "src": "/assets/portraits/demon_soldier.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/demon_soldier.jpg"
   },
   {
     "id": "devourer",
-    "src": "/assets/portraits/devourer.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/devourer.jpg"
   },
   {
     "id": "drow_warrior_female",
-    "src": "/assets/portraits/drow_warrior_female.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/drow_warrior_female.jpg"
   },
   {
     "id": "drow_warrior_male",
-    "src": "/assets/portraits/drow_warrior_male.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/drow_warrior_male.jpg"
   },
   {
     "id": "Dwarf_warrior_female",
-    "src": "/assets/portraits/Dwarf_warrior_female.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Dwarf_warrior_female.jpg"
   },
   {
     "id": "Dwarf_warrior_male",
-    "src": "/assets/portraits/Dwarf_warrior_male.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Dwarf_warrior_male.jpg"
   },
   {
     "id": "Dwarven_healer_female",
-    "src": "/assets/portraits/Dwarven_healer_female.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Dwarven_healer_female.jpg"
   },
   {
     "id": "elf_sentinel_female",
-    "src": "/assets/portraits/elf_sentinel_female.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/elf_sentinel_female.jpg"
   },
   {
     "id": "elf_sentinel_male",
-    "src": "/assets/portraits/elf_sentinel_male.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/elf_sentinel_male.jpg"
   },
   {
     "id": "Forest_Keeper",
-    "src": "/assets/portraits/Forest_Keeper.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Forest_Keeper.jpg"
   },
   {
     "id": "ghost",
-    "src": "/assets/portraits/ghost.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/ghost.jpg"
   },
   {
     "id": "guard_goblin",
-    "src": "/assets/portraits/guard_goblin.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/guard_goblin.jpg"
   },
   {
     "id": "hermit",
-    "src": "/assets/portraits/hermit.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/hermit.jpg"
   },
   {
     "id": "h_barbarian_male",
-    "src": "/assets/portraits/h_barbarian_male.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/h_barbarian_male.jpg"
   },
   {
     "id": "h_mage_female",
-    "src": "/assets/portraits/h_mage_female.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/h_mage_female.jpg"
   },
   {
     "id": "h_mage_male",
-    "src": "/assets/portraits/h_mage_male.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/h_mage_male.jpg"
   },
   {
     "id": "h_miner_male",
-    "src": "/assets/portraits/h_miner_male.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/h_miner_male.jpg"
   },
   {
     "id": "h_rogue_female",
-    "src": "/assets/portraits/h_rogue_female.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/h_rogue_female.jpg"
   },
   {
     "id": "h_rogue_male",
-    "src": "/assets/portraits/h_rogue_male.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/h_rogue_male.jpg"
   },
   {
     "id": "h_scout_male",
-    "src": "/assets/portraits/h_scout_male.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/h_scout_male.jpg"
   },
   {
     "id": "h_warrior_female",
-    "src": "/assets/portraits/h_warrior_female.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/h_warrior_female.jpg"
   },
   {
     "id": "h_warrior_male",
-    "src": "/assets/portraits/h_warrior_male.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/h_warrior_male.jpg"
   },
   {
     "id": "imp",
-    "src": "/assets/portraits/imp.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/imp.jpg"
   },
   {
     "id": "lich",
-    "src": "/assets/portraits/lich.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/lich.jpg"
   },
   {
     "id": "lizardman",
-    "src": "/assets/portraits/lizardman.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/lizardman.jpg"
   },
   {
     "id": "Lurker",
-    "src": "/assets/portraits/Lurker.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Lurker.jpg"
   },
   {
     "id": "magma_demon",
-    "src": "/assets/portraits/magma_demon.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/magma_demon.jpg"
   },
   {
     "id": "marsh_howler",
-    "src": "/assets/portraits/marsh_howler.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/marsh_howler.jpg"
   },
   {
     "id": "Metal_golem",
-    "src": "/assets/portraits/Metal_golem.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Metal_golem.jpg"
   },
   {
     "id": "minion",
-    "src": "/assets/portraits/minion.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/minion.jpg"
   },
   {
     "id": "orc",
-    "src": "/assets/portraits/orc.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/orc.jpg"
   },
   {
     "id": "orc_shaman",
-    "src": "/assets/portraits/orc_shaman.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/orc_shaman.jpg"
   },
   {
     "id": "overlord",
-    "src": "/assets/portraits/overlord.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/overlord.jpg"
   },
   {
     "id": "raptor",
-    "src": "/assets/portraits/raptor.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/raptor.jpg"
   },
   {
     "id": "Scorpion",
-    "src": "/assets/portraits/Scorpion.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Scorpion.jpg"
   },
   {
     "id": "Sharpbeak",
-    "src": "/assets/portraits/Sharpbeak.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Sharpbeak.jpg"
   },
   {
     "id": "skeleton",
-    "src": "/assets/portraits/skeleton.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/skeleton.jpg"
   },
   {
     "id": "Slug",
-    "src": "/assets/portraits/Slug.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Slug.jpg"
   },
   {
     "id": "snake",
-    "src": "/assets/portraits/snake.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/snake.jpg"
   },
   {
     "id": "stone_spirit",
-    "src": "/assets/portraits/stone_spirit.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/stone_spirit.jpg"
   },
   {
     "id": "Swarm_Soldier",
-    "src": "/assets/portraits/Swarm_Soldier.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Swarm_Soldier.jpg"
   },
   {
     "id": "toad",
-    "src": "/assets/portraits/toad.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/toad.jpg"
   },
   {
     "id": "Troll",
-    "src": "/assets/portraits/Troll.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Troll.jpg"
   },
   {
     "id": "Werewolf",
-    "src": "/assets/portraits/Werewolf.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/Werewolf.jpg"
   },
   {
     "id": "wood_spider",
-    "src": "/assets/portraits/wood_spider.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/wood_spider.jpg"
   },
   {
     "id": "yeti",
-    "src": "/assets/portraits/yeti.jpg"
+    "src": "https://pub-016da068b1e34227b3596a4fcb68d6fd.r2.dev/assets/portraits/yeti.jpg"
   }
 ],
 };

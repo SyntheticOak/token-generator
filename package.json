@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/generateManifest.js && vite",
+    "dev": "vite",
+    "dev:local": "node scripts/generateManifest.js && vite",
     "build": "node scripts/buildProduction.js",
     "preview": "vite preview",
     "upload-assets": "node scripts/uploadToR2.js",

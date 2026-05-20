@@ -19,6 +19,16 @@ const R2_PUBLIC_URL = process.env.R2_PUBLIC_URL || 'https://pub-xxxxx.r2.dev';
 // Detect environment
 const isProduction = process.env.NODE_ENV === 'production';
 
+if (isProduction) {
+  const url = process.env.R2_PUBLIC_URL?.trim();
+  if (!url || url.includes('pub-xxxxx')) {
+    console.error(
+      'Production manifest requires R2_PUBLIC_URL in .env (or CI secrets).'
+    );
+    process.exit(1);
+  }
+}
+
 // Scan directory structure and generate manifest
 function scanFrames(baseDir, category) {
   const frames = [];
